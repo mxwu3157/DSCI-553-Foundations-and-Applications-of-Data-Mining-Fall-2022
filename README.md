@@ -9,5 +9,5 @@ HW3 | Finding Similar Sets & Recommendation Systems | Min-Hash, LSH, Content-bas
 HW4 | Detecting Communities in Social Network Graphs | Girvan-Newman |
 HW5 | Streaming algorithms |Bloom Filtering, Flajolet-Martin, Fixed Size Sample (Reservoir Sampling
 HW6 | Clustering in various distance measurements | Bradley-Fayyad-Reina (BFR) algorithm
-Competition |  Optimize performance of recommendation system | Hybrid recommendation systems
+Competition |  Optimize performance of recommendation system | Hybrid recommendation systems.
 
