@@ -1,0 +1,51 @@
+export PYSPARK_PYTHON=/usr/local/bin/python3.6                                                                 
+export PYSPARK_DRIVER_PYTHON=/usr/local/bin/python3.6                                                          
+export JAVA_HOME=/usr/lib/jvm/java-1.8.0-openjdk-amd64    
+
+
+#('L37Sl7MNYnyugc-682LQwA', (('C4XsC2ZBtsl1EgjdVue3yA', 4.0), (3.92, 0)))    
+#(user_id, ((business_id,stars) , (average_stars, useful)))
+#(business_id,  (user_id, stars, average_stars_user, useful_user  ) )
+#second join
+#(business_id,  (user_id, stars, average_stars_user, useful_user ), (stars_business, review_count_business) )
+
+#(user_id, business_id,stars,average_stars,useful)
+#df_train = reviewRDD.join(userRDD) \
+#    .map(flatF) \
+#    .map(lambda x: makeKey(1, x)) \
+#    .join(businessRDD) \
+#    .map(flatF) \
+#    .take(10)
+
+
+
+
+#data = pd.DataFrame(xtrainRDD, columns=[ 'average_stars_user', 'useful_user', 'stars_business', 'review_count_business', 'review_star'])
+#label = pd.DataFrame(ytrainRDD)
+#dtrain = xgb.DMatrix(data, label=label)
+
+#param = {'max_depth': 2, 'eta': 1, 'objective': 'binary:logistic'}
+#param['nthread'] = 4
+#param['eval_metric'] = 'auc'
+
+
+                                                                                                 
+XGBRegressor(base_score=0.5, booster='gbtree', colsample_bylevel=1,                                                                                
+             colsample_bytree=1, gamma=0, learning_rate=0.1, max_delta_step=0,                                                                     
+             max_depth=3, min_child_weight=1, missing=None, n_estimators=100,                                                                      
+             n_jobs=1, nthread=None, objective='reg:linear', random_state=0,                                                                       
+             reg_alpha=0, reg_lambda=1, scale_pos_weight=1, seed=None,                                                                             
+             silent=True, subsample=1)  
+ 
+
+#trainRDD = train.map(lambda x: (x[0], [x[1],float(x[2])])) \
+#    .leftOuterJoin(userRDD) \
+#    .map(flatF) \
+#    .map(lambda x: makeKey(1, x)) \
+#    .leftOuterJoin(businessRDD)\
+ #   .map(flatF) \
+#    .map(lambda x: ((x[1], x[0],x[2]), [x[i] for i in range(3,len(x)) ]))
+#    .leftOuterJoin(reviewRDD) \
+#    .map(lambda x: [ *[i for i in x[0]], *[*[j for j in x[1][0]], *[j for j in x[1][1]]   ]]).cache()
+#xrdd = trainRDD.map(lambda x: x[1]).take(10)
+#yrdd = trainRDD.map(lambda x: x[0][2]).take(10)    

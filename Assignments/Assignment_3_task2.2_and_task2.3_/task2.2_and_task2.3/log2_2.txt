@@ -1,0 +1,537 @@
+------------------new run-----------------
+------------------new run-----------------
+[('TGrZk61ja7X1ijAGW5lNmg', 'jCiovc2qHJ5L-_1gigLueQ'), 2.0]
+[('UYcmGbelzRa0Q6JqzLoguw', 'ciDXNLbcwI7qt5guNKZPIw'), 5.0]
+[('WJhQpdUHoFCtpU6gHFjVlQ', 'r4KXghbUeo7mugAzinG9bA'), 4.0]
+[('UtkjXTiMfGRz4R1zDF3Kxg', 'Zja7ykq3icDzkN20XX6j1w'), 4.0]
+[('omYjiX9WyiBhyjX-0EEKUQ', '0InA3Ffj8MxyQV9hgsyYcQ'), 4.0]
+[('wbvjiDpw0FoZDeqbzAIcDQ', 'qWSwDbtJRBvKTiMpH3rNLQ'), 4.0]
+[('bCLqNCdhUdsmTj9Braespg', 'ttuEwktrkmh3TUlSFPZqAA'), 4.0]
+[('aUlnMALjy4sXJP1KxjuX1g', '4XH5nRjUVKyRNituBAwW6A'), 3.0]
+[('1kNsEAhGU8d8xugMuXJGFA', 's-S2xzhmyWw7TUDet7WBnQ'), 4.0]
+[('Ytjon2aVUm09CMdfGJxZYg', '993MaVXjU2qhmQQYR_mdVg'), 5.0]
+------------------new run-----------------
+['Ytjon2aVUm09CMdfGJxZYg', '9', '9', '3', 'M', 'a', 'V', 'X', 'j', 'U', '2', 'q', 'h', 'm', 'Q', 'Q', 'Y', 'R', '_', 'm', 'd', 'V', 'g', 3.97, 722]
+['Ytjon2aVUm09CMdfGJxZYg', '6', 'q', 'L', '7', 'H', 'Y', 'C', 'V', 'N', '1', 'E', '0', 'v', 'L', 'f', 'a', '-', 'S', '_', 'V', 'l', 'Q', 3.97, 722]
+['Ytjon2aVUm09CMdfGJxZYg', '1', 't', 'u', 'G', 'C', 'C', 'L', '_', 'T', '3', 't', 'K', 'q', '7', 'C', 'E', 's', 'E', 'q', 'W', 'h', 'A', 3.97, 722]
+['Ytjon2aVUm09CMdfGJxZYg', 'S', '1', 'z', 'l', 'G', 'F', 'u', '9', 'f', 'i', '5', '-', 'Q', 'm', 'V', 'p', 'G', 'q', 's', 'K', 's', 'A', 3.97, 722]
+['Ytjon2aVUm09CMdfGJxZYg', 'u', 'F', 'L', '4', 'K', 'r', 'o', 'M', 'u', '-', 'd', 'F', 'R', 's', 'S', 'J', 'r', 'c', 'F', 'z', 'V', 'Q', 3.97, 722]
+['Ytjon2aVUm09CMdfGJxZYg', '6', '0', 'A', 't', 'E', 'y', 'e', '1', 'L', 'K', 'F', 'y', '2', '8', '4', 'j', 'W', 'F', 'L', 'h', 'p', 'Q', 3.97, 722]
+['Ytjon2aVUm09CMdfGJxZYg', 'W', '2', 'R', 'N', 'a', 'y', '2', 'm', 'i', 'r', 'T', 'V', 'P', 'Y', 'O', '6', 'r', 'A', '_', 'g', '2', 'g', 3.97, 722]
+['Ytjon2aVUm09CMdfGJxZYg', 'l', 'e', '3', 'J', 'W', 'i', 'S', '5', 'u', 'Z', 'T', 'k', 'o', 'f', 'P', '9', '0', 'R', 'm', '0', 'p', 'A', 3.97, 722]
+['Ytjon2aVUm09CMdfGJxZYg', 'w', 'm', 's', 't', 'f', '9', 'd', 'w', '0', '-', 'k', 'N', '3', 'Y', 'T', 'h', 'I', 'x', 'x', '8', 'e', 'Q', 3.97, 722]
+['Ytjon2aVUm09CMdfGJxZYg', 'y', 'q', 'I', 'V', 'l', 'k', 'p', 'Q', 'F', '_', 'I', 'd', 'h', 'V', 'k', '1', 'y', 'T', 'i', 'I', 'j', 'w', 3.97, 722]
+------------------new run-----------------
+['Ytjon2aVUm09CMdfGJxZYg']
+['Ytjon2aVUm09CMdfGJxZYg']
+['Ytjon2aVUm09CMdfGJxZYg']
+['Ytjon2aVUm09CMdfGJxZYg']
+['Ytjon2aVUm09CMdfGJxZYg']
+['Ytjon2aVUm09CMdfGJxZYg']
+['Ytjon2aVUm09CMdfGJxZYg']
+['Ytjon2aVUm09CMdfGJxZYg']
+['Ytjon2aVUm09CMdfGJxZYg']
+['Ytjon2aVUm09CMdfGJxZYg']
+------------------new run-----------------
+('Ytjon2aVUm09CMdfGJxZYg', ('993MaVXjU2qhmQQYR_mdVg', (3.97, 722.0)))
+('Ytjon2aVUm09CMdfGJxZYg', ('6qL7HYCVN1E0vLfa-S_VlQ', (3.97, 722.0)))
+('Ytjon2aVUm09CMdfGJxZYg', ('1tuGCCL_T3tKq7CEsEqWhA', (3.97, 722.0)))
+('Ytjon2aVUm09CMdfGJxZYg', ('S1zlGFu9fi5-QmVpGqsKsA', (3.97, 722.0)))
+('Ytjon2aVUm09CMdfGJxZYg', ('uFL4KroMu-dFRsSJrcFzVQ', (3.97, 722.0)))
+('Ytjon2aVUm09CMdfGJxZYg', ('60AtEye1LKFy284jWFLhpQ', (3.97, 722.0)))
+('Ytjon2aVUm09CMdfGJxZYg', ('W2RNay2mirTVPYO6rA_g2g', (3.97, 722.0)))
+('Ytjon2aVUm09CMdfGJxZYg', ('le3JWiS5uZTkofP90Rm0pA', (3.97, 722.0)))
+('Ytjon2aVUm09CMdfGJxZYg', ('wmstf9dw0-kN3YThIxx8eQ', (3.97, 722.0)))
+('Ytjon2aVUm09CMdfGJxZYg', ('yqIVlkpQF_IdhVk1yTiIjw', (3.97, 722.0)))
+------------------new run-----------------
+('Ytjon2aVUm09CMdfGJxZYg', ('993MaVXjU2qhmQQYR_mdVg', (3.97, 722.0)))
+('Ytjon2aVUm09CMdfGJxZYg', ('6qL7HYCVN1E0vLfa-S_VlQ', (3.97, 722.0)))
+('Ytjon2aVUm09CMdfGJxZYg', ('1tuGCCL_T3tKq7CEsEqWhA', (3.97, 722.0)))
+('Ytjon2aVUm09CMdfGJxZYg', ('S1zlGFu9fi5-QmVpGqsKsA', (3.97, 722.0)))
+('Ytjon2aVUm09CMdfGJxZYg', ('uFL4KroMu-dFRsSJrcFzVQ', (3.97, 722.0)))
+('Ytjon2aVUm09CMdfGJxZYg', ('60AtEye1LKFy284jWFLhpQ', (3.97, 722.0)))
+('Ytjon2aVUm09CMdfGJxZYg', ('W2RNay2mirTVPYO6rA_g2g', (3.97, 722.0)))
+('Ytjon2aVUm09CMdfGJxZYg', ('le3JWiS5uZTkofP90Rm0pA', (3.97, 722.0)))
+('Ytjon2aVUm09CMdfGJxZYg', ('wmstf9dw0-kN3YThIxx8eQ', (3.97, 722.0)))
+('Ytjon2aVUm09CMdfGJxZYg', ('yqIVlkpQF_IdhVk1yTiIjw', (3.97, 722.0)))
+------------------new run-----------------
+------------------new run-----------------
+['Ytjon2aVUm09CMdfGJxZYg', '993MaVXjU2qhmQQYR_mdVg', 3.97, 722.0]
+['Ytjon2aVUm09CMdfGJxZYg', '6qL7HYCVN1E0vLfa-S_VlQ', 3.97, 722.0]
+['Ytjon2aVUm09CMdfGJxZYg', '1tuGCCL_T3tKq7CEsEqWhA', 3.97, 722.0]
+['Ytjon2aVUm09CMdfGJxZYg', 'S1zlGFu9fi5-QmVpGqsKsA', 3.97, 722.0]
+['Ytjon2aVUm09CMdfGJxZYg', 'uFL4KroMu-dFRsSJrcFzVQ', 3.97, 722.0]
+['Ytjon2aVUm09CMdfGJxZYg', '60AtEye1LKFy284jWFLhpQ', 3.97, 722.0]
+['Ytjon2aVUm09CMdfGJxZYg', 'W2RNay2mirTVPYO6rA_g2g', 3.97, 722.0]
+['Ytjon2aVUm09CMdfGJxZYg', 'le3JWiS5uZTkofP90Rm0pA', 3.97, 722.0]
+['Ytjon2aVUm09CMdfGJxZYg', 'wmstf9dw0-kN3YThIxx8eQ', 3.97, 722.0]
+['Ytjon2aVUm09CMdfGJxZYg', 'yqIVlkpQF_IdhVk1yTiIjw', 3.97, 722.0]
+------------------new run-----------------
+('1sKRc9vFaZ_dLQGPE_P7Dg', ('Ytjon2aVUm09CMdfGJxZYg', (3.0, 69.0)))
+('1sKRc9vFaZ_dLQGPE_P7Dg', ('hjcOqlZLCvOQvwMdLsiOcw', (3.0, 69.0)))
+('1sKRc9vFaZ_dLQGPE_P7Dg', ('Xxvz5g67eaCr3emnkY5M6w', (3.0, 69.0)))
+('1sKRc9vFaZ_dLQGPE_P7Dg', ('CeSWUZVf0PS3A6yOwSndyA', (3.0, 69.0)))
+('1sKRc9vFaZ_dLQGPE_P7Dg', ('ns4BbYwSwX1cdY7z2uU65A', (3.0, 69.0)))
+('1sKRc9vFaZ_dLQGPE_P7Dg', ('5zBK3wQq7ZiiO78wjVxRQQ', (3.0, 69.0)))
+('1sKRc9vFaZ_dLQGPE_P7Dg', ('XhtMmcvMN4h9NF4C-eGD0g', (3.0, 69.0)))
+('GIfZNMP0oIJCje_Xp0Bgrw', ('Ytjon2aVUm09CMdfGJxZYg', (3.5, 966.0)))
+('GIfZNMP0oIJCje_Xp0Bgrw', ('ca___2Qaf5FFyPCf6T2eZA', (3.5, 966.0)))
+('GIfZNMP0oIJCje_Xp0Bgrw', ('mjI7P3bgKFuNUCA8MxEdPQ', (3.5, 966.0)))
+------------------new run-----------------
+(('Ytjon2aVUm09CMdfGJxZYg', '1sKRc9vFaZ_dLQGPE_P7Dg'), 3.0, 69.0)
+(('hjcOqlZLCvOQvwMdLsiOcw', '1sKRc9vFaZ_dLQGPE_P7Dg'), 3.0, 69.0)
+(('Xxvz5g67eaCr3emnkY5M6w', '1sKRc9vFaZ_dLQGPE_P7Dg'), 3.0, 69.0)
+(('CeSWUZVf0PS3A6yOwSndyA', '1sKRc9vFaZ_dLQGPE_P7Dg'), 3.0, 69.0)
+(('ns4BbYwSwX1cdY7z2uU65A', '1sKRc9vFaZ_dLQGPE_P7Dg'), 3.0, 69.0)
+(('5zBK3wQq7ZiiO78wjVxRQQ', '1sKRc9vFaZ_dLQGPE_P7Dg'), 3.0, 69.0)
+(('XhtMmcvMN4h9NF4C-eGD0g', '1sKRc9vFaZ_dLQGPE_P7Dg'), 3.0, 69.0)
+(('Ytjon2aVUm09CMdfGJxZYg', 'GIfZNMP0oIJCje_Xp0Bgrw'), 3.5, 966.0)
+(('ca___2Qaf5FFyPCf6T2eZA', 'GIfZNMP0oIJCje_Xp0Bgrw'), 3.5, 966.0)
+(('mjI7P3bgKFuNUCA8MxEdPQ', 'GIfZNMP0oIJCje_Xp0Bgrw'), 3.5, 966.0)
+------------------new run-----------------
+('1sKRc9vFaZ_dLQGPE_P7Dg', ('Ytjon2aVUm09CMdfGJxZYg', (3.0, 69.0)))
+('1sKRc9vFaZ_dLQGPE_P7Dg', ('hjcOqlZLCvOQvwMdLsiOcw', (3.0, 69.0)))
+('1sKRc9vFaZ_dLQGPE_P7Dg', ('Xxvz5g67eaCr3emnkY5M6w', (3.0, 69.0)))
+('1sKRc9vFaZ_dLQGPE_P7Dg', ('CeSWUZVf0PS3A6yOwSndyA', (3.0, 69.0)))
+('1sKRc9vFaZ_dLQGPE_P7Dg', ('ns4BbYwSwX1cdY7z2uU65A', (3.0, 69.0)))
+('1sKRc9vFaZ_dLQGPE_P7Dg', ('5zBK3wQq7ZiiO78wjVxRQQ', (3.0, 69.0)))
+('1sKRc9vFaZ_dLQGPE_P7Dg', ('XhtMmcvMN4h9NF4C-eGD0g', (3.0, 69.0)))
+('GIfZNMP0oIJCje_Xp0Bgrw', ('Ytjon2aVUm09CMdfGJxZYg', (3.5, 966.0)))
+('GIfZNMP0oIJCje_Xp0Bgrw', ('ca___2Qaf5FFyPCf6T2eZA', (3.5, 966.0)))
+('GIfZNMP0oIJCje_Xp0Bgrw', ('mjI7P3bgKFuNUCA8MxEdPQ', (3.5, 966.0)))
+------------------new run-----------------
+['993MaVXjU2qhmQQYR_mdVg', 'Ytjon2aVUm09CMdfGJxZYg', 3.97, 722.0]
+['6qL7HYCVN1E0vLfa-S_VlQ', 'Ytjon2aVUm09CMdfGJxZYg', 3.97, 722.0]
+['1tuGCCL_T3tKq7CEsEqWhA', 'Ytjon2aVUm09CMdfGJxZYg', 3.97, 722.0]
+['S1zlGFu9fi5-QmVpGqsKsA', 'Ytjon2aVUm09CMdfGJxZYg', 3.97, 722.0]
+['uFL4KroMu-dFRsSJrcFzVQ', 'Ytjon2aVUm09CMdfGJxZYg', 3.97, 722.0]
+['60AtEye1LKFy284jWFLhpQ', 'Ytjon2aVUm09CMdfGJxZYg', 3.97, 722.0]
+['W2RNay2mirTVPYO6rA_g2g', 'Ytjon2aVUm09CMdfGJxZYg', 3.97, 722.0]
+['le3JWiS5uZTkofP90Rm0pA', 'Ytjon2aVUm09CMdfGJxZYg', 3.97, 722.0]
+['wmstf9dw0-kN3YThIxx8eQ', 'Ytjon2aVUm09CMdfGJxZYg', 3.97, 722.0]
+['yqIVlkpQF_IdhVk1yTiIjw', 'Ytjon2aVUm09CMdfGJxZYg', 3.97, 722.0]
+------------------new run-----------------
+('Ytjon2aVUm09CMdfGJxZYg', ('993MaVXjU2qhmQQYR_mdVg', (3.97, 722.0)))
+('Ytjon2aVUm09CMdfGJxZYg', ('6qL7HYCVN1E0vLfa-S_VlQ', (3.97, 722.0)))
+('Ytjon2aVUm09CMdfGJxZYg', ('1tuGCCL_T3tKq7CEsEqWhA', (3.97, 722.0)))
+('Ytjon2aVUm09CMdfGJxZYg', ('S1zlGFu9fi5-QmVpGqsKsA', (3.97, 722.0)))
+('Ytjon2aVUm09CMdfGJxZYg', ('uFL4KroMu-dFRsSJrcFzVQ', (3.97, 722.0)))
+('Ytjon2aVUm09CMdfGJxZYg', ('60AtEye1LKFy284jWFLhpQ', (3.97, 722.0)))
+('Ytjon2aVUm09CMdfGJxZYg', ('W2RNay2mirTVPYO6rA_g2g', (3.97, 722.0)))
+('Ytjon2aVUm09CMdfGJxZYg', ('le3JWiS5uZTkofP90Rm0pA', (3.97, 722.0)))
+('Ytjon2aVUm09CMdfGJxZYg', ('wmstf9dw0-kN3YThIxx8eQ', (3.97, 722.0)))
+('Ytjon2aVUm09CMdfGJxZYg', ('yqIVlkpQF_IdhVk1yTiIjw', (3.97, 722.0)))
+------------------new run-----------------
+('Ytjon2aVUm09CMdfGJxZYg', ('993MaVXjU2qhmQQYR_mdVg', (3.97, 722.0)))
+('Ytjon2aVUm09CMdfGJxZYg', ('6qL7HYCVN1E0vLfa-S_VlQ', (3.97, 722.0)))
+('Ytjon2aVUm09CMdfGJxZYg', ('1tuGCCL_T3tKq7CEsEqWhA', (3.97, 722.0)))
+('Ytjon2aVUm09CMdfGJxZYg', ('S1zlGFu9fi5-QmVpGqsKsA', (3.97, 722.0)))
+('Ytjon2aVUm09CMdfGJxZYg', ('uFL4KroMu-dFRsSJrcFzVQ', (3.97, 722.0)))
+('Ytjon2aVUm09CMdfGJxZYg', ('60AtEye1LKFy284jWFLhpQ', (3.97, 722.0)))
+('Ytjon2aVUm09CMdfGJxZYg', ('W2RNay2mirTVPYO6rA_g2g', (3.97, 722.0)))
+('Ytjon2aVUm09CMdfGJxZYg', ('le3JWiS5uZTkofP90Rm0pA', (3.97, 722.0)))
+('Ytjon2aVUm09CMdfGJxZYg', ('wmstf9dw0-kN3YThIxx8eQ', (3.97, 722.0)))
+('Ytjon2aVUm09CMdfGJxZYg', ('yqIVlkpQF_IdhVk1yTiIjw', (3.97, 722.0)))
+------------------new run-----------------
+('Ytjon2aVUm09CMdfGJxZYg', ('993MaVXjU2qhmQQYR_mdVg', (3.97, 722.0)))
+('Ytjon2aVUm09CMdfGJxZYg', ('6qL7HYCVN1E0vLfa-S_VlQ', (3.97, 722.0)))
+('Ytjon2aVUm09CMdfGJxZYg', ('1tuGCCL_T3tKq7CEsEqWhA', (3.97, 722.0)))
+('Ytjon2aVUm09CMdfGJxZYg', ('S1zlGFu9fi5-QmVpGqsKsA', (3.97, 722.0)))
+('Ytjon2aVUm09CMdfGJxZYg', ('uFL4KroMu-dFRsSJrcFzVQ', (3.97, 722.0)))
+('Ytjon2aVUm09CMdfGJxZYg', ('60AtEye1LKFy284jWFLhpQ', (3.97, 722.0)))
+('Ytjon2aVUm09CMdfGJxZYg', ('W2RNay2mirTVPYO6rA_g2g', (3.97, 722.0)))
+('Ytjon2aVUm09CMdfGJxZYg', ('le3JWiS5uZTkofP90Rm0pA', (3.97, 722.0)))
+('Ytjon2aVUm09CMdfGJxZYg', ('wmstf9dw0-kN3YThIxx8eQ', (3.97, 722.0)))
+('Ytjon2aVUm09CMdfGJxZYg', ('yqIVlkpQF_IdhVk1yTiIjw', (3.97, 722.0)))
+------------------new run-----------------
+('Ytjon2aVUm09CMdfGJxZYg', ('993MaVXjU2qhmQQYR_mdVg', (3.97, 722.0)))
+('Ytjon2aVUm09CMdfGJxZYg', ('6qL7HYCVN1E0vLfa-S_VlQ', (3.97, 722.0)))
+('Ytjon2aVUm09CMdfGJxZYg', ('1tuGCCL_T3tKq7CEsEqWhA', (3.97, 722.0)))
+('Ytjon2aVUm09CMdfGJxZYg', ('S1zlGFu9fi5-QmVpGqsKsA', (3.97, 722.0)))
+('Ytjon2aVUm09CMdfGJxZYg', ('uFL4KroMu-dFRsSJrcFzVQ', (3.97, 722.0)))
+('Ytjon2aVUm09CMdfGJxZYg', ('60AtEye1LKFy284jWFLhpQ', (3.97, 722.0)))
+('Ytjon2aVUm09CMdfGJxZYg', ('W2RNay2mirTVPYO6rA_g2g', (3.97, 722.0)))
+('Ytjon2aVUm09CMdfGJxZYg', ('le3JWiS5uZTkofP90Rm0pA', (3.97, 722.0)))
+('Ytjon2aVUm09CMdfGJxZYg', ('wmstf9dw0-kN3YThIxx8eQ', (3.97, 722.0)))
+('Ytjon2aVUm09CMdfGJxZYg', ('yqIVlkpQF_IdhVk1yTiIjw', (3.97, 722.0)))
+@@@@------------------new run-----------------
+('Ytjon2aVUm09CMdfGJxZYg', ('993MaVXjU2qhmQQYR_mdVg', (3.97, 722.0)))
+('Ytjon2aVUm09CMdfGJxZYg', ('6qL7HYCVN1E0vLfa-S_VlQ', (3.97, 722.0)))
+('Ytjon2aVUm09CMdfGJxZYg', ('1tuGCCL_T3tKq7CEsEqWhA', (3.97, 722.0)))
+('Ytjon2aVUm09CMdfGJxZYg', ('S1zlGFu9fi5-QmVpGqsKsA', (3.97, 722.0)))
+('Ytjon2aVUm09CMdfGJxZYg', ('uFL4KroMu-dFRsSJrcFzVQ', (3.97, 722.0)))
+('Ytjon2aVUm09CMdfGJxZYg', ('60AtEye1LKFy284jWFLhpQ', (3.97, 722.0)))
+('Ytjon2aVUm09CMdfGJxZYg', ('W2RNay2mirTVPYO6rA_g2g', (3.97, 722.0)))
+('Ytjon2aVUm09CMdfGJxZYg', ('le3JWiS5uZTkofP90Rm0pA', (3.97, 722.0)))
+('Ytjon2aVUm09CMdfGJxZYg', ('wmstf9dw0-kN3YThIxx8eQ', (3.97, 722.0)))
+('Ytjon2aVUm09CMdfGJxZYg', ('yqIVlkpQF_IdhVk1yTiIjw', (3.97, 722.0)))
+@@@@[{'user_id': 'Ytjon2aVUm09CMdfGJxZYg', 'name': 'Rachel', 'review_count': 636, 'yelping_since': '2009-09-18', 'friends': '3vqcIv8h1x7F6KxGPLQ6jg, pmps09N-giVQedve6j6n_Q, 7zFFPiagADgTdo09M-qFyA, 7mL1UBEkMZSV7c9re4huRA, zpMvXReWlU4sKjY8mNW_QQ, gw1O0xeJHKc550VaGIrDlw, 56sdEicnCirfNI-o8y-REQ, ySxcc8ETrut9pasw6I2__Q, xFJ5Ja8y40CdMa1sfC4-gg, 2v48a6qYAdZdynQeB-qAMA, C-ye8sr-r884Hem3VqF-ww, 47QQpE8ReMW2dzof-2LwCQ, xi8InTCDOmc3IA6pdblvSw, y7TufQrrcUI8Vhffm3RB5g, Hv5Kj_psSWvCeLzwDzy5pg, AR4sl0tSrPMjO_3SlsCzlg, r4hS2qD8E6AD0UVhqu3wAg, fJ6kTM2z8SMWApp5WkpBsA, zlO9aItivwzFRq9XND72_w, gRS2S-8L_qms2YxYk4hg3A, m___sasW8jFYDt3w0dcSZA, GjfdnS2CRQID8UBDeqfRFg, VOUnXOlll52vwQcJK1tm8A, mK-muLy9-EFuLapKZJZoDg, tWVlSt-66fl6bk9_5UzltQ, zvoKQvcCsnJeC7ZRKrsWPA, EPyRgySYsR365gAgF2r4Ww, esaDbON8NXJC4PWt_CheUg, ITa3vh5ERI90G_WP4SmGUQ, tgeFUChlh7v8bZFVl2-hjQ, 8TyGRk0K48A3lC-L5MvMlQ, 7H6dKm52fnJGdNGsmXkt2A, WnAq7_SHjn7o6Q1A9paL8g, WlogQn75Nox6rJuJFY70sA, 45iSzZuMmagwA40g6sMfJw, 6yJs2bBNHC5f5mF3trNRWg, _SEBcjCwgneOV1VV_vESfQ, 4hexjmPerlF_1l4E3qqSvQ, P44rMHIMlDNntn6vDaGi0g, o9A1IJxx0W8jqonOUHpFZA, tMRpZNONdo0CAzjZCPMdTQ, eigZw_Tn4TWJPSZ9UO9Auw, m0qNqauC2uL7ZZXtymrS9Q, NfU0zDaTMEQ4-X9dbQWd9A, L1J2h3x7okMJ6HHerZ0XIg, nWRLbRyOEeS4Igf6hz105Q, An8Q0oLP_2juwErLw90L8A, EMZFaRIqAzSftAYXgdLqkg, zxKu0zYYnIiu7ytuDbC-eA, NoOaVw8YAe4SlgWGLWMY8Q, qWTeFVdxXS-H5l41XA_Lxw, _ZT2GrSb31EJ81WV2XlFUw, Kgxvv4DFWimTD3DlBhjbmw, khYdWQvXGoszJIzVS26faQ, b5x_Bn3zlQeZ_E-RDchovg, dccateTjyakPfsWd5U0wsQ, WItmi0by6gmtA7mJHbCBPQ, QaN-nccbLZPWzownQYgTVQ, NynAUxxqmsV0u3NMJx3btA, QJI9OSEn6ujRCtrX06vs1w, tr8HoS1NsksALb_Io46UBQ, FGPwTa6Qt-s8_ZJbWTVgjA, -UPUYET3Pwm99zq-uHl7gg, 4ABktWZ7hBX86f0hYh5_bA, ob5Yj5WDVFLdmidkhX3aRA, cp-rWPVqlGyuroPKoBefYQ, HuBgs7uHyUz7DzcaScZqjg, oF_vwmhGi-JechfnimM60Q, hzmL1RFL4inKfJtdQVFF0w, RWGJvGak18-mXGYQo5wFUA, ZIrgAICWoFm_ytF-dljyKA, 71h2P18M0DLjIDQR7uNlgQ, AecE6t97JJRjuRVqFJbkew, hy4uEHgITEfzxrXzyDhCRg, Enkx_H-B0jp2tRLl84wOiw, MHc64kYvgOdB7kVPSkZ1gw, 0JtR3uNVD0q69WRnIBDD2Q, RG_ADQ9b-aEPc9fLqmMu4A, hjcOqlZLCvOQvwMdLsiOcw, atfOidazPQ0gtIKMc_xqIA, y_XynWk9HRGEG34qD3R5Rg, XF4QVTTq5NpzOyhGzvJlEA, qbjF0SFMb7KQfJjU4MDfVQ, Rk3KKBmL7coOI3qEs5JzlA, 8ye6-7YYMsp0YizCLyrxcA, kLOvp6kJN_56bjkiBs24hQ, 3rZYSJNRmE7Qn3KqolRoVg, 6r7vOu40HOVlCw0tdNsN1w, QUNosH6tHWqwnKjjVF1EwQ, f_99qFbcLJQgJ9Q5O60aRA, GQ4I5NeP3Ta47QGtVgPZQg, qEAjOuz8zDYSO7ajkJOcDg, omCnO4ihJXyGTbM-0XRvKA, i8hCMZN-0bHENsHZKHpC-g, ns4BbYwSwX1cdY7z2uU65A, iVAvKkDK1xab5TZ0V8zTGg, bWoIe5ehjIxOMeElNzXShQ, f_3qTJ5ENCa85Xbt5WYqog, jO44Apni7iJZVVK4HQ60tA, PpBzb-w7JlSuML_-GpORcw, ktYO1_gw5-Q_BE8cNlizEQ, _W6kuHb5L3EEBU9kgsR7ug, AyYKTOCL5qM8589oBsqbfA, idtgRu2HmOBDqekAByEH8Q, KHVW-nW4MOozyuWqfi6jgw, sVdZiHBcLhPXRRmcPGmDqg, hKdcAmX4Wupa_4-ZVro6fw, e6CklzQiZfjUmSvx9IViYg, VBcwEV5KQFSyE1YwA8u-wQ, y8rcDJdocgCbiZMl3If-Uw, SGuh6KBUNF34sdTFaJntBg, YUxH_F9jMGAe7PIe8DO34Q, 1EchcNeHE0DU7rcCkZJbVA, X187Nh15l2YESRRcEruY6Q, DHlvoeRDd4M4Bt7wx0EmsQ, j8YGuj2RfW_K64pzOZNKuA, Sk1np0755FlUZPMmOWlQ5w, 1-c5fkvmpp6RqOLlJYd98A, 7yIpBWx5MH6o8NZSoYPcXA, PzQRZmWiiswfIsOqFTe2yQ, PrwnAL82LL4Ewt_wJpHWCA, LbHB9wL05wtzXUgM24NRkw, DDkrDorFvL0hUjOfEqmgpQ, 1-xPzJk_ijBvY2J8Re1DIQ, ub7N84t5J1hkfE-nE2BmBQ, xEQ20W2KZlAXod5qHhkG9g, TwPlaNvnziaN2wB3lk_9Mw, UYcmGbelzRa0Q6JqzLoguw, qu9PnhRY3RSvTlY2n3jY8A, vRjVhl3ONG2GfWY4NXJZbQ, _WUA03HGN_rXviccVUt2Jg, gP20yP4taj8EKLdV-P-fzw, e8vOH9U3LITcIWcapV-8VQ, nqA8zJXhEVWCMi_yC1Z8Dw, JpeAL4VtRVDEq1dtR0rl_g, FqSlXUQPOb5AjdVoJcfNNw, oD1koi1VpUThsFspI-A4qA, H_-K6erSJYtzg3ZEvOg3EQ, Ki3WXOjCrCLCi_xEqSpcvg, Wcn-kmRSEn4uiNVhCsOt4w, Jrc8vUx6zVotvx19-2kXRw, LHVZ_e3Y8jSKpWExIBD5tg, xtwoOTTOuZrXj4GQtsueuA, PUx5KWODerm6IzdfemCbag, Qkkpol7x9LD1mzZgQAju_A, t903_es-gp3abvdrIQutQA, RSAHZjr2yPZHZ-HhrgCrXQ, QAhzCDCW8sqoDTw6rwhTWw, JkegEiXXoL42_8W7EaVHBg, Dwk7mGIV81HrHcjxim7ppA, cJ-ujlCWP0i1UZXSH7F3gg, f-ysez9SJSosLUON1BihWg, QD-DYiQiDye-qpoAJJKj3w, 3Vs2S3FQF_xobyuimSayDQ, l_2dGYTQ0uBViVFESIfOwA, H2CP4jNw9pU5Uh2WVzCNFw, yIhb5Q7-jArUER2_2urPww, I9slh0IQcNr8xWdIfRgFWw, EZmocAborM6z66rTzeZxzQ, uDwnuU_ZccDOJyI5AzjLQQ, vJ5wrLnxSOPcR8a8jScGkQ, 7F0FnHmamzd5piY8mRhKVA, L6wUxmUErIR7FJijgr6nUQ, 3aBGR6pyzQM_646ZITODrA, 1weOjCn-4pAymQUxc6mJPg, 1RQPJgWzRJQEsCVjixrPSQ, tXONP_9uLrqzBW3D1sYbCA, rCWrxuRC8_pfagpchtHp6A, sQ8P7scsRACLhKQc5EdkYA, W8SkZ21NvK9PwWUbIbK1ZA, HipNu3vK_MSJ-IIGsKFbfg, 6jflc4-QZlVo0U_eghRwcg, wmJsu8F-82nLLxq2cNASOA, NJqmAzerpbAIC0-VBclwgA, Om8twK4wJqAzKcVGf8P9FA, 4B461bYiozwS7MTvJ27caQ, Z0GBHiE7QpWlymLMnUP8SA, HuRerxU9oUuKPwrd8G85Xg, whKV8TxcoT7NR5jhsCjNKg, XpvV6xatOn8q2KyeaDxLFA, j0WX8LAbLhBnnGJoXjmokw, 09jpZrKD_j0SG9WPBDSJQg, Hg94dt28W8qE9kE4Q1CQhA, WL_U3MBUfTkeHL9lYxoleg, XH7vjN6QuL9Cedet3j4vEQ, UaQtsDLiDbwoAWT_dyza2A, 2wHkyqcPzHrP7E3ae0YUCw, 3o0ZG12BbHBn8UeT3NUxAw, Zi3b_CTeF6noi74V-DvMlw, T76-jKiHe5Fz5qTjQQlWoA, 3gE3_MDUsCg-Tay4t1R5nA, lJFBgSAccsMGwIjfD7LMeQ, Q8fNSloktdb77BEea-Z49g, gvAwiXJv2xmFvbyGQPK-lg, b_ED_rPl7OLwEpUlr4VI5A, 7W3dPct80y4dDH3rvS114g, u_EjeDwjmtzZpeCVsnqotQ, MTzsdB9Agol7fSyOIselcg, Xxvz5g67eaCr3emnkY5M6w, D4GDRdjYpKQxwdLkKbjCrQ, HFECrzYDpgbS5EmTBtj2zQ, MfZm6WGhu4BNjM6T6v62MQ, wPhcyI1pzRu-OyJDDwOCnA, aAPG4k9TrIVmAGCVUgfQnQ, yYBTAecMSd6vyr6F8EpiOQ, iQ9GUnmEG2A_u_G8KXGZrg, SlmtW5_j_C5Yac6wPMxOnw, 4QazAwPkW0LRVFEL7Uf1Fg, dt9IHwfuZs9D9LOH7gjNew, peG3q2c2sMhSvKoXij4fTQ, sN_xx195g9EPCr7FNepwiQ, eSlOI3GhroEtcbaD_nFXJQ, H6QSYPYJFAW2wGOyn12SYg, MmlJSLDg-IFaeXb5wdJbgg, G3ka8sDP0voJMUSc1q_FOA, JjXuiru1_ONzDkYVrHN0aw, zISSIzkNWqBlPfZ_YvWD1A, KXVZqQdcVpa-ZaIdrDpQPQ, EKrKM0K7a7gklwoepMrhPA, mJbSn-Av4gnux0QkvE5uVg, qJywSM0wrlDAJtE0W5DFqg, AiIq6HczkpjIN7FWIci59w, _iZpJBYapAUARaYU9EaYmA, 3vYsjC90S80legSDDTmqcA, TvDg1zSV1zily-DDI4cU0w, xywXoLnG7qWIayFu8oZQgQ, GY9LJaxKP7tXlxExBE1J_Q, xcykS0sskjJsnJtfIplWXA, jrMxBHW3SlUGVGYWvPsHWA, -x7bBe38e2JwzOL_Xy6VUw, kgOonc_8Zydyn6jVQF1wBw, Z93LEsbpKNOZ13FRJrXVeQ, AONkqmzslyVmLm0sXKaKpg, _MjgqPR1pvDnZZ6wCwabBQ, DVrTzBruMKob_ktFtFY87g, KKmAxwT82ADE28GjIU69Ow, 8wArDqI9dH2WXKtFDCL1hw, amTpv1BRd73H-vbBejJaHA, N7GcxQI_5LhRb4LmmBCE8A, jk6oxAjxaIBGWSJbMb2fWQ, HdlwaDK_i2VSki8UnDARbg, 0tC5OOTuwvPGnnqhPCoRSw, hTSTFbaRFBDT1O73jBwHXQ, -WKjn01_qaRxln2ChXU4FA, gnF5zBp0n-PxNtE9ORgEOA, wA9Oa4ClLISH-csTdByinw, PayWVSvWawDTMKkExSC41w, tRW5hHt31qR67jEAIF8nSw, WOOWamjSmE287IXliWvfVg, 3o63BKb1fKcM_WUU9XMRJw, yB_lqKMg1HLe9S7FoFUbuA, kzDuqAUTaktqCic0uKGG_Q, 7KfPI_otF_Lw27dL_y0aag, glCB66zyfm9QnuZDcTyWZw, mC-nfEt4NguxtpFCGfa_Dw, KT66qWC07eGBquIhrCMvpg, 1-6lNpId5iI04-OHjvb8Ow, lEw2VL9JCDFk3R5NzahqnA, LYBSlu_TNQB3AdRhw0I58Q, 4xTL7DOe8R4RmPQq3DhxEA, hSmqcnTC8EHLzuAK79BPsg, 25QzG8_MT4zr4JiglZI8dQ, Y67nsCp58gyaO6c-xCTX4w, 4VbB9qS2Xvk-bjAI1bNlGw, J01CNx-v-TonT-wKAmlmfA, E8EHbvLNJy-uagTsaqnj6A, Yy1w22ES-wO7_DSnpKFCCg, -NycZLw5rPxqwrkKKI-83w, RrhO3ouLsf6Nv8umT9jCHA, yfZ3FHQH2E2fZLGaQjSSzA, tR7H3sq9D8rnnWFLDTsvVw, XReibjg_aTW7gP_vWQt7TA, NKn7mFywRp_QcrzTkGyZpA, FoBMiY82WGc7cGwj6G8sUg, nOr3_aq60yivqgcso_iDMw, ci7Q6NvXQ8UZrBHusVX18g', 'useful': 722, 'funny': 415, 'cool': 726, 'fans': 53, 'elite': '2010, 2013, 2014, 2015, 2011, 2016, 2012, 2017', 'average_stars': 3.97, 'compliment_hot': 74, 'compliment_more': 17, 'compliment_profile': 2, 'compliment_cute': 18, 'compliment_list': 14, 'compliment_note': 96, 'compliment_plain': 163, 'compliment_cool': 140, 'compliment_funny': 140, 'compliment_writer': 67, 'compliment_photos': 8}]------------------new run-----------------
+['993MaVXjU2qhmQQYR_mdVg', 'Ytjon2aVUm09CMdfGJxZYg', 3.97, 722.0]
+['6qL7HYCVN1E0vLfa-S_VlQ', 'Ytjon2aVUm09CMdfGJxZYg', 3.97, 722.0]
+['1tuGCCL_T3tKq7CEsEqWhA', 'Ytjon2aVUm09CMdfGJxZYg', 3.97, 722.0]
+['S1zlGFu9fi5-QmVpGqsKsA', 'Ytjon2aVUm09CMdfGJxZYg', 3.97, 722.0]
+['uFL4KroMu-dFRsSJrcFzVQ', 'Ytjon2aVUm09CMdfGJxZYg', 3.97, 722.0]
+['60AtEye1LKFy284jWFLhpQ', 'Ytjon2aVUm09CMdfGJxZYg', 3.97, 722.0]
+['W2RNay2mirTVPYO6rA_g2g', 'Ytjon2aVUm09CMdfGJxZYg', 3.97, 722.0]
+['le3JWiS5uZTkofP90Rm0pA', 'Ytjon2aVUm09CMdfGJxZYg', 3.97, 722.0]
+['wmstf9dw0-kN3YThIxx8eQ', 'Ytjon2aVUm09CMdfGJxZYg', 3.97, 722.0]
+['yqIVlkpQF_IdhVk1yTiIjw', 'Ytjon2aVUm09CMdfGJxZYg', 3.97, 722.0]
+------------------new run-----------------
+('1sKRc9vFaZ_dLQGPE_P7Dg', (('Ytjon2aVUm09CMdfGJxZYg', 3.97, 722.0), (3.0, 69.0)))
+('1sKRc9vFaZ_dLQGPE_P7Dg', (('hjcOqlZLCvOQvwMdLsiOcw', 4.11, 2787.0), (3.0, 69.0)))
+('1sKRc9vFaZ_dLQGPE_P7Dg', (('Xxvz5g67eaCr3emnkY5M6w', 3.73, 303.0), (3.0, 69.0)))
+('1sKRc9vFaZ_dLQGPE_P7Dg', (('CeSWUZVf0PS3A6yOwSndyA', 3.64, 7.0), (3.0, 69.0)))
+('1sKRc9vFaZ_dLQGPE_P7Dg', (('ns4BbYwSwX1cdY7z2uU65A', 3.16, 108.0), (3.0, 69.0)))
+('1sKRc9vFaZ_dLQGPE_P7Dg', (('5zBK3wQq7ZiiO78wjVxRQQ', 3.66, 51.0), (3.0, 69.0)))
+('1sKRc9vFaZ_dLQGPE_P7Dg', (('XhtMmcvMN4h9NF4C-eGD0g', 3.84, 62.0), (3.0, 69.0)))
+('GIfZNMP0oIJCje_Xp0Bgrw', (('Ytjon2aVUm09CMdfGJxZYg', 3.97, 722.0), (3.5, 966.0)))
+('GIfZNMP0oIJCje_Xp0Bgrw', (('ca___2Qaf5FFyPCf6T2eZA', 3.64, 2122.0), (3.5, 966.0)))
+('GIfZNMP0oIJCje_Xp0Bgrw', (('mjI7P3bgKFuNUCA8MxEdPQ', 3.91, 2.0), (3.5, 966.0)))
+------------------new run-----------------
+(('Ytjon2aVUm09CMdfGJxZYg', '1sKRc9vFaZ_dLQGPE_P7Dg'), (3.97, 722.0, 3.0, 69.0))
+(('hjcOqlZLCvOQvwMdLsiOcw', '1sKRc9vFaZ_dLQGPE_P7Dg'), (4.11, 2787.0, 3.0, 69.0))
+(('Xxvz5g67eaCr3emnkY5M6w', '1sKRc9vFaZ_dLQGPE_P7Dg'), (3.73, 303.0, 3.0, 69.0))
+(('CeSWUZVf0PS3A6yOwSndyA', '1sKRc9vFaZ_dLQGPE_P7Dg'), (3.64, 7.0, 3.0, 69.0))
+(('ns4BbYwSwX1cdY7z2uU65A', '1sKRc9vFaZ_dLQGPE_P7Dg'), (3.16, 108.0, 3.0, 69.0))
+(('5zBK3wQq7ZiiO78wjVxRQQ', '1sKRc9vFaZ_dLQGPE_P7Dg'), (3.66, 51.0, 3.0, 69.0))
+(('XhtMmcvMN4h9NF4C-eGD0g', '1sKRc9vFaZ_dLQGPE_P7Dg'), (3.84, 62.0, 3.0, 69.0))
+(('Ytjon2aVUm09CMdfGJxZYg', 'GIfZNMP0oIJCje_Xp0Bgrw'), (3.97, 722.0, 3.5, 966.0))
+(('ca___2Qaf5FFyPCf6T2eZA', 'GIfZNMP0oIJCje_Xp0Bgrw'), (3.64, 2122.0, 3.5, 966.0))
+(('mjI7P3bgKFuNUCA8MxEdPQ', 'GIfZNMP0oIJCje_Xp0Bgrw'), (3.91, 2.0, 3.5, 966.0))
+------------------new run-----------------
+(('OiRnzvW40RQ6tqcgk4jv1Q', 'K2CdjES-IZDDEgetOnf0Vw'), ((3.74, 121.0, 4.5, 158.0), 5.0))
+(('635IZ9fLyetirOde-G8X-g', 'L_ZLtfHvfzfoNVQ0-okTXg'), ((3.65, 129.0, 4.0, 1136.0), 5.0))
+(('OJA-15Qvh9OqSRqwrdGNeQ', 'zoODlH40edpJYLPLkHilNA'), ((3.77, 151.0, 4.5, 752.0), 5.0))
+(('ANLSKvFmCgRMjxtELq70FQ', 'zoODlH40edpJYLPLkHilNA'), ((3.95, 9.0, 4.5, 752.0), 5.0))
+(('sw2rPKwcO8Pn4c9sRoS9jQ', 'zoODlH40edpJYLPLkHilNA'), ((4.12, 7.0, 4.5, 752.0), 5.0))
+(('wxQCLMnuVYbdtmQCc2ryZg', 'zoODlH40edpJYLPLkHilNA'), ((3.78, 426.0, 4.5, 752.0), 5.0))
+(('ftttLxXB10LtHJ7v0j2hDA', 'zoODlH40edpJYLPLkHilNA'), ((3.7, 13.0, 4.5, 752.0), 5.0))
+(('clmrlflES5HrXS-gl_YmrQ', 'SXWLhxdcFCLPnF7AlFbg4g'), ((3.27, 22.0, 3.0, 105.0), 3.0))
+(('De-dImXf-TOFWWPTUWwIvw', 'ZAuAwz1ijuydn5yL3q3rzA'), ((4.12, 103.0, 4.5, 916.0), 3.0))
+(('wxQCLMnuVYbdtmQCc2ryZg', 'ZAuAwz1ijuydn5yL3q3rzA'), ((3.78, 426.0, 4.5, 916.0), 4.0))
+------------------new run-----------------
+('OiRnzvW40RQ6tqcgk4jv1Q', 'K2CdjES-IZDDEgetOnf0Vw', 3.74, 121.0, 4.5, 158.0, 5.0)
+('635IZ9fLyetirOde-G8X-g', 'L_ZLtfHvfzfoNVQ0-okTXg', 3.65, 129.0, 4.0, 1136.0, 5.0)
+('OJA-15Qvh9OqSRqwrdGNeQ', 'zoODlH40edpJYLPLkHilNA', 3.77, 151.0, 4.5, 752.0, 5.0)
+('ANLSKvFmCgRMjxtELq70FQ', 'zoODlH40edpJYLPLkHilNA', 3.95, 9.0, 4.5, 752.0, 5.0)
+('sw2rPKwcO8Pn4c9sRoS9jQ', 'zoODlH40edpJYLPLkHilNA', 4.12, 7.0, 4.5, 752.0, 5.0)
+('wxQCLMnuVYbdtmQCc2ryZg', 'zoODlH40edpJYLPLkHilNA', 3.78, 426.0, 4.5, 752.0, 5.0)
+('ftttLxXB10LtHJ7v0j2hDA', 'zoODlH40edpJYLPLkHilNA', 3.7, 13.0, 4.5, 752.0, 5.0)
+('clmrlflES5HrXS-gl_YmrQ', 'SXWLhxdcFCLPnF7AlFbg4g', 3.27, 22.0, 3.0, 105.0, 3.0)
+('De-dImXf-TOFWWPTUWwIvw', 'ZAuAwz1ijuydn5yL3q3rzA', 4.12, 103.0, 4.5, 916.0, 3.0)
+('wxQCLMnuVYbdtmQCc2ryZg', 'ZAuAwz1ijuydn5yL3q3rzA', 3.78, 426.0, 4.5, 916.0, 4.0)
+------------------new run-----------------
+('OiRnzvW40RQ6tqcgk4jv1Q', 'K2CdjES-IZDDEgetOnf0Vw', 3.74, 121.0, 4.5, 158.0, 5.0)
+('635IZ9fLyetirOde-G8X-g', 'L_ZLtfHvfzfoNVQ0-okTXg', 3.65, 129.0, 4.0, 1136.0, 5.0)
+('OJA-15Qvh9OqSRqwrdGNeQ', 'zoODlH40edpJYLPLkHilNA', 3.77, 151.0, 4.5, 752.0, 5.0)
+('ANLSKvFmCgRMjxtELq70FQ', 'zoODlH40edpJYLPLkHilNA', 3.95, 9.0, 4.5, 752.0, 5.0)
+('sw2rPKwcO8Pn4c9sRoS9jQ', 'zoODlH40edpJYLPLkHilNA', 4.12, 7.0, 4.5, 752.0, 5.0)
+('wxQCLMnuVYbdtmQCc2ryZg', 'zoODlH40edpJYLPLkHilNA', 3.78, 426.0, 4.5, 752.0, 5.0)
+('ftttLxXB10LtHJ7v0j2hDA', 'zoODlH40edpJYLPLkHilNA', 3.7, 13.0, 4.5, 752.0, 5.0)
+('clmrlflES5HrXS-gl_YmrQ', 'SXWLhxdcFCLPnF7AlFbg4g', 3.27, 22.0, 3.0, 105.0, 3.0)
+('De-dImXf-TOFWWPTUWwIvw', 'ZAuAwz1ijuydn5yL3q3rzA', 4.12, 103.0, 4.5, 916.0, 3.0)
+('wxQCLMnuVYbdtmQCc2ryZg', 'ZAuAwz1ijuydn5yL3q3rzA', 3.78, 426.0, 4.5, 916.0, 4.0)
+------------------new run-----------------
+('OiRnzvW40RQ6tqcgk4jv1Q', 'K2CdjES-IZDDEgetOnf0Vw', 3.74, 121.0, 4.5, 158.0, 5.0)
+('635IZ9fLyetirOde-G8X-g', 'L_ZLtfHvfzfoNVQ0-okTXg', 3.65, 129.0, 4.0, 1136.0, 5.0)
+('OJA-15Qvh9OqSRqwrdGNeQ', 'zoODlH40edpJYLPLkHilNA', 3.77, 151.0, 4.5, 752.0, 5.0)
+('ANLSKvFmCgRMjxtELq70FQ', 'zoODlH40edpJYLPLkHilNA', 3.95, 9.0, 4.5, 752.0, 5.0)
+('sw2rPKwcO8Pn4c9sRoS9jQ', 'zoODlH40edpJYLPLkHilNA', 4.12, 7.0, 4.5, 752.0, 5.0)
+('wxQCLMnuVYbdtmQCc2ryZg', 'zoODlH40edpJYLPLkHilNA', 3.78, 426.0, 4.5, 752.0, 5.0)
+('ftttLxXB10LtHJ7v0j2hDA', 'zoODlH40edpJYLPLkHilNA', 3.7, 13.0, 4.5, 752.0, 5.0)
+('clmrlflES5HrXS-gl_YmrQ', 'SXWLhxdcFCLPnF7AlFbg4g', 3.27, 22.0, 3.0, 105.0, 3.0)
+('De-dImXf-TOFWWPTUWwIvw', 'ZAuAwz1ijuydn5yL3q3rzA', 4.12, 103.0, 4.5, 916.0, 3.0)
+('wxQCLMnuVYbdtmQCc2ryZg', 'ZAuAwz1ijuydn5yL3q3rzA', 3.78, 426.0, 4.5, 916.0, 4.0)
+------------------new run-----------------
+------------------new run-----------------
+('Ytjon2aVUm09CMdfGJxZYg', ('993MaVXjU2qhmQQYR_mdVg', 3.97))
+('Ytjon2aVUm09CMdfGJxZYg', ('6qL7HYCVN1E0vLfa-S_VlQ', 3.97))
+('Ytjon2aVUm09CMdfGJxZYg', ('1tuGCCL_T3tKq7CEsEqWhA', 3.97))
+('Ytjon2aVUm09CMdfGJxZYg', ('S1zlGFu9fi5-QmVpGqsKsA', 3.97))
+('Ytjon2aVUm09CMdfGJxZYg', ('uFL4KroMu-dFRsSJrcFzVQ', 3.97))
+('Ytjon2aVUm09CMdfGJxZYg', ('60AtEye1LKFy284jWFLhpQ', 3.97))
+('Ytjon2aVUm09CMdfGJxZYg', ('W2RNay2mirTVPYO6rA_g2g', 3.97))
+('Ytjon2aVUm09CMdfGJxZYg', ('le3JWiS5uZTkofP90Rm0pA', 3.97))
+('Ytjon2aVUm09CMdfGJxZYg', ('wmstf9dw0-kN3YThIxx8eQ', 3.97))
+('Ytjon2aVUm09CMdfGJxZYg', ('yqIVlkpQF_IdhVk1yTiIjw', 3.97))
+------------------new run-----------------
+('Ytjon2aVUm09CMdfGJxZYg', ('993MaVXjU2qhmQQYR_mdVg', (3.97, 722.0)))
+('Ytjon2aVUm09CMdfGJxZYg', ('6qL7HYCVN1E0vLfa-S_VlQ', (3.97, 722.0)))
+('Ytjon2aVUm09CMdfGJxZYg', ('1tuGCCL_T3tKq7CEsEqWhA', (3.97, 722.0)))
+('Ytjon2aVUm09CMdfGJxZYg', ('S1zlGFu9fi5-QmVpGqsKsA', (3.97, 722.0)))
+('Ytjon2aVUm09CMdfGJxZYg', ('uFL4KroMu-dFRsSJrcFzVQ', (3.97, 722.0)))
+('Ytjon2aVUm09CMdfGJxZYg', ('60AtEye1LKFy284jWFLhpQ', (3.97, 722.0)))
+('Ytjon2aVUm09CMdfGJxZYg', ('W2RNay2mirTVPYO6rA_g2g', (3.97, 722.0)))
+('Ytjon2aVUm09CMdfGJxZYg', ('le3JWiS5uZTkofP90Rm0pA', (3.97, 722.0)))
+('Ytjon2aVUm09CMdfGJxZYg', ('wmstf9dw0-kN3YThIxx8eQ', (3.97, 722.0)))
+('Ytjon2aVUm09CMdfGJxZYg', ('yqIVlkpQF_IdhVk1yTiIjw', (3.97, 722.0)))
+------------------new run-----------------
+('Ytjon2aVUm09CMdfGJxZYg', (('993MaVXjU2qhmQQYR_mdVg', '5.0-'), (3.97, 722.0)))
+('Ytjon2aVUm09CMdfGJxZYg', (('6qL7HYCVN1E0vLfa-S_VlQ', '3.0-'), (3.97, 722.0)))
+('Ytjon2aVUm09CMdfGJxZYg', (('1tuGCCL_T3tKq7CEsEqWhA', '5.0-'), (3.97, 722.0)))
+('Ytjon2aVUm09CMdfGJxZYg', (('S1zlGFu9fi5-QmVpGqsKsA', '4.0-'), (3.97, 722.0)))
+('Ytjon2aVUm09CMdfGJxZYg', (('uFL4KroMu-dFRsSJrcFzVQ', '3.0-'), (3.97, 722.0)))
+('Ytjon2aVUm09CMdfGJxZYg', (('60AtEye1LKFy284jWFLhpQ', '5.0-'), (3.97, 722.0)))
+('Ytjon2aVUm09CMdfGJxZYg', (('W2RNay2mirTVPYO6rA_g2g', '2.0-'), (3.97, 722.0)))
+('Ytjon2aVUm09CMdfGJxZYg', (('le3JWiS5uZTkofP90Rm0pA', '5.0-'), (3.97, 722.0)))
+('Ytjon2aVUm09CMdfGJxZYg', (('wmstf9dw0-kN3YThIxx8eQ', '4.0-'), (3.97, 722.0)))
+('Ytjon2aVUm09CMdfGJxZYg', (('yqIVlkpQF_IdhVk1yTiIjw', '4.0-'), (3.97, 722.0)))
+------------------new run-----------------
+------------------new run-----------------
+['Ytjon2aVUm09CMdfGJxZYg', '993MaVXjU2qhmQQYR_mdVg', '5.0-', 3.97, 722.0]
+['Ytjon2aVUm09CMdfGJxZYg', '6qL7HYCVN1E0vLfa-S_VlQ', '3.0-', 3.97, 722.0]
+['Ytjon2aVUm09CMdfGJxZYg', '1tuGCCL_T3tKq7CEsEqWhA', '5.0-', 3.97, 722.0]
+['Ytjon2aVUm09CMdfGJxZYg', 'S1zlGFu9fi5-QmVpGqsKsA', '4.0-', 3.97, 722.0]
+['Ytjon2aVUm09CMdfGJxZYg', 'uFL4KroMu-dFRsSJrcFzVQ', '3.0-', 3.97, 722.0]
+['Ytjon2aVUm09CMdfGJxZYg', '60AtEye1LKFy284jWFLhpQ', '5.0-', 3.97, 722.0]
+['Ytjon2aVUm09CMdfGJxZYg', 'W2RNay2mirTVPYO6rA_g2g', '2.0-', 3.97, 722.0]
+['Ytjon2aVUm09CMdfGJxZYg', 'le3JWiS5uZTkofP90Rm0pA', '5.0-', 3.97, 722.0]
+['Ytjon2aVUm09CMdfGJxZYg', 'wmstf9dw0-kN3YThIxx8eQ', '4.0-', 3.97, 722.0]
+['Ytjon2aVUm09CMdfGJxZYg', 'yqIVlkpQF_IdhVk1yTiIjw', '4.0-', 3.97, 722.0]
+------------------new run-----------------
+('993MaVXjU2qhmQQYR_mdVg', ['Ytjon2aVUm09CMdfGJxZYg', '5.0-', 3.97, 722.0])
+('6qL7HYCVN1E0vLfa-S_VlQ', ['Ytjon2aVUm09CMdfGJxZYg', '3.0-', 3.97, 722.0])
+('1tuGCCL_T3tKq7CEsEqWhA', ['Ytjon2aVUm09CMdfGJxZYg', '5.0-', 3.97, 722.0])
+('S1zlGFu9fi5-QmVpGqsKsA', ['Ytjon2aVUm09CMdfGJxZYg', '4.0-', 3.97, 722.0])
+('uFL4KroMu-dFRsSJrcFzVQ', ['Ytjon2aVUm09CMdfGJxZYg', '3.0-', 3.97, 722.0])
+('60AtEye1LKFy284jWFLhpQ', ['Ytjon2aVUm09CMdfGJxZYg', '5.0-', 3.97, 722.0])
+('W2RNay2mirTVPYO6rA_g2g', ['Ytjon2aVUm09CMdfGJxZYg', '2.0-', 3.97, 722.0])
+('le3JWiS5uZTkofP90Rm0pA', ['Ytjon2aVUm09CMdfGJxZYg', '5.0-', 3.97, 722.0])
+('wmstf9dw0-kN3YThIxx8eQ', ['Ytjon2aVUm09CMdfGJxZYg', '4.0-', 3.97, 722.0])
+('yqIVlkpQF_IdhVk1yTiIjw', ['Ytjon2aVUm09CMdfGJxZYg', '4.0-', 3.97, 722.0])
+------------------new run-----------------
+------------------new run-----------------
+------------------new run-----------------
+('1sKRc9vFaZ_dLQGPE_P7Dg', (['Ytjon2aVUm09CMdfGJxZYg', '5.0-', 3.97, 722.0], (3.0, 69.0)))
+('1sKRc9vFaZ_dLQGPE_P7Dg', (['hjcOqlZLCvOQvwMdLsiOcw', '4.0-', 4.11, 2787.0], (3.0, 69.0)))
+('1sKRc9vFaZ_dLQGPE_P7Dg', (['Xxvz5g67eaCr3emnkY5M6w', '2.0-', 3.73, 303.0], (3.0, 69.0)))
+('1sKRc9vFaZ_dLQGPE_P7Dg', (['CeSWUZVf0PS3A6yOwSndyA', '2.0-', 3.64, 7.0], (3.0, 69.0)))
+('1sKRc9vFaZ_dLQGPE_P7Dg', (['ns4BbYwSwX1cdY7z2uU65A', '5.0-', 3.16, 108.0], (3.0, 69.0)))
+('1sKRc9vFaZ_dLQGPE_P7Dg', (['5zBK3wQq7ZiiO78wjVxRQQ', '4.0-', 3.66, 51.0], (3.0, 69.0)))
+('1sKRc9vFaZ_dLQGPE_P7Dg', (['XhtMmcvMN4h9NF4C-eGD0g', '4.0-', 3.84, 62.0], (3.0, 69.0)))
+('GIfZNMP0oIJCje_Xp0Bgrw', (['Ytjon2aVUm09CMdfGJxZYg', '5.0-', 3.97, 722.0], (3.5, 966.0)))
+('GIfZNMP0oIJCje_Xp0Bgrw', (['ca___2Qaf5FFyPCf6T2eZA', '5.0-', 3.64, 2122.0], (3.5, 966.0)))
+('GIfZNMP0oIJCje_Xp0Bgrw', (['mjI7P3bgKFuNUCA8MxEdPQ', '3.0-', 3.91, 2.0], (3.5, 966.0)))
+------------------new run-----------------
+['1sKRc9vFaZ_dLQGPE_P7Dg', 'Ytjon2aVUm09CMdfGJxZYg', '5.0-', 3.97, 722.0, 3.0, 69.0]
+['1sKRc9vFaZ_dLQGPE_P7Dg', 'hjcOqlZLCvOQvwMdLsiOcw', '4.0-', 4.11, 2787.0, 3.0, 69.0]
+['1sKRc9vFaZ_dLQGPE_P7Dg', 'Xxvz5g67eaCr3emnkY5M6w', '2.0-', 3.73, 303.0, 3.0, 69.0]
+['1sKRc9vFaZ_dLQGPE_P7Dg', 'CeSWUZVf0PS3A6yOwSndyA', '2.0-', 3.64, 7.0, 3.0, 69.0]
+['1sKRc9vFaZ_dLQGPE_P7Dg', 'ns4BbYwSwX1cdY7z2uU65A', '5.0-', 3.16, 108.0, 3.0, 69.0]
+['1sKRc9vFaZ_dLQGPE_P7Dg', '5zBK3wQq7ZiiO78wjVxRQQ', '4.0-', 3.66, 51.0, 3.0, 69.0]
+['1sKRc9vFaZ_dLQGPE_P7Dg', 'XhtMmcvMN4h9NF4C-eGD0g', '4.0-', 3.84, 62.0, 3.0, 69.0]
+['GIfZNMP0oIJCje_Xp0Bgrw', 'Ytjon2aVUm09CMdfGJxZYg', '5.0-', 3.97, 722.0, 3.5, 966.0]
+['GIfZNMP0oIJCje_Xp0Bgrw', 'ca___2Qaf5FFyPCf6T2eZA', '5.0-', 3.64, 2122.0, 3.5, 966.0]
+['GIfZNMP0oIJCje_Xp0Bgrw', 'mjI7P3bgKFuNUCA8MxEdPQ', '3.0-', 3.91, 2.0, 3.5, 966.0]
+------------------new run-----------------
+(('Ytjon2aVUm09CMdfGJxZYg', '1sKRc9vFaZ_dLQGPE_P7Dg'), ['5.0-', 3.97, 722.0, 3.0, 69.0])
+(('hjcOqlZLCvOQvwMdLsiOcw', '1sKRc9vFaZ_dLQGPE_P7Dg'), ['4.0-', 4.11, 2787.0, 3.0, 69.0])
+(('Xxvz5g67eaCr3emnkY5M6w', '1sKRc9vFaZ_dLQGPE_P7Dg'), ['2.0-', 3.73, 303.0, 3.0, 69.0])
+(('CeSWUZVf0PS3A6yOwSndyA', '1sKRc9vFaZ_dLQGPE_P7Dg'), ['2.0-', 3.64, 7.0, 3.0, 69.0])
+(('ns4BbYwSwX1cdY7z2uU65A', '1sKRc9vFaZ_dLQGPE_P7Dg'), ['5.0-', 3.16, 108.0, 3.0, 69.0])
+(('5zBK3wQq7ZiiO78wjVxRQQ', '1sKRc9vFaZ_dLQGPE_P7Dg'), ['4.0-', 3.66, 51.0, 3.0, 69.0])
+(('XhtMmcvMN4h9NF4C-eGD0g', '1sKRc9vFaZ_dLQGPE_P7Dg'), ['4.0-', 3.84, 62.0, 3.0, 69.0])
+(('Ytjon2aVUm09CMdfGJxZYg', 'GIfZNMP0oIJCje_Xp0Bgrw'), ['5.0-', 3.97, 722.0, 3.5, 966.0])
+(('ca___2Qaf5FFyPCf6T2eZA', 'GIfZNMP0oIJCje_Xp0Bgrw'), ['5.0-', 3.64, 2122.0, 3.5, 966.0])
+(('mjI7P3bgKFuNUCA8MxEdPQ', 'GIfZNMP0oIJCje_Xp0Bgrw'), ['3.0-', 3.91, 2.0, 3.5, 966.0])
+------------------new run-----------------
+(('OiRnzvW40RQ6tqcgk4jv1Q', 'K2CdjES-IZDDEgetOnf0Vw'), (['5.0-', 3.74, 121.0, 4.5, 158.0], 5.0))
+(('635IZ9fLyetirOde-G8X-g', 'L_ZLtfHvfzfoNVQ0-okTXg'), (['5.0-', 3.65, 129.0, 4.0, 1136.0], 5.0))
+(('OJA-15Qvh9OqSRqwrdGNeQ', 'zoODlH40edpJYLPLkHilNA'), (['5.0-', 3.77, 151.0, 4.5, 752.0], 5.0))
+(('ANLSKvFmCgRMjxtELq70FQ', 'zoODlH40edpJYLPLkHilNA'), (['5.0-', 3.95, 9.0, 4.5, 752.0], 5.0))
+(('sw2rPKwcO8Pn4c9sRoS9jQ', 'zoODlH40edpJYLPLkHilNA'), (['5.0-', 4.12, 7.0, 4.5, 752.0], 5.0))
+(('wxQCLMnuVYbdtmQCc2ryZg', 'zoODlH40edpJYLPLkHilNA'), (['5.0-', 3.78, 426.0, 4.5, 752.0], 5.0))
+(('ftttLxXB10LtHJ7v0j2hDA', 'zoODlH40edpJYLPLkHilNA'), (['5.0-', 3.7, 13.0, 4.5, 752.0], 5.0))
+(('clmrlflES5HrXS-gl_YmrQ', 'SXWLhxdcFCLPnF7AlFbg4g'), (['3.0-', 3.27, 22.0, 3.0, 105.0], 3.0))
+(('De-dImXf-TOFWWPTUWwIvw', 'ZAuAwz1ijuydn5yL3q3rzA'), (['3.0-', 4.12, 103.0, 4.5, 916.0], 3.0))
+(('wxQCLMnuVYbdtmQCc2ryZg', 'ZAuAwz1ijuydn5yL3q3rzA'), (['4.0-', 3.78, 426.0, 4.5, 916.0], 4.0))
+------------------new run-----------------
+------------------new run-----------------
+['OiRnzvW40RQ6tqcgk4jv1Q', 'K2CdjES-IZDDEgetOnf0Vw', '5.0-', 3.74, 121.0, 4.5, 158.0, 5.0]
+['635IZ9fLyetirOde-G8X-g', 'L_ZLtfHvfzfoNVQ0-okTXg', '5.0-', 3.65, 129.0, 4.0, 1136.0, 5.0]
+['OJA-15Qvh9OqSRqwrdGNeQ', 'zoODlH40edpJYLPLkHilNA', '5.0-', 3.77, 151.0, 4.5, 752.0, 5.0]
+['ANLSKvFmCgRMjxtELq70FQ', 'zoODlH40edpJYLPLkHilNA', '5.0-', 3.95, 9.0, 4.5, 752.0, 5.0]
+['sw2rPKwcO8Pn4c9sRoS9jQ', 'zoODlH40edpJYLPLkHilNA', '5.0-', 4.12, 7.0, 4.5, 752.0, 5.0]
+['wxQCLMnuVYbdtmQCc2ryZg', 'zoODlH40edpJYLPLkHilNA', '5.0-', 3.78, 426.0, 4.5, 752.0, 5.0]
+['ftttLxXB10LtHJ7v0j2hDA', 'zoODlH40edpJYLPLkHilNA', '5.0-', 3.7, 13.0, 4.5, 752.0, 5.0]
+['clmrlflES5HrXS-gl_YmrQ', 'SXWLhxdcFCLPnF7AlFbg4g', '3.0-', 3.27, 22.0, 3.0, 105.0, 3.0]
+['De-dImXf-TOFWWPTUWwIvw', 'ZAuAwz1ijuydn5yL3q3rzA', '3.0-', 4.12, 103.0, 4.5, 916.0, 3.0]
+['wxQCLMnuVYbdtmQCc2ryZg', 'ZAuAwz1ijuydn5yL3q3rzA', '4.0-', 3.78, 426.0, 4.5, 916.0, 4.0]
+------------------new run-----------------
+['OiRnzvW40RQ6tqcgk4jv1Q', 'K2CdjES-IZDDEgetOnf0Vw', 3.74, 121.0, 4.5, 158.0, 5.0]
+['635IZ9fLyetirOde-G8X-g', 'L_ZLtfHvfzfoNVQ0-okTXg', 3.65, 129.0, 4.0, 1136.0, 5.0]
+['OJA-15Qvh9OqSRqwrdGNeQ', 'zoODlH40edpJYLPLkHilNA', 3.77, 151.0, 4.5, 752.0, 5.0]
+['ANLSKvFmCgRMjxtELq70FQ', 'zoODlH40edpJYLPLkHilNA', 3.95, 9.0, 4.5, 752.0, 5.0]
+['sw2rPKwcO8Pn4c9sRoS9jQ', 'zoODlH40edpJYLPLkHilNA', 4.12, 7.0, 4.5, 752.0, 5.0]
+['wxQCLMnuVYbdtmQCc2ryZg', 'zoODlH40edpJYLPLkHilNA', 3.78, 426.0, 4.5, 752.0, 5.0]
+['ftttLxXB10LtHJ7v0j2hDA', 'zoODlH40edpJYLPLkHilNA', 3.7, 13.0, 4.5, 752.0, 5.0]
+['clmrlflES5HrXS-gl_YmrQ', 'SXWLhxdcFCLPnF7AlFbg4g', 3.27, 22.0, 3.0, 105.0, 3.0]
+['De-dImXf-TOFWWPTUWwIvw', 'ZAuAwz1ijuydn5yL3q3rzA', 4.12, 103.0, 4.5, 916.0, 3.0]
+['wxQCLMnuVYbdtmQCc2ryZg', 'ZAuAwz1ijuydn5yL3q3rzA', 3.78, 426.0, 4.5, 916.0, 4.0]
+5.0-
+5.0-
+5.0-
+5.0-
+5.0-
+5.0-
+5.0-
+3.0-
+3.0-
+4.0-
+------------------new run-----------------
+------------------new run-----------------
+------------------new run-----------------
+------------------new run-----------------
+------------------new run-----------------
+------------------new run-----------------
+------------------new run-----------------
+I510KttlB4dxqER7AueQnA
+ZAuAwz1ijuydn5yL3q3rzA
+3.38
+6.0
+4.5
+916.0
+5.0
+------------------new run-----------------
+['OiRnzvW40RQ6tqcgk4jv1Q', 'K2CdjES-IZDDEgetOnf0Vw', 3.74, 121.0, 4.5, 158.0, 5.0]
+['635IZ9fLyetirOde-G8X-g', 'L_ZLtfHvfzfoNVQ0-okTXg', 3.65, 129.0, 4.0, 1136.0, 5.0]
+['OJA-15Qvh9OqSRqwrdGNeQ', 'zoODlH40edpJYLPLkHilNA', 3.77, 151.0, 4.5, 752.0, 5.0]
+['ANLSKvFmCgRMjxtELq70FQ', 'zoODlH40edpJYLPLkHilNA', 3.95, 9.0, 4.5, 752.0, 5.0]
+['sw2rPKwcO8Pn4c9sRoS9jQ', 'zoODlH40edpJYLPLkHilNA', 4.12, 7.0, 4.5, 752.0, 5.0]
+['wxQCLMnuVYbdtmQCc2ryZg', 'zoODlH40edpJYLPLkHilNA', 3.78, 426.0, 4.5, 752.0, 5.0]
+['ftttLxXB10LtHJ7v0j2hDA', 'zoODlH40edpJYLPLkHilNA', 3.7, 13.0, 4.5, 752.0, 5.0]
+['clmrlflES5HrXS-gl_YmrQ', 'SXWLhxdcFCLPnF7AlFbg4g', 3.27, 22.0, 3.0, 105.0, 3.0]
+['De-dImXf-TOFWWPTUWwIvw', 'ZAuAwz1ijuydn5yL3q3rzA', 4.12, 103.0, 4.5, 916.0, 3.0]
+['wxQCLMnuVYbdtmQCc2ryZg', 'ZAuAwz1ijuydn5yL3q3rzA', 3.78, 426.0, 4.5, 916.0, 4.0]
+------------------new run-----------------
+['OiRnzvW40RQ6tqcgk4jv1Q', 'K2CdjES-IZDDEgetOnf0Vw', 3.74, 121.0, 4.5, 158.0, 5.0]
+['635IZ9fLyetirOde-G8X-g', 'L_ZLtfHvfzfoNVQ0-okTXg', 3.65, 129.0, 4.0, 1136.0, 5.0]
+['OJA-15Qvh9OqSRqwrdGNeQ', 'zoODlH40edpJYLPLkHilNA', 3.77, 151.0, 4.5, 752.0, 5.0]
+['ANLSKvFmCgRMjxtELq70FQ', 'zoODlH40edpJYLPLkHilNA', 3.95, 9.0, 4.5, 752.0, 5.0]
+['sw2rPKwcO8Pn4c9sRoS9jQ', 'zoODlH40edpJYLPLkHilNA', 4.12, 7.0, 4.5, 752.0, 5.0]
+['wxQCLMnuVYbdtmQCc2ryZg', 'zoODlH40edpJYLPLkHilNA', 3.78, 426.0, 4.5, 752.0, 5.0]
+['ftttLxXB10LtHJ7v0j2hDA', 'zoODlH40edpJYLPLkHilNA', 3.7, 13.0, 4.5, 752.0, 5.0]
+['clmrlflES5HrXS-gl_YmrQ', 'SXWLhxdcFCLPnF7AlFbg4g', 3.27, 22.0, 3.0, 105.0, 3.0]
+['De-dImXf-TOFWWPTUWwIvw', 'ZAuAwz1ijuydn5yL3q3rzA', 4.12, 103.0, 4.5, 916.0, 3.0]
+['wxQCLMnuVYbdtmQCc2ryZg', 'ZAuAwz1ijuydn5yL3q3rzA', 3.78, 426.0, 4.5, 916.0, 4.0]
+------------------new run-----------------
+['OiRnzvW40RQ6tqcgk4jv1Q', 'K2CdjES-IZDDEgetOnf0Vw', 3.74, 121.0, 4.5, 158.0, 5.0]
+['635IZ9fLyetirOde-G8X-g', 'L_ZLtfHvfzfoNVQ0-okTXg', 3.65, 129.0, 4.0, 1136.0, 5.0]
+['OJA-15Qvh9OqSRqwrdGNeQ', 'zoODlH40edpJYLPLkHilNA', 3.77, 151.0, 4.5, 752.0, 5.0]
+['ANLSKvFmCgRMjxtELq70FQ', 'zoODlH40edpJYLPLkHilNA', 3.95, 9.0, 4.5, 752.0, 5.0]
+['sw2rPKwcO8Pn4c9sRoS9jQ', 'zoODlH40edpJYLPLkHilNA', 4.12, 7.0, 4.5, 752.0, 5.0]
+['wxQCLMnuVYbdtmQCc2ryZg', 'zoODlH40edpJYLPLkHilNA', 3.78, 426.0, 4.5, 752.0, 5.0]
+['ftttLxXB10LtHJ7v0j2hDA', 'zoODlH40edpJYLPLkHilNA', 3.7, 13.0, 4.5, 752.0, 5.0]
+['clmrlflES5HrXS-gl_YmrQ', 'SXWLhxdcFCLPnF7AlFbg4g', 3.27, 22.0, 3.0, 105.0, 3.0]
+['De-dImXf-TOFWWPTUWwIvw', 'ZAuAwz1ijuydn5yL3q3rzA', 4.12, 103.0, 4.5, 916.0, 3.0]
+['wxQCLMnuVYbdtmQCc2ryZg', 'ZAuAwz1ijuydn5yL3q3rzA', 3.78, 426.0, 4.5, 916.0, 4.0]
+[['OiRnzvW40RQ6tqcgk4jv1Q', 'K2CdjES-IZDDEgetOnf0Vw', 3.74, 121.0, 4.5, 158.0, 5.0], ['635IZ9fLyetirOde-G8X-g', 'L_ZLtfHvfzfoNVQ0-okTXg', 3.65, 129.0, 4.0, 1136.0, 5.0], ['OJA-15Qvh9OqSRqwrdGNeQ', 'zoODlH40edpJYLPLkHilNA', 3.77, 151.0, 4.5, 752.0, 5.0], ['ANLSKvFmCgRMjxtELq70FQ', 'zoODlH40edpJYLPLkHilNA', 3.95, 9.0, 4.5, 752.0, 5.0], ['sw2rPKwcO8Pn4c9sRoS9jQ', 'zoODlH40edpJYLPLkHilNA', 4.12, 7.0, 4.5, 752.0, 5.0], ['wxQCLMnuVYbdtmQCc2ryZg', 'zoODlH40edpJYLPLkHilNA', 3.78, 426.0, 4.5, 752.0, 5.0], ['ftttLxXB10LtHJ7v0j2hDA', 'zoODlH40edpJYLPLkHilNA', 3.7, 13.0, 4.5, 752.0, 5.0], ['clmrlflES5HrXS-gl_YmrQ', 'SXWLhxdcFCLPnF7AlFbg4g', 3.27, 22.0, 3.0, 105.0, 3.0], ['De-dImXf-TOFWWPTUWwIvw', 'ZAuAwz1ijuydn5yL3q3rzA', 4.12, 103.0, 4.5, 916.0, 3.0], ['wxQCLMnuVYbdtmQCc2ryZg', 'ZAuAwz1ijuydn5yL3q3rzA', 3.78, 426.0, 4.5, 916.0, 4.0]]------------------new run-----------------
+['OiRnzvW40RQ6tqcgk4jv1Q', 'K2CdjES-IZDDEgetOnf0Vw', 3.74, 121.0, 4.5, 158.0, 5.0]
+['635IZ9fLyetirOde-G8X-g', 'L_ZLtfHvfzfoNVQ0-okTXg', 3.65, 129.0, 4.0, 1136.0, 5.0]
+['OJA-15Qvh9OqSRqwrdGNeQ', 'zoODlH40edpJYLPLkHilNA', 3.77, 151.0, 4.5, 752.0, 5.0]
+['ANLSKvFmCgRMjxtELq70FQ', 'zoODlH40edpJYLPLkHilNA', 3.95, 9.0, 4.5, 752.0, 5.0]
+['sw2rPKwcO8Pn4c9sRoS9jQ', 'zoODlH40edpJYLPLkHilNA', 4.12, 7.0, 4.5, 752.0, 5.0]
+['wxQCLMnuVYbdtmQCc2ryZg', 'zoODlH40edpJYLPLkHilNA', 3.78, 426.0, 4.5, 752.0, 5.0]
+['ftttLxXB10LtHJ7v0j2hDA', 'zoODlH40edpJYLPLkHilNA', 3.7, 13.0, 4.5, 752.0, 5.0]
+['clmrlflES5HrXS-gl_YmrQ', 'SXWLhxdcFCLPnF7AlFbg4g', 3.27, 22.0, 3.0, 105.0, 3.0]
+['De-dImXf-TOFWWPTUWwIvw', 'ZAuAwz1ijuydn5yL3q3rzA', 4.12, 103.0, 4.5, 916.0, 3.0]
+['wxQCLMnuVYbdtmQCc2ryZg', 'ZAuAwz1ijuydn5yL3q3rzA', 3.78, 426.0, 4.5, 916.0, 4.0]
+[['OiRnzvW40RQ6tqcgk4jv1Q', 'K2CdjES-IZDDEgetOnf0Vw', 3.74, 121.0, 4.5, 158.0, 5.0], ['635IZ9fLyetirOde-G8X-g', 'L_ZLtfHvfzfoNVQ0-okTXg', 3.65, 129.0, 4.0, 1136.0, 5.0], ['OJA-15Qvh9OqSRqwrdGNeQ', 'zoODlH40edpJYLPLkHilNA', 3.77, 151.0, 4.5, 752.0, 5.0], ['ANLSKvFmCgRMjxtELq70FQ', 'zoODlH40edpJYLPLkHilNA', 3.95, 9.0, 4.5, 752.0, 5.0], ['sw2rPKwcO8Pn4c9sRoS9jQ', 'zoODlH40edpJYLPLkHilNA', 4.12, 7.0, 4.5, 752.0, 5.0], ['wxQCLMnuVYbdtmQCc2ryZg', 'zoODlH40edpJYLPLkHilNA', 3.78, 426.0, 4.5, 752.0, 5.0], ['ftttLxXB10LtHJ7v0j2hDA', 'zoODlH40edpJYLPLkHilNA', 3.7, 13.0, 4.5, 752.0, 5.0], ['clmrlflES5HrXS-gl_YmrQ', 'SXWLhxdcFCLPnF7AlFbg4g', 3.27, 22.0, 3.0, 105.0, 3.0], ['De-dImXf-TOFWWPTUWwIvw', 'ZAuAwz1ijuydn5yL3q3rzA', 4.12, 103.0, 4.5, 916.0, 3.0], ['wxQCLMnuVYbdtmQCc2ryZg', 'ZAuAwz1ijuydn5yL3q3rzA', 3.78, 426.0, 4.5, 916.0, 4.0]]------------------new run-----------------
+['OiRnzvW40RQ6tqcgk4jv1Q', 'K2CdjES-IZDDEgetOnf0Vw', 3.74, 121.0, 4.5, 158.0, 5.0]
+['635IZ9fLyetirOde-G8X-g', 'L_ZLtfHvfzfoNVQ0-okTXg', 3.65, 129.0, 4.0, 1136.0, 5.0]
+['OJA-15Qvh9OqSRqwrdGNeQ', 'zoODlH40edpJYLPLkHilNA', 3.77, 151.0, 4.5, 752.0, 5.0]
+['ANLSKvFmCgRMjxtELq70FQ', 'zoODlH40edpJYLPLkHilNA', 3.95, 9.0, 4.5, 752.0, 5.0]
+['sw2rPKwcO8Pn4c9sRoS9jQ', 'zoODlH40edpJYLPLkHilNA', 4.12, 7.0, 4.5, 752.0, 5.0]
+['wxQCLMnuVYbdtmQCc2ryZg', 'zoODlH40edpJYLPLkHilNA', 3.78, 426.0, 4.5, 752.0, 5.0]
+['ftttLxXB10LtHJ7v0j2hDA', 'zoODlH40edpJYLPLkHilNA', 3.7, 13.0, 4.5, 752.0, 5.0]
+['clmrlflES5HrXS-gl_YmrQ', 'SXWLhxdcFCLPnF7AlFbg4g', 3.27, 22.0, 3.0, 105.0, 3.0]
+['De-dImXf-TOFWWPTUWwIvw', 'ZAuAwz1ijuydn5yL3q3rzA', 4.12, 103.0, 4.5, 916.0, 3.0]
+['wxQCLMnuVYbdtmQCc2ryZg', 'ZAuAwz1ijuydn5yL3q3rzA', 3.78, 426.0, 4.5, 916.0, 4.0]
+[['OiRnzvW40RQ6tqcgk4jv1Q', 'K2CdjES-IZDDEgetOnf0Vw', 3.74, 121.0, 4.5, 158.0, 5.0], ['635IZ9fLyetirOde-G8X-g', 'L_ZLtfHvfzfoNVQ0-okTXg', 3.65, 129.0, 4.0, 1136.0, 5.0], ['OJA-15Qvh9OqSRqwrdGNeQ', 'zoODlH40edpJYLPLkHilNA', 3.77, 151.0, 4.5, 752.0, 5.0], ['ANLSKvFmCgRMjxtELq70FQ', 'zoODlH40edpJYLPLkHilNA', 3.95, 9.0, 4.5, 752.0, 5.0], ['sw2rPKwcO8Pn4c9sRoS9jQ', 'zoODlH40edpJYLPLkHilNA', 4.12, 7.0, 4.5, 752.0, 5.0], ['wxQCLMnuVYbdtmQCc2ryZg', 'zoODlH40edpJYLPLkHilNA', 3.78, 426.0, 4.5, 752.0, 5.0], ['ftttLxXB10LtHJ7v0j2hDA', 'zoODlH40edpJYLPLkHilNA', 3.7, 13.0, 4.5, 752.0, 5.0], ['clmrlflES5HrXS-gl_YmrQ', 'SXWLhxdcFCLPnF7AlFbg4g', 3.27, 22.0, 3.0, 105.0, 3.0], ['De-dImXf-TOFWWPTUWwIvw', 'ZAuAwz1ijuydn5yL3q3rzA', 4.12, 103.0, 4.5, 916.0, 3.0], ['wxQCLMnuVYbdtmQCc2ryZg', 'ZAuAwz1ijuydn5yL3q3rzA', 3.78, 426.0, 4.5, 916.0, 4.0]]------------------new run-----------------
+['OiRnzvW40RQ6tqcgk4jv1Q', 'K2CdjES-IZDDEgetOnf0Vw', 3.74, 121.0, 4.5, 158.0, 5.0]
+['635IZ9fLyetirOde-G8X-g', 'L_ZLtfHvfzfoNVQ0-okTXg', 3.65, 129.0, 4.0, 1136.0, 5.0]
+['OJA-15Qvh9OqSRqwrdGNeQ', 'zoODlH40edpJYLPLkHilNA', 3.77, 151.0, 4.5, 752.0, 5.0]
+['ANLSKvFmCgRMjxtELq70FQ', 'zoODlH40edpJYLPLkHilNA', 3.95, 9.0, 4.5, 752.0, 5.0]
+['sw2rPKwcO8Pn4c9sRoS9jQ', 'zoODlH40edpJYLPLkHilNA', 4.12, 7.0, 4.5, 752.0, 5.0]
+['wxQCLMnuVYbdtmQCc2ryZg', 'zoODlH40edpJYLPLkHilNA', 3.78, 426.0, 4.5, 752.0, 5.0]
+['ftttLxXB10LtHJ7v0j2hDA', 'zoODlH40edpJYLPLkHilNA', 3.7, 13.0, 4.5, 752.0, 5.0]
+['clmrlflES5HrXS-gl_YmrQ', 'SXWLhxdcFCLPnF7AlFbg4g', 3.27, 22.0, 3.0, 105.0, 3.0]
+['De-dImXf-TOFWWPTUWwIvw', 'ZAuAwz1ijuydn5yL3q3rzA', 4.12, 103.0, 4.5, 916.0, 3.0]
+['wxQCLMnuVYbdtmQCc2ryZg', 'ZAuAwz1ijuydn5yL3q3rzA', 3.78, 426.0, 4.5, 916.0, 4.0]
+[['OiRnzvW40RQ6tqcgk4jv1Q', 'K2CdjES-IZDDEgetOnf0Vw', 3.74, 121.0, 4.5, 158.0, 5.0], ['635IZ9fLyetirOde-G8X-g', 'L_ZLtfHvfzfoNVQ0-okTXg', 3.65, 129.0, 4.0, 1136.0, 5.0], ['OJA-15Qvh9OqSRqwrdGNeQ', 'zoODlH40edpJYLPLkHilNA', 3.77, 151.0, 4.5, 752.0, 5.0], ['ANLSKvFmCgRMjxtELq70FQ', 'zoODlH40edpJYLPLkHilNA', 3.95, 9.0, 4.5, 752.0, 5.0], ['sw2rPKwcO8Pn4c9sRoS9jQ', 'zoODlH40edpJYLPLkHilNA', 4.12, 7.0, 4.5, 752.0, 5.0], ['wxQCLMnuVYbdtmQCc2ryZg', 'zoODlH40edpJYLPLkHilNA', 3.78, 426.0, 4.5, 752.0, 5.0], ['ftttLxXB10LtHJ7v0j2hDA', 'zoODlH40edpJYLPLkHilNA', 3.7, 13.0, 4.5, 752.0, 5.0], ['clmrlflES5HrXS-gl_YmrQ', 'SXWLhxdcFCLPnF7AlFbg4g', 3.27, 22.0, 3.0, 105.0, 3.0], ['De-dImXf-TOFWWPTUWwIvw', 'ZAuAwz1ijuydn5yL3q3rzA', 4.12, 103.0, 4.5, 916.0, 3.0], ['wxQCLMnuVYbdtmQCc2ryZg', 'ZAuAwz1ijuydn5yL3q3rzA', 3.78, 426.0, 4.5, 916.0, 4.0]]------------------new run-----------------
+['OiRnzvW40RQ6tqcgk4jv1Q', 'K2CdjES-IZDDEgetOnf0Vw', 3.74, 121.0, 4.5, 158.0, 5.0]
+['635IZ9fLyetirOde-G8X-g', 'L_ZLtfHvfzfoNVQ0-okTXg', 3.65, 129.0, 4.0, 1136.0, 5.0]
+['OJA-15Qvh9OqSRqwrdGNeQ', 'zoODlH40edpJYLPLkHilNA', 3.77, 151.0, 4.5, 752.0, 5.0]
+['ANLSKvFmCgRMjxtELq70FQ', 'zoODlH40edpJYLPLkHilNA', 3.95, 9.0, 4.5, 752.0, 5.0]
+['sw2rPKwcO8Pn4c9sRoS9jQ', 'zoODlH40edpJYLPLkHilNA', 4.12, 7.0, 4.5, 752.0, 5.0]
+['wxQCLMnuVYbdtmQCc2ryZg', 'zoODlH40edpJYLPLkHilNA', 3.78, 426.0, 4.5, 752.0, 5.0]
+['ftttLxXB10LtHJ7v0j2hDA', 'zoODlH40edpJYLPLkHilNA', 3.7, 13.0, 4.5, 752.0, 5.0]
+['clmrlflES5HrXS-gl_YmrQ', 'SXWLhxdcFCLPnF7AlFbg4g', 3.27, 22.0, 3.0, 105.0, 3.0]
+['De-dImXf-TOFWWPTUWwIvw', 'ZAuAwz1ijuydn5yL3q3rzA', 4.12, 103.0, 4.5, 916.0, 3.0]
+['wxQCLMnuVYbdtmQCc2ryZg', 'ZAuAwz1ijuydn5yL3q3rzA', 3.78, 426.0, 4.5, 916.0, 4.0]
+[['OiRnzvW40RQ6tqcgk4jv1Q', 'K2CdjES-IZDDEgetOnf0Vw', 3.74, 121.0, 4.5, 158.0, 5.0], ['635IZ9fLyetirOde-G8X-g', 'L_ZLtfHvfzfoNVQ0-okTXg', 3.65, 129.0, 4.0, 1136.0, 5.0], ['OJA-15Qvh9OqSRqwrdGNeQ', 'zoODlH40edpJYLPLkHilNA', 3.77, 151.0, 4.5, 752.0, 5.0], ['ANLSKvFmCgRMjxtELq70FQ', 'zoODlH40edpJYLPLkHilNA', 3.95, 9.0, 4.5, 752.0, 5.0], ['sw2rPKwcO8Pn4c9sRoS9jQ', 'zoODlH40edpJYLPLkHilNA', 4.12, 7.0, 4.5, 752.0, 5.0], ['wxQCLMnuVYbdtmQCc2ryZg', 'zoODlH40edpJYLPLkHilNA', 3.78, 426.0, 4.5, 752.0, 5.0], ['ftttLxXB10LtHJ7v0j2hDA', 'zoODlH40edpJYLPLkHilNA', 3.7, 13.0, 4.5, 752.0, 5.0], ['clmrlflES5HrXS-gl_YmrQ', 'SXWLhxdcFCLPnF7AlFbg4g', 3.27, 22.0, 3.0, 105.0, 3.0], ['De-dImXf-TOFWWPTUWwIvw', 'ZAuAwz1ijuydn5yL3q3rzA', 4.12, 103.0, 4.5, 916.0, 3.0], ['wxQCLMnuVYbdtmQCc2ryZg', 'ZAuAwz1ijuydn5yL3q3rzA', 3.78, 426.0, 4.5, 916.0, 4.0]]------------------new run-----------------
+[3.74, 121.0, 4.5, 158.0, 5.0]
+[3.65, 129.0, 4.0, 1136.0, 5.0]
+[3.77, 151.0, 4.5, 752.0, 5.0]
+[3.95, 9.0, 4.5, 752.0, 5.0]
+[4.12, 7.0, 4.5, 752.0, 5.0]
+[3.78, 426.0, 4.5, 752.0, 5.0]
+[3.7, 13.0, 4.5, 752.0, 5.0]
+[3.27, 22.0, 3.0, 105.0, 3.0]
+[4.12, 103.0, 4.5, 916.0, 3.0]
+[3.78, 426.0, 4.5, 916.0, 4.0]
+[[3.74, 121.0, 4.5, 158.0, 5.0], [3.65, 129.0, 4.0, 1136.0, 5.0], [3.77, 151.0, 4.5, 752.0, 5.0], [3.95, 9.0, 4.5, 752.0, 5.0], [4.12, 7.0, 4.5, 752.0, 5.0], [3.78, 426.0, 4.5, 752.0, 5.0], [3.7, 13.0, 4.5, 752.0, 5.0], [3.27, 22.0, 3.0, 105.0, 3.0], [4.12, 103.0, 4.5, 916.0, 3.0], [3.78, 426.0, 4.5, 916.0, 4.0]]------------------new run-----------------
+------------------new run-----------------
+------------------new run-----------------
+------------------new run-----------------
+------------------new run-----------------
+------------------new run-----------------
+------------------new run-----------------
+------------------new run-----------------
+------------------new run-----------------
+------------------new run-----------------
+------------------new run-----------------
+------------------new run-----------------
+------------------new run-----------------
+------------------new run-----------------
+------------------new run-----------------
+------------------new run-----------------
+------------------new run-----------------
+------------------new run-----------------
+------------------new run-----------------
+------------------new run-----------------
+------------------new run-----------------
+------------------new run-----------------
+------------------new run-----------------
+------------------new run-----------------
+------------------new run-----------------
+------------------new run-----------------
+------------------new run-----------------
+------------------new run-----------------
+------------------new run-----------------
+------------------new run-----------------
+------------------new run-----------------
+------------------new run-----------------
+------------------new run-----------------
+------------------new run-----------------
+------------------new run-----------------
+------------------new run-----------------
+------------------new run-----------------
+------------------new run-----------------
+------------------new run-----------------
+------------------new run-----------------
+------------------new run-----------------
+------------------new run-----------------
+------------------new run-----------------
+------------------new run-----------------
+------------------new run-----------------
+------------------new run-----------------
+------------------new run-----------------
+------------------new run-----------------
+------------------new run-----------------
+------------------new run-----------------
+------------------new run-----------------
+------------------new run-----------------
+------------------new run-----------------
+------------------new run-----------------
+------------------new run-----------------

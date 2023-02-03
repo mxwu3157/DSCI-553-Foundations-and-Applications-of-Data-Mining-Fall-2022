@@ -1,0 +1,9 @@
+export PYSPARK_PYTHON=/usr/local/bin/python3.6
+export PYSPARK_DRIVER_PYTHON=/usr/local/bin/python3.6
+export JAVA_HOME=/usr/lib/jvm/java-1.8.0-openjdk-amd64
+export PYSPARK_SUBMIT_ARGS="--packages graphframes:graphframes:0.8.2-spark2.3-s_2.11"
+
+
+spark-submit --packages graphframes:graphframes:0.8.2-spark3.1-s_2.12 task1.py
+
+/opt/spark/spark-3.1.2-bin-hadoop3.2/bin/spark-submit --packages graphframes:graphframes:0.8.2-spark3.1-s_2.12 task1.py

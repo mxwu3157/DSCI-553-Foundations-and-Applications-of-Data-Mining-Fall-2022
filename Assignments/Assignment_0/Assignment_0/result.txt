@@ -1,0 +1,5 @@
+('Sunday', 1)
+('apple', 3)
+('happy', 3)
+('birthday', 2)
+('sunday', 1)

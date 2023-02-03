@@ -1,0 +1,1355 @@
+
+[Executed at: Tue Sep 20 22:31:52 PDT 2022]
+
+========================= Task 1 Python =========================
+task1, 3.0
+
+========================= Task 2 Python =========================
+task2, 2
+
+========================= Task 3 Python =========================
+task3, 2
+
+
+22/09/20 22:22:45 WARN Utils: Your hostname, ip-172-31-17-177 resolves to a loopback address: 127.0.0.1; using 172.31.17.177 instead (on interface ens5)
+22/09/20 22:22:45 WARN Utils: Set SPARK_LOCAL_IP if you need to bind to another address
+22/09/20 22:22:46 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+Using Spark's default log4j profile: org/apache/spark/log4j-defaults.properties
+22/09/20 22:22:48 INFO SparkContext: Running Spark version 3.1.2
+22/09/20 22:22:48 INFO ResourceUtils: ==============================================================
+22/09/20 22:22:48 INFO ResourceUtils: No custom resources configured for spark.driver.
+22/09/20 22:22:48 INFO ResourceUtils: ==============================================================
+22/09/20 22:22:48 INFO SparkContext: Submitted application: task1
+22/09/20 22:22:48 INFO ResourceProfile: Default ResourceProfile created, executor resources: Map(cores -> name: cores, amount: 1, script: , vendor: , memory -> name: memory, amount: 1024, script: , vendor: , offHeap -> name: offHeap, amount: 0, script: , vendor: ), task resources: Map(cpus -> name: cpus, amount: 1.0)
+22/09/20 22:22:48 INFO ResourceProfile: Limiting resource is cpu
+22/09/20 22:22:48 INFO ResourceProfileManager: Added ResourceProfile id: 0
+22/09/20 22:22:48 INFO SecurityManager: Changing view acls to: ccc_v1_g_f0ed6_37139
+22/09/20 22:22:48 INFO SecurityManager: Changing modify acls to: ccc_v1_g_f0ed6_37139
+22/09/20 22:22:48 INFO SecurityManager: Changing view acls groups to: 
+22/09/20 22:22:48 INFO SecurityManager: Changing modify acls groups to: 
+22/09/20 22:22:48 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(ccc_v1_g_f0ed6_37139); groups with view permissions: Set(); users  with modify permissions: Set(ccc_v1_g_f0ed6_37139); groups with modify permissions: Set()
+22/09/20 22:22:49 INFO Utils: Successfully started service 'sparkDriver' on port 42080.
+22/09/20 22:22:49 INFO SparkEnv: Registering MapOutputTracker
+22/09/20 22:22:49 INFO SparkEnv: Registering BlockManagerMaster
+22/09/20 22:22:49 INFO BlockManagerMasterEndpoint: Using org.apache.spark.storage.DefaultTopologyMapper for getting topology information
+22/09/20 22:22:49 INFO BlockManagerMasterEndpoint: BlockManagerMasterEndpoint up
+22/09/20 22:22:49 INFO SparkEnv: Registering BlockManagerMasterHeartbeat
+22/09/20 22:22:49 INFO DiskBlockManager: Created local directory at /tmp/blockmgr-df98eec1-e465-42fd-a5a2-8590b5de89d2
+22/09/20 22:22:49 INFO MemoryStore: MemoryStore started with capacity 2004.6 MiB
+22/09/20 22:22:49 INFO SparkEnv: Registering OutputCommitCoordinator
+22/09/20 22:22:50 WARN Utils: Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+22/09/20 22:22:50 WARN Utils: Service 'SparkUI' could not bind on port 4041. Attempting port 4042.
+22/09/20 22:22:50 WARN Utils: Service 'SparkUI' could not bind on port 4042. Attempting port 4043.
+22/09/20 22:22:50 WARN Utils: Service 'SparkUI' could not bind on port 4043. Attempting port 4044.
+22/09/20 22:22:50 INFO Utils: Successfully started service 'SparkUI' on port 4044.
+22/09/20 22:22:50 INFO SparkUI: Bound SparkUI to 0.0.0.0, and started at http://172.31.17.177:4044
+22/09/20 22:22:51 INFO Executor: Starting executor ID driver on host 172.31.17.177
+22/09/20 22:22:51 INFO Utils: Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 44530.
+22/09/20 22:22:51 INFO NettyBlockTransferService: Server created on 172.31.17.177:44530
+22/09/20 22:22:51 INFO BlockManager: Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy
+22/09/20 22:22:51 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, 172.31.17.177, 44530, None)
+22/09/20 22:22:51 INFO BlockManagerMasterEndpoint: Registering block manager 172.31.17.177:44530 with 2004.6 MiB RAM, BlockManagerId(driver, 172.31.17.177, 44530, None)
+22/09/20 22:22:51 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, 172.31.17.177, 44530, None)
+22/09/20 22:22:51 INFO BlockManager: Initialized BlockManager: BlockManagerId(driver, 172.31.17.177, 44530, None)
+22/09/20 22:23:41 WARN MemoryStore: Not enough space to cache rdd_2_97 in memory! (computed 1705.7 KiB so far)
+22/09/20 22:23:41 WARN BlockManager: Block rdd_2_97 could not be removed as it was not found on disk or in memory
+22/09/20 22:23:41 WARN BlockManager: Putting block rdd_2_97 failed
+22/09/20 22:23:41 WARN MemoryStore: Not enough space to cache rdd_2_98 in memory! (computed 1706.7 KiB so far)
+22/09/20 22:23:41 WARN BlockManager: Block rdd_2_98 could not be removed as it was not found on disk or in memory
+22/09/20 22:23:41 WARN BlockManager: Putting block rdd_2_98 failed
+22/09/20 22:23:41 WARN MemoryStore: Not enough space to cache rdd_2_93 in memory! (computed 18.8 MiB so far)
+22/09/20 22:23:41 WARN BlockManager: Block rdd_2_93 could not be removed as it was not found on disk or in memory
+22/09/20 22:23:41 WARN BlockManager: Putting block rdd_2_93 failed
+22/09/20 22:23:41 WARN MemoryStore: Not enough space to cache rdd_2_96 in memory! (computed 11.7 MiB so far)
+22/09/20 22:23:41 WARN BlockManager: Block rdd_2_96 could not be removed as it was not found on disk or in memory
+22/09/20 22:23:41 WARN BlockManager: Putting block rdd_2_96 failed
+22/09/20 22:23:41 WARN MemoryStore: Not enough space to cache rdd_2_92 in memory! (computed 18.4 MiB so far)
+22/09/20 22:23:41 WARN BlockManager: Block rdd_2_92 could not be removed as it was not found on disk or in memory
+22/09/20 22:23:41 WARN BlockManager: Putting block rdd_2_92 failed
+22/09/20 22:23:43 WARN MemoryStore: Not enough space to cache rdd_2_100 in memory! (computed 7.6 MiB so far)
+22/09/20 22:23:43 WARN MemoryStore: Not enough space to cache rdd_2_103 in memory! (computed 7.6 MiB so far)
+22/09/20 22:23:43 WARN BlockManager: Block rdd_2_103 could not be removed as it was not found on disk or in memory
+22/09/20 22:23:43 WARN BlockManager: Putting block rdd_2_103 failed
+22/09/20 22:23:43 WARN MemoryStore: Not enough space to cache rdd_2_102 in memory! (computed 7.7 MiB so far)
+22/09/20 22:23:43 WARN BlockManager: Block rdd_2_102 could not be removed as it was not found on disk or in memory
+22/09/20 22:23:43 WARN BlockManager: Putting block rdd_2_102 failed
+22/09/20 22:23:43 WARN BlockManager: Block rdd_2_100 could not be removed as it was not found on disk or in memory
+22/09/20 22:23:43 WARN BlockManager: Putting block rdd_2_100 failed
+22/09/20 22:23:43 WARN MemoryStore: Not enough space to cache rdd_2_99 in memory! (computed 11.7 MiB so far)
+22/09/20 22:23:43 WARN BlockManager: Block rdd_2_99 could not be removed as it was not found on disk or in memory
+22/09/20 22:23:43 WARN BlockManager: Putting block rdd_2_99 failed
+22/09/20 22:23:44 WARN MemoryStore: Not enough space to cache rdd_2_104 in memory! (computed 11.7 MiB so far)
+22/09/20 22:23:44 WARN BlockManager: Block rdd_2_104 could not be removed as it was not found on disk or in memory
+22/09/20 22:23:44 WARN BlockManager: Putting block rdd_2_104 failed
+22/09/20 22:23:44 WARN MemoryStore: Not enough space to cache rdd_2_106 in memory! (computed 4.7 MiB so far)
+22/09/20 22:23:44 WARN BlockManager: Block rdd_2_106 could not be removed as it was not found on disk or in memory
+22/09/20 22:23:44 WARN BlockManager: Putting block rdd_2_106 failed
+22/09/20 22:23:45 WARN MemoryStore: Not enough space to cache rdd_2_107 in memory! (computed 4.8 MiB so far)
+22/09/20 22:23:46 WARN BlockManager: Block rdd_2_107 could not be removed as it was not found on disk or in memory
+22/09/20 22:23:46 WARN BlockManager: Putting block rdd_2_107 failed
+22/09/20 22:23:46 WARN MemoryStore: Not enough space to cache rdd_2_108 in memory! (computed 2.7 MiB so far)
+22/09/20 22:23:46 WARN BlockManager: Block rdd_2_108 could not be removed as it was not found on disk or in memory
+22/09/20 22:23:46 WARN BlockManager: Putting block rdd_2_108 failed
+22/09/20 22:23:46 WARN MemoryStore: Not enough space to cache rdd_2_111 in memory! (computed 1711.0 KiB so far)
+22/09/20 22:23:46 WARN BlockManager: Block rdd_2_111 could not be removed as it was not found on disk or in memory
+22/09/20 22:23:46 WARN BlockManager: Putting block rdd_2_111 failed
+22/09/20 22:23:46 WARN MemoryStore: Not enough space to cache rdd_2_110 in memory! (computed 2.8 MiB so far)
+22/09/20 22:23:46 WARN BlockManager: Block rdd_2_110 could not be removed as it was not found on disk or in memory
+22/09/20 22:23:46 WARN BlockManager: Putting block rdd_2_110 failed
+22/09/20 22:23:46 WARN MemoryStore: Not enough space to cache rdd_2_105 in memory! (computed 17.8 MiB so far)
+22/09/20 22:23:46 WARN BlockManager: Block rdd_2_105 could not be removed as it was not found on disk or in memory
+22/09/20 22:23:46 WARN BlockManager: Putting block rdd_2_105 failed
+22/09/20 22:23:47 WARN MemoryStore: Not enough space to cache rdd_2_114 in memory! (computed 2.7 MiB so far)
+22/09/20 22:23:47 WARN BlockManager: Block rdd_2_114 could not be removed as it was not found on disk or in memory
+22/09/20 22:23:47 WARN BlockManager: Putting block rdd_2_114 failed
+22/09/20 22:23:47 WARN MemoryStore: Not enough space to cache rdd_2_109 in memory! (computed 12.2 MiB so far)
+22/09/20 22:23:47 WARN BlockManager: Block rdd_2_109 could not be removed as it was not found on disk or in memory
+22/09/20 22:23:47 WARN BlockManager: Putting block rdd_2_109 failed
+22/09/20 22:23:47 WARN MemoryStore: Not enough space to cache rdd_2_113 in memory! (computed 4.7 MiB so far)
+22/09/20 22:23:47 WARN BlockManager: Block rdd_2_113 could not be removed as it was not found on disk or in memory
+22/09/20 22:23:47 WARN BlockManager: Putting block rdd_2_113 failed
+22/09/20 22:23:48 WARN MemoryStore: Failed to reserve initial memory threshold of 1024.0 KiB for computing block rdd_2_118 in memory.
+22/09/20 22:23:48 WARN MemoryStore: Not enough space to cache rdd_2_118 in memory! (computed 0.0 B so far)
+22/09/20 22:23:48 WARN BlockManager: Block rdd_2_118 could not be removed as it was not found on disk or in memory
+22/09/20 22:23:48 WARN BlockManager: Putting block rdd_2_118 failed
+22/09/20 22:23:48 WARN MemoryStore: Not enough space to cache rdd_2_116 in memory! (computed 1730.2 KiB so far)
+22/09/20 22:23:48 WARN BlockManager: Block rdd_2_116 could not be removed as it was not found on disk or in memory
+22/09/20 22:23:48 WARN BlockManager: Putting block rdd_2_116 failed
+22/09/20 22:23:48 WARN MemoryStore: Not enough space to cache rdd_2_115 in memory! (computed 1775.3 KiB so far)
+22/09/20 22:23:48 WARN BlockManager: Block rdd_2_115 could not be removed as it was not found on disk or in memory
+22/09/20 22:23:48 WARN BlockManager: Putting block rdd_2_115 failed
+22/09/20 22:23:49 WARN MemoryStore: Not enough space to cache rdd_2_117 in memory! (computed 4.8 MiB so far)
+22/09/20 22:23:49 WARN BlockManager: Block rdd_2_117 could not be removed as it was not found on disk or in memory
+22/09/20 22:23:49 WARN BlockManager: Putting block rdd_2_117 failed
+22/09/20 22:23:49 WARN MemoryStore: Not enough space to cache rdd_2_119 in memory! (computed 4.7 MiB so far)
+22/09/20 22:23:49 WARN BlockManager: Block rdd_2_119 could not be removed as it was not found on disk or in memory
+22/09/20 22:23:49 WARN BlockManager: Putting block rdd_2_119 failed
+22/09/20 22:23:49 WARN MemoryStore: Not enough space to cache rdd_2_121 in memory! (computed 1709.5 KiB so far)
+22/09/20 22:23:49 WARN BlockManager: Block rdd_2_121 could not be removed as it was not found on disk or in memory
+22/09/20 22:23:49 WARN BlockManager: Putting block rdd_2_121 failed
+22/09/20 22:23:49 WARN MemoryStore: Not enough space to cache rdd_2_122 in memory! (computed 1753.8 KiB so far)
+22/09/20 22:23:49 WARN BlockManager: Block rdd_2_122 could not be removed as it was not found on disk or in memory
+22/09/20 22:23:49 WARN BlockManager: Putting block rdd_2_122 failed
+22/09/20 22:23:50 WARN MemoryStore: Not enough space to cache rdd_2_120 in memory! (computed 7.7 MiB so far)
+22/09/20 22:23:50 WARN BlockManager: Block rdd_2_120 could not be removed as it was not found on disk or in memory
+22/09/20 22:23:50 WARN BlockManager: Putting block rdd_2_120 failed
+22/09/20 22:23:52 WARN MemoryStore: Not enough space to cache rdd_2_123 in memory! (computed 2.7 MiB so far)
+22/09/20 22:23:52 WARN BlockManager: Block rdd_2_123 could not be removed as it was not found on disk or in memory
+22/09/20 22:23:52 WARN BlockManager: Putting block rdd_2_123 failed
+22/09/20 22:23:52 WARN MemoryStore: Not enough space to cache rdd_2_124 in memory! (computed 2.7 MiB so far)
+22/09/20 22:23:52 WARN BlockManager: Block rdd_2_124 could not be removed as it was not found on disk or in memory
+22/09/20 22:23:52 WARN BlockManager: Putting block rdd_2_124 failed
+22/09/20 22:23:52 WARN MemoryStore: Failed to reserve initial memory threshold of 1024.0 KiB for computing block rdd_2_127 in memory.
+22/09/20 22:23:52 WARN MemoryStore: Not enough space to cache rdd_2_127 in memory! (computed 0.0 B so far)
+22/09/20 22:23:52 WARN BlockManager: Block rdd_2_127 could not be removed as it was not found on disk or in memory
+22/09/20 22:23:52 WARN BlockManager: Putting block rdd_2_127 failed
+22/09/20 22:23:52 WARN MemoryStore: Not enough space to cache rdd_2_125 in memory! (computed 4.9 MiB so far)
+22/09/20 22:23:52 WARN BlockManager: Block rdd_2_125 could not be removed as it was not found on disk or in memory
+22/09/20 22:23:52 WARN BlockManager: Putting block rdd_2_125 failed
+22/09/20 22:23:52 WARN MemoryStore: Failed to reserve initial memory threshold of 1024.0 KiB for computing block rdd_2_129 in memory.
+22/09/20 22:23:52 WARN MemoryStore: Not enough space to cache rdd_2_129 in memory! (computed 0.0 B so far)
+22/09/20 22:23:52 WARN BlockManager: Block rdd_2_129 could not be removed as it was not found on disk or in memory
+22/09/20 22:23:52 WARN BlockManager: Putting block rdd_2_129 failed
+22/09/20 22:23:52 WARN MemoryStore: Not enough space to cache rdd_2_128 in memory! (computed 1755.3 KiB so far)
+22/09/20 22:23:52 WARN BlockManager: Block rdd_2_128 could not be removed as it was not found on disk or in memory
+22/09/20 22:23:52 WARN BlockManager: Putting block rdd_2_128 failed
+22/09/20 22:23:52 WARN MemoryStore: Not enough space to cache rdd_2_130 in memory! (computed 1710.6 KiB so far)
+22/09/20 22:23:52 WARN BlockManager: Block rdd_2_130 could not be removed as it was not found on disk or in memory
+22/09/20 22:23:52 WARN BlockManager: Putting block rdd_2_130 failed
+22/09/20 22:23:53 WARN MemoryStore: Not enough space to cache rdd_2_126 in memory! (computed 8.1 MiB so far)
+22/09/20 22:23:53 WARN BlockManager: Block rdd_2_126 could not be removed as it was not found on disk or in memory
+22/09/20 22:23:53 WARN BlockManager: Putting block rdd_2_126 failed
+22/09/20 22:23:54 WARN MemoryStore: Not enough space to cache rdd_2_133 in memory! (computed 1752.0 KiB so far)
+22/09/20 22:23:54 WARN BlockManager: Block rdd_2_133 could not be removed as it was not found on disk or in memory
+22/09/20 22:23:54 WARN BlockManager: Putting block rdd_2_133 failed
+22/09/20 22:23:54 WARN MemoryStore: Failed to reserve initial memory threshold of 1024.0 KiB for computing block rdd_2_135 in memory.
+22/09/20 22:23:54 WARN MemoryStore: Not enough space to cache rdd_2_135 in memory! (computed 0.0 B so far)
+22/09/20 22:23:54 WARN BlockManager: Block rdd_2_135 could not be removed as it was not found on disk or in memory
+22/09/20 22:23:54 WARN BlockManager: Putting block rdd_2_135 failed
+22/09/20 22:23:55 WARN MemoryStore: Not enough space to cache rdd_2_131 in memory! (computed 4.8 MiB so far)
+22/09/20 22:23:55 WARN BlockManager: Block rdd_2_131 could not be removed as it was not found on disk or in memory
+22/09/20 22:23:55 WARN BlockManager: Putting block rdd_2_131 failed
+22/09/20 22:23:55 WARN MemoryStore: Not enough space to cache rdd_2_132 in memory! (computed 2.7 MiB so far)
+22/09/20 22:23:55 WARN BlockManager: Block rdd_2_132 could not be removed as it was not found on disk or in memory
+22/09/20 22:23:55 WARN BlockManager: Putting block rdd_2_132 failed
+22/09/20 22:23:55 WARN MemoryStore: Not enough space to cache rdd_2_134 in memory! (computed 4.7 MiB so far)
+22/09/20 22:23:55 WARN BlockManager: Block rdd_2_134 could not be removed as it was not found on disk or in memory
+22/09/20 22:23:55 WARN BlockManager: Putting block rdd_2_134 failed
+22/09/20 22:23:55 WARN MemoryStore: Failed to reserve initial memory threshold of 1024.0 KiB for computing block rdd_2_138 in memory.
+22/09/20 22:23:55 WARN MemoryStore: Not enough space to cache rdd_2_138 in memory! (computed 0.0 B so far)
+22/09/20 22:23:55 WARN BlockManager: Block rdd_2_138 could not be removed as it was not found on disk or in memory
+22/09/20 22:23:55 WARN BlockManager: Putting block rdd_2_138 failed
+22/09/20 22:23:55 WARN MemoryStore: Not enough space to cache rdd_2_137 in memory! (computed 2.7 MiB so far)
+22/09/20 22:23:55 WARN BlockManager: Block rdd_2_137 could not be removed as it was not found on disk or in memory
+22/09/20 22:23:55 WARN BlockManager: Putting block rdd_2_137 failed
+22/09/20 22:23:56 WARN MemoryStore: Not enough space to cache rdd_2_136 in memory! (computed 7.8 MiB so far)
+22/09/20 22:23:56 WARN BlockManager: Block rdd_2_136 could not be removed as it was not found on disk or in memory
+22/09/20 22:23:56 WARN BlockManager: Putting block rdd_2_136 failed
+22/09/20 22:23:57 WARN MemoryStore: Not enough space to cache rdd_2_140 in memory! (computed 1754.2 KiB so far)
+22/09/20 22:23:57 WARN BlockManager: Block rdd_2_140 could not be removed as it was not found on disk or in memory
+22/09/20 22:23:57 WARN BlockManager: Putting block rdd_2_140 failed
+22/09/20 22:23:57 WARN MemoryStore: Not enough space to cache rdd_2_141 in memory! (computed 1817.2 KiB so far)
+22/09/20 22:23:57 WARN BlockManager: Block rdd_2_141 could not be removed as it was not found on disk or in memory
+22/09/20 22:23:57 WARN BlockManager: Putting block rdd_2_141 failed
+22/09/20 22:23:58 WARN MemoryStore: Not enough space to cache rdd_2_142 in memory! (computed 1839.5 KiB so far)
+22/09/20 22:23:58 WARN BlockManager: Block rdd_2_142 could not be removed as it was not found on disk or in memory
+22/09/20 22:23:58 WARN BlockManager: Putting block rdd_2_142 failed
+22/09/20 22:23:58 WARN MemoryStore: Not enough space to cache rdd_2_139 in memory! (computed 7.9 MiB so far)
+22/09/20 22:23:58 WARN BlockManager: Block rdd_2_139 could not be removed as it was not found on disk or in memory
+22/09/20 22:23:58 WARN BlockManager: Putting block rdd_2_139 failed
+22/09/20 22:23:58 WARN MemoryStore: Not enough space to cache rdd_2_145 in memory! (computed 1711.0 KiB so far)
+22/09/20 22:23:58 WARN BlockManager: Block rdd_2_145 could not be removed as it was not found on disk or in memory
+22/09/20 22:23:58 WARN BlockManager: Putting block rdd_2_145 failed
+22/09/20 22:23:58 WARN MemoryStore: Not enough space to cache rdd_2_144 in memory! (computed 2.7 MiB so far)
+22/09/20 22:23:58 WARN BlockManager: Block rdd_2_144 could not be removed as it was not found on disk or in memory
+22/09/20 22:23:58 WARN BlockManager: Putting block rdd_2_144 failed
+22/09/20 22:23:58 WARN MemoryStore: Not enough space to cache rdd_2_143 in memory! (computed 5.0 MiB so far)
+22/09/20 22:23:58 WARN BlockManager: Block rdd_2_143 could not be removed as it was not found on disk or in memory
+22/09/20 22:23:58 WARN BlockManager: Putting block rdd_2_143 failed
+22/09/20 22:23:59 WARN MemoryStore: Not enough space to cache rdd_2_146 in memory! (computed 7.7 MiB so far)
+22/09/20 22:23:59 WARN BlockManager: Block rdd_2_146 could not be removed as it was not found on disk or in memory
+22/09/20 22:23:59 WARN BlockManager: Putting block rdd_2_146 failed
+22/09/20 22:24:00 WARN MemoryStore: Not enough space to cache rdd_2_147 in memory! (computed 4.7 MiB so far)
+22/09/20 22:24:00 WARN BlockManager: Block rdd_2_147 could not be removed as it was not found on disk or in memory
+22/09/20 22:24:00 WARN BlockManager: Putting block rdd_2_147 failed
+22/09/20 22:24:00 WARN MemoryStore: Not enough space to cache rdd_2_149 in memory! (computed 1733.7 KiB so far)
+22/09/20 22:24:00 WARN BlockManager: Block rdd_2_149 could not be removed as it was not found on disk or in memory
+22/09/20 22:24:00 WARN BlockManager: Putting block rdd_2_149 failed
+22/09/20 22:24:01 WARN MemoryStore: Not enough space to cache rdd_2_150 in memory! (computed 1731.4 KiB so far)
+22/09/20 22:24:01 WARN BlockManager: Block rdd_2_150 could not be removed as it was not found on disk or in memory
+22/09/20 22:24:01 WARN BlockManager: Putting block rdd_2_150 failed
+22/09/20 22:24:01 WARN MemoryStore: Not enough space to cache rdd_2_148 in memory! (computed 7.7 MiB so far)
+22/09/20 22:24:01 WARN BlockManager: Block rdd_2_148 could not be removed as it was not found on disk or in memory
+22/09/20 22:24:01 WARN BlockManager: Putting block rdd_2_148 failed
+22/09/20 22:24:01 WARN MemoryStore: Not enough space to cache rdd_2_152 in memory! (computed 2.7 MiB so far)
+22/09/20 22:24:01 WARN BlockManager: Block rdd_2_152 could not be removed as it was not found on disk or in memory
+22/09/20 22:24:01 WARN BlockManager: Putting block rdd_2_152 failed
+22/09/20 22:24:01 WARN MemoryStore: Not enough space to cache rdd_2_153 in memory! (computed 1710.6 KiB so far)
+22/09/20 22:24:01 WARN BlockManager: Block rdd_2_153 could not be removed as it was not found on disk or in memory
+22/09/20 22:24:01 WARN BlockManager: Putting block rdd_2_153 failed
+22/09/20 22:24:01 WARN MemoryStore: Not enough space to cache rdd_2_151 in memory! (computed 4.7 MiB so far)
+22/09/20 22:24:01 WARN BlockManager: Block rdd_2_151 could not be removed as it was not found on disk or in memory
+22/09/20 22:24:01 WARN BlockManager: Putting block rdd_2_151 failed
+22/09/20 22:24:02 WARN MemoryStore: Not enough space to cache rdd_2_154 in memory! (computed 7.8 MiB so far)
+22/09/20 22:24:02 WARN BlockManager: Block rdd_2_154 could not be removed as it was not found on disk or in memory
+22/09/20 22:24:02 WARN BlockManager: Putting block rdd_2_154 failed
+22/09/20 22:24:02 WARN MemoryStore: Not enough space to cache rdd_2_155 in memory! (computed 1753.6 KiB so far)
+22/09/20 22:24:02 WARN BlockManager: Block rdd_2_155 could not be removed as it was not found on disk or in memory
+22/09/20 22:24:02 WARN BlockManager: Putting block rdd_2_155 failed
+22/09/20 22:24:02 WARN MemoryStore: Not enough space to cache rdd_2_156 in memory! (computed 1732.9 KiB so far)
+22/09/20 22:24:02 WARN BlockManager: Block rdd_2_156 could not be removed as it was not found on disk or in memory
+22/09/20 22:24:02 WARN BlockManager: Putting block rdd_2_156 failed
+22/09/20 22:24:04 WARN MemoryStore: Not enough space to cache rdd_2_159 in memory! (computed 1815.6 KiB so far)
+22/09/20 22:24:04 WARN BlockManager: Block rdd_2_159 could not be removed as it was not found on disk or in memory
+22/09/20 22:24:04 WARN BlockManager: Putting block rdd_2_159 failed
+22/09/20 22:24:04 WARN MemoryStore: Not enough space to cache rdd_2_157 in memory! (computed 4.9 MiB so far)
+22/09/20 22:24:04 WARN BlockManager: Block rdd_2_157 could not be removed as it was not found on disk or in memory
+22/09/20 22:24:04 WARN BlockManager: Putting block rdd_2_157 failed
+22/09/20 22:24:04 WARN MemoryStore: Not enough space to cache rdd_2_158 in memory! (computed 8.0 MiB so far)
+22/09/20 22:24:04 WARN BlockManager: Block rdd_2_158 could not be removed as it was not found on disk or in memory
+22/09/20 22:24:04 WARN BlockManager: Putting block rdd_2_158 failed
+22/09/20 22:24:13 WARN MemoryStore: Not enough space to cache rdd_2_96 in memory! (computed 1685.3 KiB so far)
+22/09/20 22:24:13 WARN BlockManager: Block rdd_2_96 could not be removed as it was not found on disk or in memory
+22/09/20 22:24:13 WARN BlockManager: Putting block rdd_2_96 failed
+22/09/20 22:24:14 WARN MemoryStore: Not enough space to cache rdd_2_93 in memory! (computed 2.8 MiB so far)
+22/09/20 22:24:14 WARN BlockManager: Block rdd_2_93 could not be removed as it was not found on disk or in memory
+22/09/20 22:24:14 WARN BlockManager: Putting block rdd_2_93 failed
+22/09/20 22:24:14 WARN MemoryStore: Not enough space to cache rdd_2_92 in memory! (computed 2.8 MiB so far)
+22/09/20 22:24:14 WARN BlockManager: Block rdd_2_92 could not be removed as it was not found on disk or in memory
+22/09/20 22:24:14 WARN BlockManager: Putting block rdd_2_92 failed
+22/09/20 22:24:14 WARN MemoryStore: Not enough space to cache rdd_2_98 in memory! (computed 1706.7 KiB so far)
+22/09/20 22:24:14 WARN BlockManager: Block rdd_2_98 could not be removed as it was not found on disk or in memory
+22/09/20 22:24:14 WARN BlockManager: Putting block rdd_2_98 failed
+22/09/20 22:24:14 WARN MemoryStore: Not enough space to cache rdd_2_99 in memory! (computed 1731.3 KiB so far)
+22/09/20 22:24:14 WARN BlockManager: Block rdd_2_99 could not be removed as it was not found on disk or in memory
+22/09/20 22:24:14 WARN BlockManager: Putting block rdd_2_99 failed
+22/09/20 22:24:14 WARN MemoryStore: Not enough space to cache rdd_2_100 in memory! (computed 2.6 MiB so far)
+22/09/20 22:24:14 WARN BlockManager: Block rdd_2_100 could not be removed as it was not found on disk or in memory
+22/09/20 22:24:14 WARN BlockManager: Putting block rdd_2_100 failed
+22/09/20 22:24:14 WARN MemoryStore: Not enough space to cache rdd_2_97 in memory! (computed 4.6 MiB so far)
+22/09/20 22:24:14 WARN BlockManager: Block rdd_2_97 could not be removed as it was not found on disk or in memory
+22/09/20 22:24:14 WARN BlockManager: Putting block rdd_2_97 failed
+22/09/20 22:24:15 WARN MemoryStore: Not enough space to cache rdd_2_102 in memory! (computed 7.7 MiB so far)
+22/09/20 22:24:15 WARN BlockManager: Block rdd_2_102 could not be removed as it was not found on disk or in memory
+22/09/20 22:24:15 WARN BlockManager: Putting block rdd_2_102 failed
+22/09/20 22:24:17 WARN MemoryStore: Not enough space to cache rdd_2_105 in memory! (computed 1756.1 KiB so far)
+22/09/20 22:24:17 WARN BlockManager: Block rdd_2_105 could not be removed as it was not found on disk or in memory
+22/09/20 22:24:17 WARN BlockManager: Putting block rdd_2_105 failed
+22/09/20 22:24:17 WARN MemoryStore: Not enough space to cache rdd_2_104 in memory! (computed 2.7 MiB so far)
+22/09/20 22:24:17 WARN MemoryStore: Not enough space to cache rdd_2_106 in memory! (computed 1711.2 KiB so far)
+22/09/20 22:24:17 WARN BlockManager: Block rdd_2_104 could not be removed as it was not found on disk or in memory
+22/09/20 22:24:17 WARN BlockManager: Putting block rdd_2_104 failed
+22/09/20 22:24:17 WARN BlockManager: Block rdd_2_106 could not be removed as it was not found on disk or in memory
+22/09/20 22:24:17 WARN BlockManager: Putting block rdd_2_106 failed
+22/09/20 22:24:17 WARN MemoryStore: Not enough space to cache rdd_2_107 in memory! (computed 1732.6 KiB so far)
+22/09/20 22:24:17 WARN BlockManager: Block rdd_2_107 could not be removed as it was not found on disk or in memory
+22/09/20 22:24:17 WARN BlockManager: Putting block rdd_2_107 failed
+22/09/20 22:24:17 WARN MemoryStore: Failed to reserve initial memory threshold of 1024.0 KiB for computing block rdd_2_109 in memory.
+22/09/20 22:24:17 WARN MemoryStore: Not enough space to cache rdd_2_109 in memory! (computed 0.0 B so far)
+22/09/20 22:24:17 WARN BlockManager: Block rdd_2_109 could not be removed as it was not found on disk or in memory
+22/09/20 22:24:17 WARN BlockManager: Putting block rdd_2_109 failed
+22/09/20 22:24:17 WARN MemoryStore: Not enough space to cache rdd_2_108 in memory! (computed 1709.5 KiB so far)
+22/09/20 22:24:17 WARN BlockManager: Block rdd_2_108 could not be removed as it was not found on disk or in memory
+22/09/20 22:24:17 WARN BlockManager: Putting block rdd_2_108 failed
+22/09/20 22:24:17 WARN MemoryStore: Not enough space to cache rdd_2_110 in memory! (computed 1817.5 KiB so far)
+22/09/20 22:24:17 WARN BlockManager: Block rdd_2_110 could not be removed as it was not found on disk or in memory
+22/09/20 22:24:17 WARN BlockManager: Putting block rdd_2_110 failed
+22/09/20 22:24:17 WARN MemoryStore: Not enough space to cache rdd_2_103 in memory! (computed 7.6 MiB so far)
+22/09/20 22:24:17 WARN BlockManager: Block rdd_2_103 could not be removed as it was not found on disk or in memory
+22/09/20 22:24:17 WARN BlockManager: Putting block rdd_2_103 failed
+22/09/20 22:24:19 WARN MemoryStore: Not enough space to cache rdd_2_113 in memory! (computed 1731.9 KiB so far)
+22/09/20 22:24:19 WARN BlockManager: Block rdd_2_113 could not be removed as it was not found on disk or in memory
+22/09/20 22:24:19 WARN BlockManager: Putting block rdd_2_113 failed
+22/09/20 22:24:19 WARN MemoryStore: Not enough space to cache rdd_2_114 in memory! (computed 1730.2 KiB so far)
+22/09/20 22:24:19 WARN BlockManager: Block rdd_2_114 could not be removed as it was not found on disk or in memory
+22/09/20 22:24:19 WARN BlockManager: Putting block rdd_2_114 failed
+22/09/20 22:24:19 WARN MemoryStore: Not enough space to cache rdd_2_111 in memory! (computed 7.7 MiB so far)
+22/09/20 22:24:19 WARN BlockManager: Block rdd_2_111 could not be removed as it was not found on disk or in memory
+22/09/20 22:24:19 WARN BlockManager: Putting block rdd_2_111 failed
+22/09/20 22:24:19 WARN MemoryStore: Not enough space to cache rdd_2_115 in memory! (computed 2.7 MiB so far)
+22/09/20 22:24:19 WARN BlockManager: Block rdd_2_115 could not be removed as it was not found on disk or in memory
+22/09/20 22:24:19 WARN BlockManager: Putting block rdd_2_115 failed
+22/09/20 22:24:19 WARN MemoryStore: Not enough space to cache rdd_2_117 in memory! (computed 1773.9 KiB so far)
+22/09/20 22:24:19 WARN BlockManager: Block rdd_2_117 could not be removed as it was not found on disk or in memory
+22/09/20 22:24:19 WARN BlockManager: Putting block rdd_2_117 failed
+22/09/20 22:24:19 WARN MemoryStore: Not enough space to cache rdd_2_118 in memory! (computed 1753.7 KiB so far)
+22/09/20 22:24:19 WARN BlockManager: Block rdd_2_118 could not be removed as it was not found on disk or in memory
+22/09/20 22:24:19 WARN BlockManager: Putting block rdd_2_118 failed
+22/09/20 22:24:20 WARN MemoryStore: Not enough space to cache rdd_2_116 in memory! (computed 4.7 MiB so far)
+22/09/20 22:24:20 WARN BlockManager: Block rdd_2_116 could not be removed as it was not found on disk or in memory
+22/09/20 22:24:20 WARN BlockManager: Putting block rdd_2_116 failed
+22/09/20 22:24:20 WARN MemoryStore: Not enough space to cache rdd_2_119 in memory! (computed 7.7 MiB so far)
+22/09/20 22:24:20 WARN BlockManager: Block rdd_2_119 could not be removed as it was not found on disk or in memory
+22/09/20 22:24:20 WARN BlockManager: Putting block rdd_2_119 failed
+22/09/20 22:24:22 WARN MemoryStore: Not enough space to cache rdd_2_120 in memory! (computed 4.7 MiB so far)
+22/09/20 22:24:22 WARN BlockManager: Block rdd_2_120 could not be removed as it was not found on disk or in memory
+22/09/20 22:24:22 WARN BlockManager: Putting block rdd_2_120 failed
+22/09/20 22:24:22 WARN MemoryStore: Failed to reserve initial memory threshold of 1024.0 KiB for computing block rdd_2_123 in memory.
+22/09/20 22:24:22 WARN MemoryStore: Not enough space to cache rdd_2_123 in memory! (computed 0.0 B so far)
+22/09/20 22:24:22 WARN BlockManager: Block rdd_2_123 could not be removed as it was not found on disk or in memory
+22/09/20 22:24:22 WARN BlockManager: Putting block rdd_2_123 failed
+22/09/20 22:24:22 WARN MemoryStore: Not enough space to cache rdd_2_122 in memory! (computed 1753.8 KiB so far)
+22/09/20 22:24:22 WARN BlockManager: Block rdd_2_122 could not be removed as it was not found on disk or in memory
+22/09/20 22:24:22 WARN BlockManager: Putting block rdd_2_122 failed
+22/09/20 22:24:22 WARN MemoryStore: Not enough space to cache rdd_2_124 in memory! (computed 1754.6 KiB so far)
+22/09/20 22:24:22 WARN BlockManager: Block rdd_2_124 could not be removed as it was not found on disk or in memory
+22/09/20 22:24:22 WARN BlockManager: Putting block rdd_2_124 failed
+22/09/20 22:24:22 WARN MemoryStore: Not enough space to cache rdd_2_125 in memory! (computed 1795.9 KiB so far)
+22/09/20 22:24:22 WARN BlockManager: Block rdd_2_125 could not be removed as it was not found on disk or in memory
+22/09/20 22:24:22 WARN BlockManager: Putting block rdd_2_125 failed
+22/09/20 22:24:22 WARN MemoryStore: Not enough space to cache rdd_2_121 in memory! (computed 7.7 MiB so far)
+22/09/20 22:24:22 WARN BlockManager: Block rdd_2_121 could not be removed as it was not found on disk or in memory
+22/09/20 22:24:22 WARN BlockManager: Putting block rdd_2_121 failed
+22/09/20 22:24:23 WARN MemoryStore: Not enough space to cache rdd_2_127 in memory! (computed 5.0 MiB so far)
+22/09/20 22:24:23 WARN BlockManager: Block rdd_2_127 could not be removed as it was not found on disk or in memory
+22/09/20 22:24:23 WARN BlockManager: Putting block rdd_2_127 failed
+22/09/20 22:24:23 WARN MemoryStore: Not enough space to cache rdd_2_126 in memory! (computed 8.1 MiB so far)
+22/09/20 22:24:23 WARN BlockManager: Block rdd_2_126 could not be removed as it was not found on disk or in memory
+22/09/20 22:24:23 WARN BlockManager: Putting block rdd_2_126 failed
+22/09/20 22:24:24 WARN MemoryStore: Not enough space to cache rdd_2_128 in memory! (computed 4.7 MiB so far)
+22/09/20 22:24:24 WARN BlockManager: Block rdd_2_128 could not be removed as it was not found on disk or in memory
+22/09/20 22:24:24 WARN BlockManager: Putting block rdd_2_128 failed
+22/09/20 22:24:25 WARN MemoryStore: Not enough space to cache rdd_2_129 in memory! (computed 4.7 MiB so far)
+22/09/20 22:24:25 WARN BlockManager: Block rdd_2_129 could not be removed as it was not found on disk or in memory
+22/09/20 22:24:25 WARN BlockManager: Putting block rdd_2_129 failed
+22/09/20 22:24:25 WARN MemoryStore: Not enough space to cache rdd_2_131 in memory! (computed 1753.7 KiB so far)
+22/09/20 22:24:25 WARN BlockManager: Block rdd_2_131 could not be removed as it was not found on disk or in memory
+22/09/20 22:24:25 WARN BlockManager: Putting block rdd_2_131 failed
+22/09/20 22:24:25 WARN MemoryStore: Not enough space to cache rdd_2_132 in memory! (computed 1733.4 KiB so far)
+22/09/20 22:24:25 WARN BlockManager: Block rdd_2_132 could not be removed as it was not found on disk or in memory
+22/09/20 22:24:25 WARN BlockManager: Putting block rdd_2_132 failed
+22/09/20 22:24:25 WARN MemoryStore: Not enough space to cache rdd_2_130 in memory! (computed 7.8 MiB so far)
+22/09/20 22:24:25 WARN BlockManager: Block rdd_2_130 could not be removed as it was not found on disk or in memory
+22/09/20 22:24:25 WARN BlockManager: Putting block rdd_2_130 failed
+22/09/20 22:24:25 WARN MemoryStore: Failed to reserve initial memory threshold of 1024.0 KiB for computing block rdd_2_135 in memory.
+22/09/20 22:24:25 WARN MemoryStore: Not enough space to cache rdd_2_135 in memory! (computed 0.0 B so far)
+22/09/20 22:24:25 WARN BlockManager: Block rdd_2_135 could not be removed as it was not found on disk or in memory
+22/09/20 22:24:25 WARN BlockManager: Putting block rdd_2_135 failed
+22/09/20 22:24:25 WARN MemoryStore: Not enough space to cache rdd_2_133 in memory! (computed 1752.0 KiB so far)
+22/09/20 22:24:25 WARN BlockManager: Block rdd_2_133 could not be removed as it was not found on disk or in memory
+22/09/20 22:24:25 WARN BlockManager: Putting block rdd_2_133 failed
+22/09/20 22:24:26 WARN MemoryStore: Not enough space to cache rdd_2_134 in memory! (computed 7.8 MiB so far)
+22/09/20 22:24:26 WARN BlockManager: Block rdd_2_134 could not be removed as it was not found on disk or in memory
+22/09/20 22:24:26 WARN BlockManager: Putting block rdd_2_134 failed
+22/09/20 22:24:27 WARN MemoryStore: Not enough space to cache rdd_2_136 in memory! (computed 4.8 MiB so far)
+22/09/20 22:24:27 WARN BlockManager: Block rdd_2_136 could not be removed as it was not found on disk or in memory
+22/09/20 22:24:27 WARN BlockManager: Putting block rdd_2_136 failed
+22/09/20 22:24:27 WARN MemoryStore: Not enough space to cache rdd_2_138 in memory! (computed 1755.0 KiB so far)
+22/09/20 22:24:27 WARN BlockManager: Block rdd_2_138 could not be removed as it was not found on disk or in memory
+22/09/20 22:24:27 WARN BlockManager: Putting block rdd_2_138 failed
+22/09/20 22:24:28 WARN MemoryStore: Not enough space to cache rdd_2_139 in memory! (computed 1795.4 KiB so far)
+22/09/20 22:24:28 WARN BlockManager: Block rdd_2_139 could not be removed as it was not found on disk or in memory
+22/09/20 22:24:28 WARN BlockManager: Putting block rdd_2_139 failed
+22/09/20 22:24:28 WARN MemoryStore: Not enough space to cache rdd_2_137 in memory! (computed 7.8 MiB so far)
+22/09/20 22:24:28 WARN BlockManager: Block rdd_2_137 could not be removed as it was not found on disk or in memory
+22/09/20 22:24:28 WARN BlockManager: Putting block rdd_2_137 failed
+22/09/20 22:24:28 WARN MemoryStore: Failed to reserve initial memory threshold of 1024.0 KiB for computing block rdd_2_143 in memory.
+22/09/20 22:24:28 WARN MemoryStore: Not enough space to cache rdd_2_143 in memory! (computed 0.0 B so far)
+22/09/20 22:24:28 WARN BlockManager: Block rdd_2_143 could not be removed as it was not found on disk or in memory
+22/09/20 22:24:28 WARN BlockManager: Putting block rdd_2_143 failed
+22/09/20 22:24:28 WARN MemoryStore: Not enough space to cache rdd_2_141 in memory! (computed 2.8 MiB so far)
+22/09/20 22:24:28 WARN BlockManager: Block rdd_2_141 could not be removed as it was not found on disk or in memory
+22/09/20 22:24:28 WARN BlockManager: Putting block rdd_2_141 failed
+22/09/20 22:24:28 WARN MemoryStore: Not enough space to cache rdd_2_142 in memory! (computed 2.8 MiB so far)
+22/09/20 22:24:28 WARN BlockManager: Block rdd_2_142 could not be removed as it was not found on disk or in memory
+22/09/20 22:24:28 WARN BlockManager: Putting block rdd_2_142 failed
+22/09/20 22:24:29 WARN MemoryStore: Not enough space to cache rdd_2_140 in memory! (computed 4.8 MiB so far)
+22/09/20 22:24:29 WARN BlockManager: Block rdd_2_140 could not be removed as it was not found on disk or in memory
+22/09/20 22:24:29 WARN BlockManager: Putting block rdd_2_140 failed
+22/09/20 22:24:30 WARN MemoryStore: Not enough space to cache rdd_2_144 in memory! (computed 4.7 MiB so far)
+22/09/20 22:24:30 WARN BlockManager: Block rdd_2_144 could not be removed as it was not found on disk or in memory
+22/09/20 22:24:30 WARN BlockManager: Putting block rdd_2_144 failed
+22/09/20 22:24:30 WARN MemoryStore: Not enough space to cache rdd_2_146 in memory! (computed 1731.0 KiB so far)
+22/09/20 22:24:30 WARN BlockManager: Block rdd_2_146 could not be removed as it was not found on disk or in memory
+22/09/20 22:24:30 WARN BlockManager: Putting block rdd_2_146 failed
+22/09/20 22:24:31 WARN MemoryStore: Not enough space to cache rdd_2_147 in memory! (computed 2.7 MiB so far)
+22/09/20 22:24:31 WARN BlockManager: Block rdd_2_147 could not be removed as it was not found on disk or in memory
+22/09/20 22:24:31 WARN BlockManager: Putting block rdd_2_147 failed
+22/09/20 22:24:31 WARN MemoryStore: Failed to reserve initial memory threshold of 1024.0 KiB for computing block rdd_2_148 in memory.
+22/09/20 22:24:31 WARN MemoryStore: Not enough space to cache rdd_2_148 in memory! (computed 0.0 B so far)
+22/09/20 22:24:31 WARN BlockManager: Block rdd_2_148 could not be removed as it was not found on disk or in memory
+22/09/20 22:24:31 WARN BlockManager: Putting block rdd_2_148 failed
+22/09/20 22:24:31 WARN MemoryStore: Not enough space to cache rdd_2_145 in memory! (computed 7.7 MiB so far)
+22/09/20 22:24:31 WARN BlockManager: Block rdd_2_145 could not be removed as it was not found on disk or in memory
+22/09/20 22:24:31 WARN BlockManager: Putting block rdd_2_145 failed
+22/09/20 22:24:31 WARN MemoryStore: Not enough space to cache rdd_2_150 in memory! (computed 1731.4 KiB so far)
+22/09/20 22:24:31 WARN MemoryStore: Not enough space to cache rdd_2_149 in memory! (computed 1733.7 KiB so far)
+22/09/20 22:24:31 WARN BlockManager: Block rdd_2_150 could not be removed as it was not found on disk or in memory
+22/09/20 22:24:31 WARN BlockManager: Putting block rdd_2_150 failed
+22/09/20 22:24:31 WARN BlockManager: Block rdd_2_149 could not be removed as it was not found on disk or in memory
+22/09/20 22:24:31 WARN BlockManager: Putting block rdd_2_149 failed
+22/09/20 22:24:32 WARN MemoryStore: Not enough space to cache rdd_2_152 in memory! (computed 1730.3 KiB so far)
+22/09/20 22:24:32 WARN BlockManager: Block rdd_2_152 could not be removed as it was not found on disk or in memory
+22/09/20 22:24:32 WARN BlockManager: Putting block rdd_2_152 failed
+22/09/20 22:24:33 WARN MemoryStore: Not enough space to cache rdd_2_151 in memory! (computed 7.7 MiB so far)
+22/09/20 22:24:33 WARN BlockManager: Block rdd_2_151 could not be removed as it was not found on disk or in memory
+22/09/20 22:24:33 WARN BlockManager: Putting block rdd_2_151 failed
+22/09/20 22:24:33 WARN MemoryStore: Not enough space to cache rdd_2_153 in memory! (computed 4.7 MiB so far)
+22/09/20 22:24:33 WARN BlockManager: Block rdd_2_153 could not be removed as it was not found on disk or in memory
+22/09/20 22:24:33 WARN BlockManager: Putting block rdd_2_153 failed
+22/09/20 22:24:33 WARN MemoryStore: Not enough space to cache rdd_2_155 in memory! (computed 1753.6 KiB so far)
+22/09/20 22:24:33 WARN BlockManager: Block rdd_2_155 could not be removed as it was not found on disk or in memory
+22/09/20 22:24:33 WARN BlockManager: Putting block rdd_2_155 failed
+22/09/20 22:24:34 WARN MemoryStore: Not enough space to cache rdd_2_154 in memory! (computed 7.8 MiB so far)
+22/09/20 22:24:34 WARN BlockManager: Block rdd_2_154 could not be removed as it was not found on disk or in memory
+22/09/20 22:24:34 WARN BlockManager: Putting block rdd_2_154 failed
+22/09/20 22:24:34 WARN MemoryStore: Not enough space to cache rdd_2_156 in memory! (computed 1732.9 KiB so far)
+22/09/20 22:24:34 WARN BlockManager: Block rdd_2_156 could not be removed as it was not found on disk or in memory
+22/09/20 22:24:34 WARN BlockManager: Putting block rdd_2_156 failed
+22/09/20 22:24:34 WARN MemoryStore: Not enough space to cache rdd_2_157 in memory! (computed 4.9 MiB so far)
+22/09/20 22:24:34 WARN BlockManager: Block rdd_2_157 could not be removed as it was not found on disk or in memory
+22/09/20 22:24:34 WARN BlockManager: Putting block rdd_2_157 failed
+22/09/20 22:24:34 WARN MemoryStore: Not enough space to cache rdd_2_159 in memory! (computed 1815.6 KiB so far)
+22/09/20 22:24:34 WARN BlockManager: Block rdd_2_159 could not be removed as it was not found on disk or in memory
+22/09/20 22:24:34 WARN BlockManager: Putting block rdd_2_159 failed
+22/09/20 22:24:35 WARN MemoryStore: Not enough space to cache rdd_2_158 in memory! (computed 8.0 MiB so far)
+22/09/20 22:24:35 WARN BlockManager: Block rdd_2_158 could not be removed as it was not found on disk or in memory
+22/09/20 22:24:35 WARN BlockManager: Putting block rdd_2_158 failed
+22/09/20 22:25:06 WARN MemoryStore: Not enough space to cache rdd_2_96 in memory! (computed 1685.3 KiB so far)
+22/09/20 22:25:06 WARN BlockManager: Block rdd_2_96 could not be removed as it was not found on disk or in memory
+22/09/20 22:25:06 WARN BlockManager: Putting block rdd_2_96 failed
+22/09/20 22:25:06 WARN MemoryStore: Not enough space to cache rdd_2_92 in memory! (computed 4.8 MiB so far)
+22/09/20 22:25:06 WARN BlockManager: Block rdd_2_92 could not be removed as it was not found on disk or in memory
+22/09/20 22:25:06 WARN BlockManager: Putting block rdd_2_92 failed
+22/09/20 22:25:06 WARN MemoryStore: Not enough space to cache rdd_2_93 in memory! (computed 5.0 MiB so far)
+22/09/20 22:25:06 WARN BlockManager: Block rdd_2_93 could not be removed as it was not found on disk or in memory
+22/09/20 22:25:06 WARN BlockManager: Putting block rdd_2_93 failed
+22/09/20 22:25:07 WARN MemoryStore: Not enough space to cache rdd_2_97 in memory! (computed 4.6 MiB so far)
+22/09/20 22:25:07 WARN BlockManager: Block rdd_2_97 could not be removed as it was not found on disk or in memory
+22/09/20 22:25:07 WARN BlockManager: Putting block rdd_2_97 failed
+22/09/20 22:25:08 WARN MemoryStore: Failed to reserve initial memory threshold of 1024.0 KiB for computing block rdd_2_102 in memory.
+22/09/20 22:25:08 WARN MemoryStore: Not enough space to cache rdd_2_102 in memory! (computed 0.0 B so far)
+22/09/20 22:25:08 WARN BlockManager: Block rdd_2_102 could not be removed as it was not found on disk or in memory
+22/09/20 22:25:08 WARN BlockManager: Putting block rdd_2_102 failed
+22/09/20 22:25:08 WARN MemoryStore: Not enough space to cache rdd_2_100 in memory! (computed 1687.9 KiB so far)
+22/09/20 22:25:08 WARN BlockManager: Block rdd_2_100 could not be removed as it was not found on disk or in memory
+22/09/20 22:25:08 WARN BlockManager: Putting block rdd_2_100 failed
+22/09/20 22:25:08 WARN MemoryStore: Not enough space to cache rdd_2_99 in memory! (computed 4.7 MiB so far)
+22/09/20 22:25:08 WARN BlockManager: Block rdd_2_99 could not be removed as it was not found on disk or in memory
+22/09/20 22:25:08 WARN BlockManager: Putting block rdd_2_99 failed
+22/09/20 22:25:08 WARN MemoryStore: Not enough space to cache rdd_2_98 in memory! (computed 4.7 MiB so far)
+22/09/20 22:25:08 WARN BlockManager: Block rdd_2_98 could not be removed as it was not found on disk or in memory
+22/09/20 22:25:08 WARN BlockManager: Putting block rdd_2_98 failed
+22/09/20 22:25:11 WARN MemoryStore: Not enough space to cache rdd_2_103 in memory! (computed 4.6 MiB so far)
+22/09/20 22:25:11 WARN BlockManager: Block rdd_2_103 could not be removed as it was not found on disk or in memory
+22/09/20 22:25:11 WARN BlockManager: Putting block rdd_2_103 failed
+22/09/20 22:25:11 WARN MemoryStore: Not enough space to cache rdd_2_105 in memory! (computed 1756.1 KiB so far)
+22/09/20 22:25:11 WARN BlockManager: Block rdd_2_105 could not be removed as it was not found on disk or in memory
+22/09/20 22:25:11 WARN BlockManager: Putting block rdd_2_105 failed
+22/09/20 22:25:11 WARN MemoryStore: Not enough space to cache rdd_2_104 in memory! (computed 7.7 MiB so far)
+22/09/20 22:25:11 WARN BlockManager: Block rdd_2_104 could not be removed as it was not found on disk or in memory
+22/09/20 22:25:11 WARN BlockManager: Putting block rdd_2_104 failed
+22/09/20 22:25:11 WARN MemoryStore: Not enough space to cache rdd_2_106 in memory! (computed 1711.2 KiB so far)
+22/09/20 22:25:11 WARN BlockManager: Block rdd_2_106 could not be removed as it was not found on disk or in memory
+22/09/20 22:25:11 WARN BlockManager: Putting block rdd_2_106 failed
+22/09/20 22:25:12 WARN MemoryStore: Not enough space to cache rdd_2_107 in memory! (computed 4.8 MiB so far)
+22/09/20 22:25:12 WARN BlockManager: Block rdd_2_107 could not be removed as it was not found on disk or in memory
+22/09/20 22:25:12 WARN BlockManager: Putting block rdd_2_107 failed
+22/09/20 22:25:12 WARN MemoryStore: Not enough space to cache rdd_2_108 in memory! (computed 2.7 MiB so far)
+22/09/20 22:25:12 WARN BlockManager: Block rdd_2_108 could not be removed as it was not found on disk or in memory
+22/09/20 22:25:12 WARN BlockManager: Putting block rdd_2_108 failed
+22/09/20 22:25:12 WARN MemoryStore: Not enough space to cache rdd_2_109 in memory! (computed 1816.4 KiB so far)
+22/09/20 22:25:12 WARN BlockManager: Block rdd_2_109 could not be removed as it was not found on disk or in memory
+22/09/20 22:25:12 WARN BlockManager: Putting block rdd_2_109 failed
+22/09/20 22:25:13 WARN MemoryStore: Not enough space to cache rdd_2_110 in memory! (computed 8.1 MiB so far)
+22/09/20 22:25:13 WARN BlockManager: Block rdd_2_110 could not be removed as it was not found on disk or in memory
+22/09/20 22:25:13 WARN BlockManager: Putting block rdd_2_110 failed
+22/09/20 22:25:14 WARN MemoryStore: Not enough space to cache rdd_2_111 in memory! (computed 4.7 MiB so far)
+22/09/20 22:25:14 WARN BlockManager: Block rdd_2_111 could not be removed as it was not found on disk or in memory
+22/09/20 22:25:14 WARN BlockManager: Putting block rdd_2_111 failed
+22/09/20 22:25:15 WARN MemoryStore: Not enough space to cache rdd_2_114 in memory! (computed 1730.2 KiB so far)
+22/09/20 22:25:15 WARN BlockManager: Block rdd_2_114 could not be removed as it was not found on disk or in memory
+22/09/20 22:25:15 WARN BlockManager: Putting block rdd_2_114 failed
+22/09/20 22:25:15 WARN MemoryStore: Not enough space to cache rdd_2_113 in memory! (computed 7.6 MiB so far)
+22/09/20 22:25:15 WARN BlockManager: Block rdd_2_113 could not be removed as it was not found on disk or in memory
+22/09/20 22:25:15 WARN BlockManager: Putting block rdd_2_113 failed
+22/09/20 22:25:15 WARN MemoryStore: Not enough space to cache rdd_2_115 in memory! (computed 1775.3 KiB so far)
+22/09/20 22:25:15 WARN BlockManager: Block rdd_2_115 could not be removed as it was not found on disk or in memory
+22/09/20 22:25:15 WARN BlockManager: Putting block rdd_2_115 failed
+22/09/20 22:25:16 WARN MemoryStore: Not enough space to cache rdd_2_116 in memory! (computed 4.7 MiB so far)
+22/09/20 22:25:16 WARN BlockManager: Block rdd_2_116 could not be removed as it was not found on disk or in memory
+22/09/20 22:25:16 WARN BlockManager: Putting block rdd_2_116 failed
+22/09/20 22:25:16 WARN MemoryStore: Not enough space to cache rdd_2_119 in memory! (computed 2.7 MiB so far)
+22/09/20 22:25:16 WARN BlockManager: Block rdd_2_119 could not be removed as it was not found on disk or in memory
+22/09/20 22:25:16 WARN BlockManager: Putting block rdd_2_119 failed
+22/09/20 22:25:16 WARN MemoryStore: Not enough space to cache rdd_2_117 in memory! (computed 4.8 MiB so far)
+22/09/20 22:25:16 WARN BlockManager: Block rdd_2_117 could not be removed as it was not found on disk or in memory
+22/09/20 22:25:16 WARN BlockManager: Putting block rdd_2_117 failed
+22/09/20 22:25:16 WARN MemoryStore: Not enough space to cache rdd_2_118 in memory! (computed 4.7 MiB so far)
+22/09/20 22:25:16 WARN BlockManager: Block rdd_2_118 could not be removed as it was not found on disk or in memory
+22/09/20 22:25:16 WARN BlockManager: Putting block rdd_2_118 failed
+22/09/20 22:25:18 WARN MemoryStore: Not enough space to cache rdd_2_120 in memory! (computed 4.7 MiB so far)
+22/09/20 22:25:18 WARN BlockManager: Block rdd_2_120 could not be removed as it was not found on disk or in memory
+22/09/20 22:25:18 WARN BlockManager: Putting block rdd_2_120 failed
+22/09/20 22:25:18 WARN MemoryStore: Not enough space to cache rdd_2_122 in memory! (computed 4.8 MiB so far)
+22/09/20 22:25:18 WARN BlockManager: Block rdd_2_122 could not be removed as it was not found on disk or in memory
+22/09/20 22:25:18 WARN BlockManager: Putting block rdd_2_122 failed
+22/09/20 22:25:18 WARN MemoryStore: Failed to reserve initial memory threshold of 1024.0 KiB for computing block rdd_2_124 in memory.
+22/09/20 22:25:18 WARN MemoryStore: Not enough space to cache rdd_2_124 in memory! (computed 0.0 B so far)
+22/09/20 22:25:18 WARN BlockManager: Block rdd_2_124 could not be removed as it was not found on disk or in memory
+22/09/20 22:25:18 WARN BlockManager: Putting block rdd_2_124 failed
+22/09/20 22:25:18 WARN MemoryStore: Not enough space to cache rdd_2_121 in memory! (computed 7.7 MiB so far)
+22/09/20 22:25:18 WARN BlockManager: Block rdd_2_121 could not be removed as it was not found on disk or in memory
+22/09/20 22:25:18 WARN BlockManager: Putting block rdd_2_121 failed
+22/09/20 22:25:19 WARN MemoryStore: Failed to reserve initial memory threshold of 1024.0 KiB for computing block rdd_2_125 in memory.
+22/09/20 22:25:19 WARN MemoryStore: Not enough space to cache rdd_2_125 in memory! (computed 0.0 B so far)
+22/09/20 22:25:19 WARN BlockManager: Block rdd_2_125 could not be removed as it was not found on disk or in memory
+22/09/20 22:25:19 WARN BlockManager: Putting block rdd_2_125 failed
+22/09/20 22:25:19 WARN MemoryStore: Not enough space to cache rdd_2_123 in memory! (computed 2.7 MiB so far)
+22/09/20 22:25:19 WARN BlockManager: Block rdd_2_123 could not be removed as it was not found on disk or in memory
+22/09/20 22:25:19 WARN BlockManager: Putting block rdd_2_123 failed
+22/09/20 22:25:20 WARN MemoryStore: Not enough space to cache rdd_2_126 in memory! (computed 5.0 MiB so far)
+22/09/20 22:25:20 WARN BlockManager: Block rdd_2_126 could not be removed as it was not found on disk or in memory
+22/09/20 22:25:20 WARN BlockManager: Putting block rdd_2_126 failed
+22/09/20 22:25:20 WARN MemoryStore: Not enough space to cache rdd_2_127 in memory! (computed 5.0 MiB so far)
+22/09/20 22:25:20 WARN BlockManager: Block rdd_2_127 could not be removed as it was not found on disk or in memory
+22/09/20 22:25:20 WARN BlockManager: Putting block rdd_2_127 failed
+22/09/20 22:25:21 WARN MemoryStore: Not enough space to cache rdd_2_129 in memory! (computed 1753.7 KiB so far)
+22/09/20 22:25:21 WARN BlockManager: Block rdd_2_129 could not be removed as it was not found on disk or in memory
+22/09/20 22:25:21 WARN BlockManager: Putting block rdd_2_129 failed
+22/09/20 22:25:21 WARN MemoryStore: Not enough space to cache rdd_2_128 in memory! (computed 7.8 MiB so far)
+22/09/20 22:25:21 WARN BlockManager: Block rdd_2_128 could not be removed as it was not found on disk or in memory
+22/09/20 22:25:21 WARN BlockManager: Putting block rdd_2_128 failed
+22/09/20 22:25:21 WARN MemoryStore: Not enough space to cache rdd_2_131 in memory! (computed 4.8 MiB so far)
+22/09/20 22:25:21 WARN BlockManager: Block rdd_2_131 could not be removed as it was not found on disk or in memory
+22/09/20 22:25:21 WARN BlockManager: Putting block rdd_2_131 failed
+22/09/20 22:25:21 WARN MemoryStore: Not enough space to cache rdd_2_132 in memory! (computed 1733.4 KiB so far)
+22/09/20 22:25:21 WARN BlockManager: Block rdd_2_132 could not be removed as it was not found on disk or in memory
+22/09/20 22:25:21 WARN BlockManager: Putting block rdd_2_132 failed
+22/09/20 22:25:22 WARN MemoryStore: Not enough space to cache rdd_2_133 in memory! (computed 1752.0 KiB so far)
+22/09/20 22:25:22 WARN BlockManager: Block rdd_2_133 could not be removed as it was not found on disk or in memory
+22/09/20 22:25:22 WARN BlockManager: Putting block rdd_2_133 failed
+22/09/20 22:25:22 WARN MemoryStore: Not enough space to cache rdd_2_130 in memory! (computed 7.8 MiB so far)
+22/09/20 22:25:22 WARN BlockManager: Block rdd_2_130 could not be removed as it was not found on disk or in memory
+22/09/20 22:25:22 WARN BlockManager: Putting block rdd_2_130 failed
+22/09/20 22:25:22 WARN MemoryStore: Not enough space to cache rdd_2_134 in memory! (computed 4.7 MiB so far)
+22/09/20 22:25:22 WARN BlockManager: Block rdd_2_134 could not be removed as it was not found on disk or in memory
+22/09/20 22:25:22 WARN BlockManager: Putting block rdd_2_134 failed
+22/09/20 22:25:22 WARN MemoryStore: Not enough space to cache rdd_2_135 in memory! (computed 4.7 MiB so far)
+22/09/20 22:25:22 WARN BlockManager: Block rdd_2_135 could not be removed as it was not found on disk or in memory
+22/09/20 22:25:22 WARN BlockManager: Putting block rdd_2_135 failed
+22/09/20 22:25:23 WARN MemoryStore: Not enough space to cache rdd_2_137 in memory! (computed 4.8 MiB so far)
+22/09/20 22:25:23 WARN BlockManager: Block rdd_2_137 could not be removed as it was not found on disk or in memory
+22/09/20 22:25:23 WARN BlockManager: Putting block rdd_2_137 failed
+22/09/20 22:25:24 WARN MemoryStore: Not enough space to cache rdd_2_136 in memory! (computed 7.8 MiB so far)
+22/09/20 22:25:24 WARN BlockManager: Block rdd_2_136 could not be removed as it was not found on disk or in memory
+22/09/20 22:25:24 WARN BlockManager: Putting block rdd_2_136 failed
+22/09/20 22:25:24 WARN MemoryStore: Not enough space to cache rdd_2_138 in memory! (computed 4.8 MiB so far)
+22/09/20 22:25:24 WARN BlockManager: Block rdd_2_138 could not be removed as it was not found on disk or in memory
+22/09/20 22:25:24 WARN BlockManager: Putting block rdd_2_138 failed
+22/09/20 22:25:24 WARN MemoryStore: Not enough space to cache rdd_2_140 in memory! (computed 4.8 MiB so far)
+22/09/20 22:25:24 WARN MemoryStore: Failed to reserve initial memory threshold of 1024.0 KiB for computing block rdd_2_142 in memory.
+22/09/20 22:25:24 WARN MemoryStore: Not enough space to cache rdd_2_142 in memory! (computed 0.0 B so far)
+22/09/20 22:25:24 WARN BlockManager: Block rdd_2_142 could not be removed as it was not found on disk or in memory
+22/09/20 22:25:24 WARN BlockManager: Putting block rdd_2_142 failed
+22/09/20 22:25:24 WARN MemoryStore: Not enough space to cache rdd_2_139 in memory! (computed 4.8 MiB so far)
+22/09/20 22:25:24 WARN BlockManager: Block rdd_2_139 could not be removed as it was not found on disk or in memory
+22/09/20 22:25:24 WARN BlockManager: Putting block rdd_2_139 failed
+22/09/20 22:25:24 WARN BlockManager: Block rdd_2_140 could not be removed as it was not found on disk or in memory
+22/09/20 22:25:24 WARN BlockManager: Putting block rdd_2_140 failed
+22/09/20 22:25:25 WARN MemoryStore: Not enough space to cache rdd_2_141 in memory! (computed 4.9 MiB so far)
+22/09/20 22:25:25 WARN BlockManager: Block rdd_2_141 could not be removed as it was not found on disk or in memory
+22/09/20 22:25:25 WARN BlockManager: Putting block rdd_2_141 failed
+22/09/20 22:25:25 WARN MemoryStore: Not enough space to cache rdd_2_143 in memory! (computed 8.2 MiB so far)
+22/09/20 22:25:25 WARN BlockManager: Block rdd_2_143 could not be removed as it was not found on disk or in memory
+22/09/20 22:25:25 WARN BlockManager: Putting block rdd_2_143 failed
+22/09/20 22:25:26 WARN MemoryStore: Not enough space to cache rdd_2_144 in memory! (computed 4.7 MiB so far)
+22/09/20 22:25:26 WARN BlockManager: Block rdd_2_144 could not be removed as it was not found on disk or in memory
+22/09/20 22:25:26 WARN BlockManager: Putting block rdd_2_144 failed
+22/09/20 22:25:26 WARN MemoryStore: Not enough space to cache rdd_2_145 in memory! (computed 7.7 MiB so far)
+22/09/20 22:25:26 WARN BlockManager: Block rdd_2_145 could not be removed as it was not found on disk or in memory
+22/09/20 22:25:26 WARN BlockManager: Putting block rdd_2_145 failed
+22/09/20 22:25:27 WARN MemoryStore: Not enough space to cache rdd_2_146 in memory! (computed 4.7 MiB so far)
+22/09/20 22:25:27 WARN BlockManager: Block rdd_2_146 could not be removed as it was not found on disk or in memory
+22/09/20 22:25:27 WARN BlockManager: Putting block rdd_2_146 failed
+22/09/20 22:25:27 WARN MemoryStore: Not enough space to cache rdd_2_149 in memory! (computed 1733.7 KiB so far)
+22/09/20 22:25:27 WARN BlockManager: Block rdd_2_149 could not be removed as it was not found on disk or in memory
+22/09/20 22:25:27 WARN BlockManager: Putting block rdd_2_149 failed
+22/09/20 22:25:27 WARN MemoryStore: Failed to reserve initial memory threshold of 1024.0 KiB for computing block rdd_2_150 in memory.
+22/09/20 22:25:27 WARN MemoryStore: Not enough space to cache rdd_2_150 in memory! (computed 0.0 B so far)
+22/09/20 22:25:27 WARN BlockManager: Block rdd_2_150 could not be removed as it was not found on disk or in memory
+22/09/20 22:25:27 WARN BlockManager: Putting block rdd_2_150 failed
+22/09/20 22:25:27 WARN MemoryStore: Not enough space to cache rdd_2_147 in memory! (computed 4.7 MiB so far)
+22/09/20 22:25:27 WARN BlockManager: Block rdd_2_147 could not be removed as it was not found on disk or in memory
+22/09/20 22:25:27 WARN BlockManager: Putting block rdd_2_147 failed
+22/09/20 22:25:27 WARN MemoryStore: Not enough space to cache rdd_2_148 in memory! (computed 4.7 MiB so far)
+22/09/20 22:25:27 WARN BlockManager: Block rdd_2_148 could not be removed as it was not found on disk or in memory
+22/09/20 22:25:27 WARN BlockManager: Putting block rdd_2_148 failed
+22/09/20 22:25:28 WARN MemoryStore: Not enough space to cache rdd_2_151 in memory! (computed 7.7 MiB so far)
+22/09/20 22:25:28 WARN BlockManager: Block rdd_2_151 could not be removed as it was not found on disk or in memory
+22/09/20 22:25:28 WARN BlockManager: Putting block rdd_2_151 failed
+22/09/20 22:25:29 WARN MemoryStore: Not enough space to cache rdd_2_153 in memory! (computed 1710.6 KiB so far)
+22/09/20 22:25:29 WARN BlockManager: Block rdd_2_153 could not be removed as it was not found on disk or in memory
+22/09/20 22:25:29 WARN BlockManager: Putting block rdd_2_153 failed
+22/09/20 22:25:29 WARN MemoryStore: Not enough space to cache rdd_2_152 in memory! (computed 7.8 MiB so far)
+22/09/20 22:25:29 WARN BlockManager: Block rdd_2_152 could not be removed as it was not found on disk or in memory
+22/09/20 22:25:29 WARN BlockManager: Putting block rdd_2_152 failed
+22/09/20 22:25:29 WARN MemoryStore: Not enough space to cache rdd_2_155 in memory! (computed 4.8 MiB so far)
+22/09/20 22:25:29 WARN BlockManager: Block rdd_2_155 could not be removed as it was not found on disk or in memory
+22/09/20 22:25:29 WARN BlockManager: Putting block rdd_2_155 failed
+22/09/20 22:25:29 WARN MemoryStore: Not enough space to cache rdd_2_154 in memory! (computed 4.7 MiB so far)
+22/09/20 22:25:29 WARN BlockManager: Block rdd_2_154 could not be removed as it was not found on disk or in memory
+22/09/20 22:25:29 WARN BlockManager: Putting block rdd_2_154 failed
+22/09/20 22:25:29 WARN MemoryStore: Not enough space to cache rdd_2_156 in memory! (computed 1732.9 KiB so far)
+22/09/20 22:25:29 WARN BlockManager: Block rdd_2_156 could not be removed as it was not found on disk or in memory
+22/09/20 22:25:29 WARN BlockManager: Putting block rdd_2_156 failed
+22/09/20 22:25:31 WARN MemoryStore: Not enough space to cache rdd_2_158 in memory! (computed 1797.5 KiB so far)
+22/09/20 22:25:31 WARN BlockManager: Block rdd_2_158 could not be removed as it was not found on disk or in memory
+22/09/20 22:25:31 WARN BlockManager: Putting block rdd_2_158 failed
+22/09/20 22:25:31 WARN MemoryStore: Not enough space to cache rdd_2_157 in memory! (computed 8.1 MiB so far)
+22/09/20 22:25:31 WARN BlockManager: Block rdd_2_157 could not be removed as it was not found on disk or in memory
+22/09/20 22:25:31 WARN BlockManager: Putting block rdd_2_157 failed
+22/09/20 22:25:31 WARN MemoryStore: Not enough space to cache rdd_2_159 in memory! (computed 1815.6 KiB so far)
+22/09/20 22:25:31 WARN BlockManager: Block rdd_2_159 could not be removed as it was not found on disk or in memory
+22/09/20 22:25:31 WARN BlockManager: Putting block rdd_2_159 failed
+22/09/20 22:25:53 WARN MemoryStore: Not enough space to cache rdd_2_96 in memory! (computed 1685.3 KiB so far)
+22/09/20 22:25:53 WARN MemoryStore: Not enough space to cache rdd_2_93 in memory! (computed 2.8 MiB so far)
+22/09/20 22:25:53 WARN BlockManager: Block rdd_2_93 could not be removed as it was not found on disk or in memory
+22/09/20 22:25:53 WARN BlockManager: Putting block rdd_2_93 failed
+22/09/20 22:25:53 WARN MemoryStore: Not enough space to cache rdd_2_92 in memory! (computed 4.8 MiB so far)
+22/09/20 22:25:53 WARN BlockManager: Block rdd_2_92 could not be removed as it was not found on disk or in memory
+22/09/20 22:25:53 WARN BlockManager: Putting block rdd_2_92 failed
+22/09/20 22:25:53 WARN BlockManager: Block rdd_2_96 could not be removed as it was not found on disk or in memory
+22/09/20 22:25:53 WARN BlockManager: Putting block rdd_2_96 failed
+22/09/20 22:25:53 WARN MemoryStore: Not enough space to cache rdd_2_97 in memory! (computed 1705.7 KiB so far)
+22/09/20 22:25:53 WARN BlockManager: Block rdd_2_97 could not be removed as it was not found on disk or in memory
+22/09/20 22:25:53 WARN BlockManager: Putting block rdd_2_97 failed
+22/09/20 22:25:54 WARN MemoryStore: Not enough space to cache rdd_2_98 in memory! (computed 2.7 MiB so far)
+22/09/20 22:25:54 WARN BlockManager: Block rdd_2_98 could not be removed as it was not found on disk or in memory
+22/09/20 22:25:54 WARN BlockManager: Putting block rdd_2_98 failed
+22/09/20 22:25:54 WARN MemoryStore: Not enough space to cache rdd_2_102 in memory! (computed 1772.7 KiB so far)
+22/09/20 22:25:54 WARN BlockManager: Block rdd_2_102 could not be removed as it was not found on disk or in memory
+22/09/20 22:25:54 WARN BlockManager: Putting block rdd_2_102 failed
+22/09/20 22:25:54 WARN MemoryStore: Not enough space to cache rdd_2_99 in memory! (computed 4.7 MiB so far)
+22/09/20 22:25:54 WARN BlockManager: Block rdd_2_99 could not be removed as it was not found on disk or in memory
+22/09/20 22:25:54 WARN BlockManager: Putting block rdd_2_99 failed
+22/09/20 22:25:54 WARN MemoryStore: Not enough space to cache rdd_2_100 in memory! (computed 4.6 MiB so far)
+22/09/20 22:25:54 WARN BlockManager: Block rdd_2_100 could not be removed as it was not found on disk or in memory
+22/09/20 22:25:54 WARN BlockManager: Putting block rdd_2_100 failed
+22/09/20 22:25:57 WARN MemoryStore: Failed to reserve initial memory threshold of 1024.0 KiB for computing block rdd_2_106 in memory.
+22/09/20 22:25:57 WARN MemoryStore: Not enough space to cache rdd_2_106 in memory! (computed 0.0 B so far)
+22/09/20 22:25:57 WARN BlockManager: Block rdd_2_106 could not be removed as it was not found on disk or in memory
+22/09/20 22:25:57 WARN BlockManager: Putting block rdd_2_106 failed
+22/09/20 22:25:57 WARN MemoryStore: Not enough space to cache rdd_2_105 in memory! (computed 1756.1 KiB so far)
+22/09/20 22:25:57 WARN BlockManager: Block rdd_2_105 could not be removed as it was not found on disk or in memory
+22/09/20 22:25:57 WARN BlockManager: Putting block rdd_2_105 failed
+22/09/20 22:25:57 WARN MemoryStore: Not enough space to cache rdd_2_103 in memory! (computed 4.6 MiB so far)
+22/09/20 22:25:57 WARN BlockManager: Block rdd_2_103 could not be removed as it was not found on disk or in memory
+22/09/20 22:25:57 WARN BlockManager: Putting block rdd_2_103 failed
+22/09/20 22:25:57 WARN MemoryStore: Not enough space to cache rdd_2_107 in memory! (computed 1732.6 KiB so far)
+22/09/20 22:25:57 WARN BlockManager: Block rdd_2_107 could not be removed as it was not found on disk or in memory
+22/09/20 22:25:57 WARN BlockManager: Putting block rdd_2_107 failed
+22/09/20 22:25:58 WARN MemoryStore: Failed to reserve initial memory threshold of 1024.0 KiB for computing block rdd_2_110 in memory.
+22/09/20 22:25:58 WARN MemoryStore: Not enough space to cache rdd_2_110 in memory! (computed 0.0 B so far)
+22/09/20 22:25:58 WARN BlockManager: Block rdd_2_110 could not be removed as it was not found on disk or in memory
+22/09/20 22:25:58 WARN BlockManager: Putting block rdd_2_110 failed
+22/09/20 22:25:58 WARN MemoryStore: Not enough space to cache rdd_2_104 in memory! (computed 7.7 MiB so far)
+22/09/20 22:25:58 WARN BlockManager: Block rdd_2_104 could not be removed as it was not found on disk or in memory
+22/09/20 22:25:58 WARN BlockManager: Putting block rdd_2_104 failed
+22/09/20 22:25:58 WARN MemoryStore: Not enough space to cache rdd_2_109 in memory! (computed 1816.4 KiB so far)
+22/09/20 22:25:58 WARN BlockManager: Block rdd_2_109 could not be removed as it was not found on disk or in memory
+22/09/20 22:25:58 WARN BlockManager: Putting block rdd_2_109 failed
+22/09/20 22:25:58 WARN MemoryStore: Not enough space to cache rdd_2_108 in memory! (computed 1709.5 KiB so far)
+22/09/20 22:25:58 WARN BlockManager: Block rdd_2_108 could not be removed as it was not found on disk or in memory
+22/09/20 22:25:58 WARN BlockManager: Putting block rdd_2_108 failed
+22/09/20 22:26:01 WARN MemoryStore: Not enough space to cache rdd_2_113 in memory! (computed 1731.9 KiB so far)
+22/09/20 22:26:01 WARN BlockManager: Block rdd_2_113 could not be removed as it was not found on disk or in memory
+22/09/20 22:26:01 WARN BlockManager: Putting block rdd_2_113 failed
+22/09/20 22:26:01 WARN MemoryStore: Not enough space to cache rdd_2_114 in memory! (computed 1730.2 KiB so far)
+22/09/20 22:26:01 WARN BlockManager: Block rdd_2_114 could not be removed as it was not found on disk or in memory
+22/09/20 22:26:01 WARN BlockManager: Putting block rdd_2_114 failed
+22/09/20 22:26:01 WARN MemoryStore: Not enough space to cache rdd_2_111 in memory! (computed 7.7 MiB so far)
+22/09/20 22:26:01 WARN BlockManager: Block rdd_2_111 could not be removed as it was not found on disk or in memory
+22/09/20 22:26:01 WARN BlockManager: Putting block rdd_2_111 failed
+22/09/20 22:26:01 WARN MemoryStore: Not enough space to cache rdd_2_115 in memory! (computed 1775.3 KiB so far)
+22/09/20 22:26:01 WARN BlockManager: Block rdd_2_115 could not be removed as it was not found on disk or in memory
+22/09/20 22:26:01 WARN BlockManager: Putting block rdd_2_115 failed
+22/09/20 22:26:02 WARN MemoryStore: Not enough space to cache rdd_2_116 in memory! (computed 1730.2 KiB so far)
+22/09/20 22:26:02 WARN BlockManager: Block rdd_2_116 could not be removed as it was not found on disk or in memory
+22/09/20 22:26:02 WARN BlockManager: Putting block rdd_2_116 failed
+22/09/20 22:26:02 WARN MemoryStore: Not enough space to cache rdd_2_118 in memory! (computed 2.7 MiB so far)
+22/09/20 22:26:02 WARN BlockManager: Block rdd_2_118 could not be removed as it was not found on disk or in memory
+22/09/20 22:26:02 WARN BlockManager: Putting block rdd_2_118 failed
+22/09/20 22:26:02 WARN MemoryStore: Not enough space to cache rdd_2_117 in memory! (computed 4.8 MiB so far)
+22/09/20 22:26:02 WARN BlockManager: Block rdd_2_117 could not be removed as it was not found on disk or in memory
+22/09/20 22:26:02 WARN BlockManager: Putting block rdd_2_117 failed
+22/09/20 22:26:03 WARN MemoryStore: Not enough space to cache rdd_2_119 in memory! (computed 7.7 MiB so far)
+22/09/20 22:26:03 WARN BlockManager: Block rdd_2_119 could not be removed as it was not found on disk or in memory
+22/09/20 22:26:03 WARN BlockManager: Putting block rdd_2_119 failed
+22/09/20 22:26:05 WARN MemoryStore: Not enough space to cache rdd_2_120 in memory! (computed 4.7 MiB so far)
+22/09/20 22:26:05 WARN BlockManager: Block rdd_2_120 could not be removed as it was not found on disk or in memory
+22/09/20 22:26:05 WARN BlockManager: Putting block rdd_2_120 failed
+22/09/20 22:26:05 WARN MemoryStore: Not enough space to cache rdd_2_122 in memory! (computed 1753.8 KiB so far)
+22/09/20 22:26:05 WARN BlockManager: Block rdd_2_122 could not be removed as it was not found on disk or in memory
+22/09/20 22:26:05 WARN BlockManager: Putting block rdd_2_122 failed
+22/09/20 22:26:05 WARN MemoryStore: Not enough space to cache rdd_2_121 in memory! (computed 4.7 MiB so far)
+22/09/20 22:26:05 WARN BlockManager: Block rdd_2_121 could not be removed as it was not found on disk or in memory
+22/09/20 22:26:05 WARN BlockManager: Putting block rdd_2_121 failed
+22/09/20 22:26:06 WARN MemoryStore: Not enough space to cache rdd_2_123 in memory! (computed 4.7 MiB so far)
+22/09/20 22:26:06 WARN BlockManager: Block rdd_2_123 could not be removed as it was not found on disk or in memory
+22/09/20 22:26:06 WARN BlockManager: Putting block rdd_2_123 failed
+22/09/20 22:26:06 WARN MemoryStore: Not enough space to cache rdd_2_124 in memory! (computed 1754.6 KiB so far)
+22/09/20 22:26:06 WARN BlockManager: Block rdd_2_124 could not be removed as it was not found on disk or in memory
+22/09/20 22:26:06 WARN BlockManager: Putting block rdd_2_124 failed
+22/09/20 22:26:06 WARN MemoryStore: Not enough space to cache rdd_2_125 in memory! (computed 1795.9 KiB so far)
+22/09/20 22:26:06 WARN BlockManager: Block rdd_2_125 could not be removed as it was not found on disk or in memory
+22/09/20 22:26:06 WARN BlockManager: Putting block rdd_2_125 failed
+22/09/20 22:26:07 WARN MemoryStore: Not enough space to cache rdd_2_127 in memory! (computed 1794.3 KiB so far)
+22/09/20 22:26:07 WARN BlockManager: Block rdd_2_127 could not be removed as it was not found on disk or in memory
+22/09/20 22:26:07 WARN BlockManager: Putting block rdd_2_127 failed
+22/09/20 22:26:07 WARN MemoryStore: Not enough space to cache rdd_2_126 in memory! (computed 8.1 MiB so far)
+22/09/20 22:26:07 WARN BlockManager: Block rdd_2_126 could not be removed as it was not found on disk or in memory
+22/09/20 22:26:07 WARN BlockManager: Putting block rdd_2_126 failed
+22/09/20 22:26:09 WARN MemoryStore: Not enough space to cache rdd_2_128 in memory! (computed 4.7 MiB so far)
+22/09/20 22:26:09 WARN BlockManager: Block rdd_2_128 could not be removed as it was not found on disk or in memory
+22/09/20 22:26:09 WARN BlockManager: Putting block rdd_2_128 failed
+22/09/20 22:26:09 WARN MemoryStore: Not enough space to cache rdd_2_129 in memory! (computed 4.7 MiB so far)
+22/09/20 22:26:09 WARN MemoryStore: Not enough space to cache rdd_2_130 in memory! (computed 4.7 MiB so far)
+22/09/20 22:26:09 WARN BlockManager: Block rdd_2_130 could not be removed as it was not found on disk or in memory
+22/09/20 22:26:09 WARN BlockManager: Putting block rdd_2_130 failed
+22/09/20 22:26:10 WARN BlockManager: Block rdd_2_129 could not be removed as it was not found on disk or in memory
+22/09/20 22:26:10 WARN BlockManager: Putting block rdd_2_129 failed
+22/09/20 22:26:10 WARN MemoryStore: Not enough space to cache rdd_2_133 in memory! (computed 1752.0 KiB so far)
+22/09/20 22:26:10 WARN BlockManager: Block rdd_2_133 could not be removed as it was not found on disk or in memory
+22/09/20 22:26:10 WARN BlockManager: Putting block rdd_2_133 failed
+22/09/20 22:26:10 WARN MemoryStore: Not enough space to cache rdd_2_131 in memory! (computed 4.8 MiB so far)
+22/09/20 22:26:10 WARN BlockManager: Block rdd_2_131 could not be removed as it was not found on disk or in memory
+22/09/20 22:26:10 WARN BlockManager: Putting block rdd_2_131 failed
+22/09/20 22:26:10 WARN MemoryStore: Not enough space to cache rdd_2_132 in memory! (computed 2.7 MiB so far)
+22/09/20 22:26:10 WARN BlockManager: Block rdd_2_132 could not be removed as it was not found on disk or in memory
+22/09/20 22:26:10 WARN BlockManager: Putting block rdd_2_132 failed
+22/09/20 22:26:11 WARN MemoryStore: Not enough space to cache rdd_2_135 in memory! (computed 1730.5 KiB so far)
+22/09/20 22:26:11 WARN BlockManager: Block rdd_2_135 could not be removed as it was not found on disk or in memory
+22/09/20 22:26:11 WARN BlockManager: Putting block rdd_2_135 failed
+22/09/20 22:26:11 WARN MemoryStore: Not enough space to cache rdd_2_134 in memory! (computed 7.8 MiB so far)
+22/09/20 22:26:11 WARN BlockManager: Block rdd_2_134 could not be removed as it was not found on disk or in memory
+22/09/20 22:26:11 WARN BlockManager: Putting block rdd_2_134 failed
+22/09/20 22:26:13 WARN MemoryStore: Not enough space to cache rdd_2_136 in memory! (computed 4.8 MiB so far)
+22/09/20 22:26:13 WARN BlockManager: Block rdd_2_136 could not be removed as it was not found on disk or in memory
+22/09/20 22:26:13 WARN BlockManager: Putting block rdd_2_136 failed
+22/09/20 22:26:13 WARN MemoryStore: Not enough space to cache rdd_2_138 in memory! (computed 1755.0 KiB so far)
+22/09/20 22:26:13 WARN BlockManager: Block rdd_2_138 could not be removed as it was not found on disk or in memory
+22/09/20 22:26:13 WARN BlockManager: Putting block rdd_2_138 failed
+22/09/20 22:26:14 WARN MemoryStore: Not enough space to cache rdd_2_140 in memory! (computed 1754.2 KiB so far)
+22/09/20 22:26:14 WARN BlockManager: Block rdd_2_140 could not be removed as it was not found on disk or in memory
+22/09/20 22:26:14 WARN BlockManager: Putting block rdd_2_140 failed
+22/09/20 22:26:14 WARN MemoryStore: Not enough space to cache rdd_2_141 in memory! (computed 1817.2 KiB so far)
+22/09/20 22:26:14 WARN BlockManager: Block rdd_2_141 could not be removed as it was not found on disk or in memory
+22/09/20 22:26:14 WARN BlockManager: Putting block rdd_2_141 failed
+22/09/20 22:26:14 WARN MemoryStore: Not enough space to cache rdd_2_137 in memory! (computed 4.8 MiB so far)
+22/09/20 22:26:14 WARN BlockManager: Block rdd_2_137 could not be removed as it was not found on disk or in memory
+22/09/20 22:26:14 WARN BlockManager: Putting block rdd_2_137 failed
+22/09/20 22:26:14 WARN MemoryStore: Not enough space to cache rdd_2_139 in memory! (computed 2.8 MiB so far)
+22/09/20 22:26:14 WARN BlockManager: Block rdd_2_139 could not be removed as it was not found on disk or in memory
+22/09/20 22:26:14 WARN BlockManager: Putting block rdd_2_139 failed
+22/09/20 22:26:15 WARN MemoryStore: Not enough space to cache rdd_2_142 in memory! (computed 8.2 MiB so far)
+22/09/20 22:26:15 WARN BlockManager: Block rdd_2_142 could not be removed as it was not found on disk or in memory
+22/09/20 22:26:15 WARN BlockManager: Putting block rdd_2_142 failed
+22/09/20 22:26:15 WARN MemoryStore: Not enough space to cache rdd_2_143 in memory! (computed 1820.9 KiB so far)
+22/09/20 22:26:15 WARN BlockManager: Block rdd_2_143 could not be removed as it was not found on disk or in memory
+22/09/20 22:26:15 WARN BlockManager: Putting block rdd_2_143 failed
+22/09/20 22:26:17 WARN MemoryStore: Failed to reserve initial memory threshold of 1024.0 KiB for computing block rdd_2_147 in memory.
+22/09/20 22:26:17 WARN MemoryStore: Not enough space to cache rdd_2_147 in memory! (computed 0.0 B so far)
+22/09/20 22:26:17 WARN BlockManager: Block rdd_2_147 could not be removed as it was not found on disk or in memory
+22/09/20 22:26:17 WARN BlockManager: Putting block rdd_2_147 failed
+22/09/20 22:26:17 WARN MemoryStore: Failed to reserve initial memory threshold of 1024.0 KiB for computing block rdd_2_148 in memory.
+22/09/20 22:26:17 WARN MemoryStore: Not enough space to cache rdd_2_148 in memory! (computed 0.0 B so far)
+22/09/20 22:26:17 WARN BlockManager: Block rdd_2_148 could not be removed as it was not found on disk or in memory
+22/09/20 22:26:17 WARN BlockManager: Putting block rdd_2_148 failed
+22/09/20 22:26:17 WARN MemoryStore: Not enough space to cache rdd_2_145 in memory! (computed 1711.0 KiB so far)
+22/09/20 22:26:17 WARN BlockManager: Block rdd_2_145 could not be removed as it was not found on disk or in memory
+22/09/20 22:26:17 WARN BlockManager: Putting block rdd_2_145 failed
+22/09/20 22:26:17 WARN MemoryStore: Not enough space to cache rdd_2_146 in memory! (computed 1731.0 KiB so far)
+22/09/20 22:26:17 WARN BlockManager: Block rdd_2_146 could not be removed as it was not found on disk or in memory
+22/09/20 22:26:17 WARN BlockManager: Putting block rdd_2_146 failed
+22/09/20 22:26:17 WARN MemoryStore: Not enough space to cache rdd_2_144 in memory! (computed 7.7 MiB so far)
+22/09/20 22:26:17 WARN BlockManager: Block rdd_2_144 could not be removed as it was not found on disk or in memory
+22/09/20 22:26:17 WARN BlockManager: Putting block rdd_2_144 failed
+22/09/20 22:26:18 WARN MemoryStore: Not enough space to cache rdd_2_149 in memory! (computed 4.7 MiB so far)
+22/09/20 22:26:18 WARN BlockManager: Block rdd_2_149 could not be removed as it was not found on disk or in memory
+22/09/20 22:26:18 WARN BlockManager: Putting block rdd_2_149 failed
+22/09/20 22:26:19 WARN MemoryStore: Not enough space to cache rdd_2_150 in memory! (computed 7.7 MiB so far)
+22/09/20 22:26:19 WARN BlockManager: Block rdd_2_150 could not be removed as it was not found on disk or in memory
+22/09/20 22:26:19 WARN BlockManager: Putting block rdd_2_150 failed
+22/09/20 22:26:20 WARN MemoryStore: Not enough space to cache rdd_2_151 in memory! (computed 7.7 MiB so far)
+22/09/20 22:26:20 WARN BlockManager: Block rdd_2_151 could not be removed as it was not found on disk or in memory
+22/09/20 22:26:20 WARN BlockManager: Putting block rdd_2_151 failed
+22/09/20 22:26:21 WARN MemoryStore: Not enough space to cache rdd_2_152 in memory! (computed 4.7 MiB so far)
+22/09/20 22:26:21 WARN BlockManager: Block rdd_2_152 could not be removed as it was not found on disk or in memory
+22/09/20 22:26:21 WARN BlockManager: Putting block rdd_2_152 failed
+22/09/20 22:26:21 WARN MemoryStore: Not enough space to cache rdd_2_153 in memory! (computed 7.8 MiB so far)
+22/09/20 22:26:21 WARN BlockManager: Block rdd_2_153 could not be removed as it was not found on disk or in memory
+22/09/20 22:26:21 WARN BlockManager: Putting block rdd_2_153 failed
+22/09/20 22:26:21 WARN MemoryStore: Not enough space to cache rdd_2_154 in memory! (computed 1734.0 KiB so far)
+22/09/20 22:26:21 WARN BlockManager: Block rdd_2_154 could not be removed as it was not found on disk or in memory
+22/09/20 22:26:21 WARN BlockManager: Putting block rdd_2_154 failed
+22/09/20 22:26:22 WARN MemoryStore: Not enough space to cache rdd_2_156 in memory! (computed 2.7 MiB so far)
+22/09/20 22:26:22 WARN BlockManager: Block rdd_2_156 could not be removed as it was not found on disk or in memory
+22/09/20 22:26:22 WARN BlockManager: Putting block rdd_2_156 failed
+22/09/20 22:26:22 WARN MemoryStore: Not enough space to cache rdd_2_157 in memory! (computed 1795.1 KiB so far)
+22/09/20 22:26:22 WARN BlockManager: Block rdd_2_157 could not be removed as it was not found on disk or in memory
+22/09/20 22:26:22 WARN BlockManager: Putting block rdd_2_157 failed
+22/09/20 22:26:22 WARN MemoryStore: Not enough space to cache rdd_2_158 in memory! (computed 1797.5 KiB so far)
+22/09/20 22:26:22 WARN BlockManager: Block rdd_2_158 could not be removed as it was not found on disk or in memory
+22/09/20 22:26:22 WARN BlockManager: Putting block rdd_2_158 failed
+22/09/20 22:26:22 WARN MemoryStore: Not enough space to cache rdd_2_155 in memory! (computed 7.8 MiB so far)
+22/09/20 22:26:22 WARN BlockManager: Block rdd_2_155 could not be removed as it was not found on disk or in memory
+22/09/20 22:26:22 WARN BlockManager: Putting block rdd_2_155 failed
+22/09/20 22:26:47 WARN MemoryStore: Failed to reserve initial memory threshold of 1024.0 KiB for computing block rdd_2_93 in memory.
+22/09/20 22:26:47 WARN MemoryStore: Not enough space to cache rdd_2_93 in memory! (computed 0.0 B so far)
+22/09/20 22:26:47 WARN BlockManager: Block rdd_2_93 could not be removed as it was not found on disk or in memory
+22/09/20 22:26:47 WARN BlockManager: Putting block rdd_2_93 failed
+22/09/20 22:26:47 WARN MemoryStore: Failed to reserve initial memory threshold of 1024.0 KiB for computing block rdd_2_96 in memory.
+22/09/20 22:26:47 WARN MemoryStore: Not enough space to cache rdd_2_96 in memory! (computed 0.0 B so far)
+22/09/20 22:26:47 WARN BlockManager: Block rdd_2_96 could not be removed as it was not found on disk or in memory
+22/09/20 22:26:47 WARN BlockManager: Putting block rdd_2_96 failed
+22/09/20 22:26:47 WARN MemoryStore: Not enough space to cache rdd_2_92 in memory! (computed 1755.0 KiB so far)
+22/09/20 22:26:47 WARN BlockManager: Block rdd_2_92 could not be removed as it was not found on disk or in memory
+22/09/20 22:26:47 WARN BlockManager: Putting block rdd_2_92 failed
+22/09/20 22:26:48 WARN MemoryStore: Failed to reserve initial memory threshold of 1024.0 KiB for computing block rdd_2_98 in memory.
+22/09/20 22:26:48 WARN MemoryStore: Not enough space to cache rdd_2_98 in memory! (computed 0.0 B so far)
+22/09/20 22:26:48 WARN MemoryStore: Not enough space to cache rdd_2_97 in memory! (computed 1705.7 KiB so far)
+22/09/20 22:26:48 WARN BlockManager: Block rdd_2_98 could not be removed as it was not found on disk or in memory
+22/09/20 22:26:48 WARN BlockManager: Putting block rdd_2_98 failed
+22/09/20 22:26:48 WARN BlockManager: Block rdd_2_97 could not be removed as it was not found on disk or in memory
+22/09/20 22:26:48 WARN BlockManager: Putting block rdd_2_97 failed
+22/09/20 22:26:48 WARN MemoryStore: Failed to reserve initial memory threshold of 1024.0 KiB for computing block rdd_2_102 in memory.
+22/09/20 22:26:48 WARN MemoryStore: Not enough space to cache rdd_2_102 in memory! (computed 0.0 B so far)
+22/09/20 22:26:48 WARN BlockManager: Block rdd_2_102 could not be removed as it was not found on disk or in memory
+22/09/20 22:26:48 WARN BlockManager: Putting block rdd_2_102 failed
+22/09/20 22:26:48 WARN MemoryStore: Failed to reserve initial memory threshold of 1024.0 KiB for computing block rdd_2_100 in memory.
+22/09/20 22:26:48 WARN MemoryStore: Not enough space to cache rdd_2_100 in memory! (computed 0.0 B so far)
+22/09/20 22:26:48 WARN BlockManager: Block rdd_2_100 could not be removed as it was not found on disk or in memory
+22/09/20 22:26:48 WARN BlockManager: Putting block rdd_2_100 failed
+22/09/20 22:26:48 WARN MemoryStore: Not enough space to cache rdd_2_99 in memory! (computed 1731.3 KiB so far)
+22/09/20 22:26:48 WARN BlockManager: Block rdd_2_99 could not be removed as it was not found on disk or in memory
+22/09/20 22:26:48 WARN BlockManager: Putting block rdd_2_99 failed
+22/09/20 22:26:50 WARN MemoryStore: Failed to reserve initial memory threshold of 1024.0 KiB for computing block rdd_2_104 in memory.
+22/09/20 22:26:50 WARN MemoryStore: Not enough space to cache rdd_2_104 in memory! (computed 0.0 B so far)
+22/09/20 22:26:50 WARN BlockManager: Block rdd_2_104 could not be removed as it was not found on disk or in memory
+22/09/20 22:26:50 WARN BlockManager: Putting block rdd_2_104 failed
+22/09/20 22:26:50 WARN MemoryStore: Not enough space to cache rdd_2_103 in memory! (computed 1687.8 KiB so far)
+22/09/20 22:26:50 WARN BlockManager: Block rdd_2_103 could not be removed as it was not found on disk or in memory
+22/09/20 22:26:50 WARN BlockManager: Putting block rdd_2_103 failed
+22/09/20 22:26:51 WARN MemoryStore: Not enough space to cache rdd_2_105 in memory! (computed 1756.1 KiB so far)
+22/09/20 22:26:51 WARN BlockManager: Block rdd_2_105 could not be removed as it was not found on disk or in memory
+22/09/20 22:26:51 WARN BlockManager: Putting block rdd_2_105 failed
+22/09/20 22:26:51 WARN MemoryStore: Not enough space to cache rdd_2_106 in memory! (computed 1711.2 KiB so far)
+22/09/20 22:26:51 WARN BlockManager: Block rdd_2_106 could not be removed as it was not found on disk or in memory
+22/09/20 22:26:51 WARN BlockManager: Putting block rdd_2_106 failed
+22/09/20 22:26:51 WARN MemoryStore: Failed to reserve initial memory threshold of 1024.0 KiB for computing block rdd_2_108 in memory.
+22/09/20 22:26:51 WARN MemoryStore: Not enough space to cache rdd_2_108 in memory! (computed 0.0 B so far)
+22/09/20 22:26:51 WARN BlockManager: Block rdd_2_108 could not be removed as it was not found on disk or in memory
+22/09/20 22:26:51 WARN BlockManager: Putting block rdd_2_108 failed
+22/09/20 22:26:51 WARN MemoryStore: Failed to reserve initial memory threshold of 1024.0 KiB for computing block rdd_2_109 in memory.
+22/09/20 22:26:51 WARN MemoryStore: Not enough space to cache rdd_2_109 in memory! (computed 0.0 B so far)
+22/09/20 22:26:51 WARN BlockManager: Block rdd_2_109 could not be removed as it was not found on disk or in memory
+22/09/20 22:26:51 WARN BlockManager: Putting block rdd_2_109 failed
+22/09/20 22:26:52 WARN MemoryStore: Failed to reserve initial memory threshold of 1024.0 KiB for computing block rdd_2_110 in memory.
+22/09/20 22:26:52 WARN MemoryStore: Not enough space to cache rdd_2_110 in memory! (computed 0.0 B so far)
+22/09/20 22:26:52 WARN BlockManager: Block rdd_2_110 could not be removed as it was not found on disk or in memory
+22/09/20 22:26:52 WARN BlockManager: Putting block rdd_2_110 failed
+22/09/20 22:26:52 WARN MemoryStore: Not enough space to cache rdd_2_107 in memory! (computed 1732.6 KiB so far)
+22/09/20 22:26:52 WARN BlockManager: Block rdd_2_107 could not be removed as it was not found on disk or in memory
+22/09/20 22:26:52 WARN BlockManager: Putting block rdd_2_107 failed
+22/09/20 22:26:53 WARN MemoryStore: Not enough space to cache rdd_2_111 in memory! (computed 1711.0 KiB so far)
+22/09/20 22:26:53 WARN BlockManager: Block rdd_2_111 could not be removed as it was not found on disk or in memory
+22/09/20 22:26:53 WARN BlockManager: Putting block rdd_2_111 failed
+22/09/20 22:26:54 WARN MemoryStore: Not enough space to cache rdd_2_113 in memory! (computed 1731.9 KiB so far)
+22/09/20 22:26:54 WARN BlockManager: Block rdd_2_113 could not be removed as it was not found on disk or in memory
+22/09/20 22:26:54 WARN BlockManager: Putting block rdd_2_113 failed
+22/09/20 22:26:54 WARN MemoryStore: Not enough space to cache rdd_2_114 in memory! (computed 1730.2 KiB so far)
+22/09/20 22:26:54 WARN BlockManager: Block rdd_2_114 could not be removed as it was not found on disk or in memory
+22/09/20 22:26:54 WARN BlockManager: Putting block rdd_2_114 failed
+22/09/20 22:26:55 WARN MemoryStore: Failed to reserve initial memory threshold of 1024.0 KiB for computing block rdd_2_116 in memory.
+22/09/20 22:26:55 WARN MemoryStore: Not enough space to cache rdd_2_116 in memory! (computed 0.0 B so far)
+22/09/20 22:26:55 WARN BlockManager: Block rdd_2_116 could not be removed as it was not found on disk or in memory
+22/09/20 22:26:55 WARN BlockManager: Putting block rdd_2_116 failed
+22/09/20 22:26:55 WARN MemoryStore: Failed to reserve initial memory threshold of 1024.0 KiB for computing block rdd_2_117 in memory.
+22/09/20 22:26:55 WARN MemoryStore: Not enough space to cache rdd_2_117 in memory! (computed 0.0 B so far)
+22/09/20 22:26:55 WARN BlockManager: Block rdd_2_117 could not be removed as it was not found on disk or in memory
+22/09/20 22:26:55 WARN BlockManager: Putting block rdd_2_117 failed
+22/09/20 22:26:55 WARN MemoryStore: Not enough space to cache rdd_2_115 in memory! (computed 1775.3 KiB so far)
+22/09/20 22:26:55 WARN BlockManager: Block rdd_2_115 could not be removed as it was not found on disk or in memory
+22/09/20 22:26:55 WARN BlockManager: Putting block rdd_2_115 failed
+22/09/20 22:26:55 WARN MemoryStore: Failed to reserve initial memory threshold of 1024.0 KiB for computing block rdd_2_119 in memory.
+22/09/20 22:26:55 WARN MemoryStore: Not enough space to cache rdd_2_119 in memory! (computed 0.0 B so far)
+22/09/20 22:26:55 WARN BlockManager: Block rdd_2_119 could not be removed as it was not found on disk or in memory
+22/09/20 22:26:55 WARN BlockManager: Putting block rdd_2_119 failed
+22/09/20 22:26:56 WARN MemoryStore: Not enough space to cache rdd_2_118 in memory! (computed 1753.7 KiB so far)
+22/09/20 22:26:56 WARN BlockManager: Block rdd_2_118 could not be removed as it was not found on disk or in memory
+22/09/20 22:26:56 WARN BlockManager: Putting block rdd_2_118 failed
+22/09/20 22:26:56 WARN MemoryStore: Not enough space to cache rdd_2_120 in memory! (computed 1711.4 KiB so far)
+22/09/20 22:26:56 WARN BlockManager: Block rdd_2_120 could not be removed as it was not found on disk or in memory
+22/09/20 22:26:56 WARN BlockManager: Putting block rdd_2_120 failed
+22/09/20 22:26:57 WARN MemoryStore: Failed to reserve initial memory threshold of 1024.0 KiB for computing block rdd_2_122 in memory.
+22/09/20 22:26:57 WARN MemoryStore: Not enough space to cache rdd_2_122 in memory! (computed 0.0 B so far)
+22/09/20 22:26:57 WARN BlockManager: Block rdd_2_122 could not be removed as it was not found on disk or in memory
+22/09/20 22:26:57 WARN BlockManager: Putting block rdd_2_122 failed
+22/09/20 22:26:57 WARN MemoryStore: Not enough space to cache rdd_2_121 in memory! (computed 1709.5 KiB so far)
+22/09/20 22:26:57 WARN BlockManager: Block rdd_2_121 could not be removed as it was not found on disk or in memory
+22/09/20 22:26:57 WARN BlockManager: Putting block rdd_2_121 failed
+22/09/20 22:26:58 WARN MemoryStore: Failed to reserve initial memory threshold of 1024.0 KiB for computing block rdd_2_123 in memory.
+22/09/20 22:26:58 WARN MemoryStore: Not enough space to cache rdd_2_123 in memory! (computed 0.0 B so far)
+22/09/20 22:26:58 WARN BlockManager: Block rdd_2_123 could not be removed as it was not found on disk or in memory
+22/09/20 22:26:58 WARN BlockManager: Putting block rdd_2_123 failed
+22/09/20 22:26:58 WARN MemoryStore: Not enough space to cache rdd_2_124 in memory! (computed 1754.6 KiB so far)
+22/09/20 22:26:58 WARN BlockManager: Block rdd_2_124 could not be removed as it was not found on disk or in memory
+22/09/20 22:26:58 WARN BlockManager: Putting block rdd_2_124 failed
+22/09/20 22:26:59 WARN MemoryStore: Not enough space to cache rdd_2_125 in memory! (computed 1795.9 KiB so far)
+22/09/20 22:26:59 WARN BlockManager: Block rdd_2_125 could not be removed as it was not found on disk or in memory
+22/09/20 22:26:59 WARN BlockManager: Putting block rdd_2_125 failed
+22/09/20 22:26:59 WARN MemoryStore: Failed to reserve initial memory threshold of 1024.0 KiB for computing block rdd_2_127 in memory.
+22/09/20 22:26:59 WARN MemoryStore: Not enough space to cache rdd_2_127 in memory! (computed 0.0 B so far)
+22/09/20 22:26:59 WARN BlockManager: Block rdd_2_127 could not be removed as it was not found on disk or in memory
+22/09/20 22:26:59 WARN BlockManager: Putting block rdd_2_127 failed
+22/09/20 22:26:59 WARN MemoryStore: Not enough space to cache rdd_2_126 in memory! (computed 1836.3 KiB so far)
+22/09/20 22:26:59 WARN BlockManager: Block rdd_2_126 could not be removed as it was not found on disk or in memory
+22/09/20 22:26:59 WARN BlockManager: Putting block rdd_2_126 failed
+22/09/20 22:27:00 WARN MemoryStore: Not enough space to cache rdd_2_128 in memory! (computed 1755.3 KiB so far)
+22/09/20 22:27:00 WARN BlockManager: Block rdd_2_128 could not be removed as it was not found on disk or in memory
+22/09/20 22:27:00 WARN BlockManager: Putting block rdd_2_128 failed
+22/09/20 22:27:00 WARN MemoryStore: Failed to reserve initial memory threshold of 1024.0 KiB for computing block rdd_2_130 in memory.
+22/09/20 22:27:00 WARN MemoryStore: Not enough space to cache rdd_2_130 in memory! (computed 0.0 B so far)
+22/09/20 22:27:00 WARN BlockManager: Block rdd_2_130 could not be removed as it was not found on disk or in memory
+22/09/20 22:27:00 WARN BlockManager: Putting block rdd_2_130 failed
+22/09/20 22:27:00 WARN MemoryStore: Not enough space to cache rdd_2_129 in memory! (computed 1753.7 KiB so far)
+22/09/20 22:27:00 WARN BlockManager: Block rdd_2_129 could not be removed as it was not found on disk or in memory
+22/09/20 22:27:00 WARN BlockManager: Putting block rdd_2_129 failed
+22/09/20 22:27:01 WARN MemoryStore: Failed to reserve initial memory threshold of 1024.0 KiB for computing block rdd_2_132 in memory.
+22/09/20 22:27:01 WARN MemoryStore: Not enough space to cache rdd_2_132 in memory! (computed 0.0 B so far)
+22/09/20 22:27:01 WARN BlockManager: Block rdd_2_132 could not be removed as it was not found on disk or in memory
+22/09/20 22:27:01 WARN BlockManager: Putting block rdd_2_132 failed
+22/09/20 22:27:01 WARN MemoryStore: Not enough space to cache rdd_2_131 in memory! (computed 1753.7 KiB so far)
+22/09/20 22:27:01 WARN BlockManager: Block rdd_2_131 could not be removed as it was not found on disk or in memory
+22/09/20 22:27:01 WARN BlockManager: Putting block rdd_2_131 failed
+22/09/20 22:27:02 WARN MemoryStore: Not enough space to cache rdd_2_133 in memory! (computed 1752.0 KiB so far)
+22/09/20 22:27:02 WARN BlockManager: Block rdd_2_133 could not be removed as it was not found on disk or in memory
+22/09/20 22:27:02 WARN BlockManager: Putting block rdd_2_133 failed
+22/09/20 22:27:03 WARN MemoryStore: Not enough space to cache rdd_2_134 in memory! (computed 1731.7 KiB so far)
+22/09/20 22:27:03 WARN BlockManager: Block rdd_2_134 could not be removed as it was not found on disk or in memory
+22/09/20 22:27:03 WARN BlockManager: Putting block rdd_2_134 failed
+22/09/20 22:27:03 WARN MemoryStore: Failed to reserve initial memory threshold of 1024.0 KiB for computing block rdd_2_135 in memory.
+22/09/20 22:27:03 WARN MemoryStore: Not enough space to cache rdd_2_135 in memory! (computed 0.0 B so far)
+22/09/20 22:27:03 WARN BlockManager: Block rdd_2_135 could not be removed as it was not found on disk or in memory
+22/09/20 22:27:03 WARN BlockManager: Putting block rdd_2_135 failed
+22/09/20 22:27:03 WARN MemoryStore: Not enough space to cache rdd_2_136 in memory! (computed 1752.7 KiB so far)
+22/09/20 22:27:03 WARN BlockManager: Block rdd_2_136 could not be removed as it was not found on disk or in memory
+22/09/20 22:27:03 WARN BlockManager: Putting block rdd_2_136 failed
+22/09/20 22:27:04 WARN MemoryStore: Not enough space to cache rdd_2_137 in memory! (computed 1732.4 KiB so far)
+22/09/20 22:27:04 WARN BlockManager: Block rdd_2_137 could not be removed as it was not found on disk or in memory
+22/09/20 22:27:04 WARN BlockManager: Putting block rdd_2_137 failed
+22/09/20 22:27:04 WARN MemoryStore: Not enough space to cache rdd_2_138 in memory! (computed 1755.0 KiB so far)
+22/09/20 22:27:04 WARN BlockManager: Block rdd_2_138 could not be removed as it was not found on disk or in memory
+22/09/20 22:27:04 WARN BlockManager: Putting block rdd_2_138 failed
+22/09/20 22:27:04 WARN MemoryStore: Failed to reserve initial memory threshold of 1024.0 KiB for computing block rdd_2_139 in memory.
+22/09/20 22:27:04 WARN MemoryStore: Not enough space to cache rdd_2_139 in memory! (computed 0.0 B so far)
+22/09/20 22:27:04 WARN BlockManager: Block rdd_2_139 could not be removed as it was not found on disk or in memory
+22/09/20 22:27:04 WARN BlockManager: Putting block rdd_2_139 failed
+22/09/20 22:27:05 WARN MemoryStore: Failed to reserve initial memory threshold of 1024.0 KiB for computing block rdd_2_141 in memory.
+22/09/20 22:27:05 WARN MemoryStore: Not enough space to cache rdd_2_141 in memory! (computed 0.0 B so far)
+22/09/20 22:27:05 WARN BlockManager: Block rdd_2_141 could not be removed as it was not found on disk or in memory
+22/09/20 22:27:05 WARN BlockManager: Putting block rdd_2_141 failed
+22/09/20 22:27:05 WARN MemoryStore: Not enough space to cache rdd_2_140 in memory! (computed 1754.2 KiB so far)
+22/09/20 22:27:05 WARN BlockManager: Block rdd_2_140 could not be removed as it was not found on disk or in memory
+22/09/20 22:27:05 WARN BlockManager: Putting block rdd_2_140 failed
+22/09/20 22:27:06 WARN MemoryStore: Failed to reserve initial memory threshold of 1024.0 KiB for computing block rdd_2_143 in memory.
+22/09/20 22:27:06 WARN MemoryStore: Not enough space to cache rdd_2_143 in memory! (computed 0.0 B so far)
+22/09/20 22:27:06 WARN BlockManager: Block rdd_2_143 could not be removed as it was not found on disk or in memory
+22/09/20 22:27:06 WARN BlockManager: Putting block rdd_2_143 failed
+22/09/20 22:27:06 WARN MemoryStore: Not enough space to cache rdd_2_142 in memory! (computed 1839.5 KiB so far)
+22/09/20 22:27:06 WARN BlockManager: Block rdd_2_142 could not be removed as it was not found on disk or in memory
+22/09/20 22:27:06 WARN BlockManager: Putting block rdd_2_142 failed
+22/09/20 22:27:06 WARN MemoryStore: Not enough space to cache rdd_2_144 in memory! (computed 1730.1 KiB so far)
+22/09/20 22:27:06 WARN BlockManager: Block rdd_2_144 could not be removed as it was not found on disk or in memory
+22/09/20 22:27:06 WARN BlockManager: Putting block rdd_2_144 failed
+22/09/20 22:27:07 WARN MemoryStore: Failed to reserve initial memory threshold of 1024.0 KiB for computing block rdd_2_146 in memory.
+22/09/20 22:27:07 WARN MemoryStore: Not enough space to cache rdd_2_146 in memory! (computed 0.0 B so far)
+22/09/20 22:27:07 WARN BlockManager: Block rdd_2_146 could not be removed as it was not found on disk or in memory
+22/09/20 22:27:07 WARN BlockManager: Putting block rdd_2_146 failed
+22/09/20 22:27:07 WARN MemoryStore: Not enough space to cache rdd_2_145 in memory! (computed 1711.0 KiB so far)
+22/09/20 22:27:07 WARN BlockManager: Block rdd_2_145 could not be removed as it was not found on disk or in memory
+22/09/20 22:27:07 WARN BlockManager: Putting block rdd_2_145 failed
+22/09/20 22:27:07 WARN MemoryStore: Not enough space to cache rdd_2_147 in memory! (computed 1711.7 KiB so far)
+22/09/20 22:27:07 WARN BlockManager: Block rdd_2_147 could not be removed as it was not found on disk or in memory
+22/09/20 22:27:07 WARN BlockManager: Putting block rdd_2_147 failed
+22/09/20 22:27:08 WARN MemoryStore: Not enough space to cache rdd_2_148 in memory! (computed 1751.6 KiB so far)
+22/09/20 22:27:08 WARN BlockManager: Block rdd_2_148 could not be removed as it was not found on disk or in memory
+22/09/20 22:27:08 WARN BlockManager: Putting block rdd_2_148 failed
+22/09/20 22:27:08 WARN MemoryStore: Not enough space to cache rdd_2_149 in memory! (computed 1733.7 KiB so far)
+22/09/20 22:27:08 WARN BlockManager: Block rdd_2_149 could not be removed as it was not found on disk or in memory
+22/09/20 22:27:08 WARN BlockManager: Putting block rdd_2_149 failed
+22/09/20 22:27:09 WARN MemoryStore: Not enough space to cache rdd_2_150 in memory! (computed 1731.4 KiB so far)
+22/09/20 22:27:09 WARN BlockManager: Block rdd_2_150 could not be removed as it was not found on disk or in memory
+22/09/20 22:27:09 WARN BlockManager: Putting block rdd_2_150 failed
+22/09/20 22:27:09 WARN MemoryStore: Failed to reserve initial memory threshold of 1024.0 KiB for computing block rdd_2_152 in memory.
+22/09/20 22:27:09 WARN MemoryStore: Not enough space to cache rdd_2_152 in memory! (computed 0.0 B so far)
+22/09/20 22:27:09 WARN BlockManager: Block rdd_2_152 could not be removed as it was not found on disk or in memory
+22/09/20 22:27:09 WARN BlockManager: Putting block rdd_2_152 failed
+22/09/20 22:27:09 WARN MemoryStore: Not enough space to cache rdd_2_151 in memory! (computed 1752.2 KiB so far)
+22/09/20 22:27:09 WARN BlockManager: Block rdd_2_151 could not be removed as it was not found on disk or in memory
+22/09/20 22:27:09 WARN BlockManager: Putting block rdd_2_151 failed
+22/09/20 22:27:10 WARN MemoryStore: Not enough space to cache rdd_2_153 in memory! (computed 1710.6 KiB so far)
+22/09/20 22:27:10 WARN BlockManager: Block rdd_2_153 could not be removed as it was not found on disk or in memory
+22/09/20 22:27:10 WARN BlockManager: Putting block rdd_2_153 failed
+22/09/20 22:27:10 WARN MemoryStore: Failed to reserve initial memory threshold of 1024.0 KiB for computing block rdd_2_154 in memory.
+22/09/20 22:27:10 WARN MemoryStore: Not enough space to cache rdd_2_154 in memory! (computed 0.0 B so far)
+22/09/20 22:27:10 WARN BlockManager: Block rdd_2_154 could not be removed as it was not found on disk or in memory
+22/09/20 22:27:10 WARN BlockManager: Putting block rdd_2_154 failed
+22/09/20 22:27:10 WARN MemoryStore: Not enough space to cache rdd_2_155 in memory! (computed 1753.6 KiB so far)
+22/09/20 22:27:10 WARN BlockManager: Block rdd_2_155 could not be removed as it was not found on disk or in memory
+22/09/20 22:27:10 WARN BlockManager: Putting block rdd_2_155 failed
+22/09/20 22:27:11 WARN MemoryStore: Failed to reserve initial memory threshold of 1024.0 KiB for computing block rdd_2_157 in memory.
+22/09/20 22:27:11 WARN MemoryStore: Not enough space to cache rdd_2_157 in memory! (computed 0.0 B so far)
+22/09/20 22:27:11 WARN BlockManager: Block rdd_2_157 could not be removed as it was not found on disk or in memory
+22/09/20 22:27:11 WARN BlockManager: Putting block rdd_2_157 failed
+22/09/20 22:27:11 WARN MemoryStore: Not enough space to cache rdd_2_156 in memory! (computed 1732.9 KiB so far)
+22/09/20 22:27:11 WARN BlockManager: Block rdd_2_156 could not be removed as it was not found on disk or in memory
+22/09/20 22:27:11 WARN BlockManager: Putting block rdd_2_156 failed
+22/09/20 22:27:11 WARN MemoryStore: Not enough space to cache rdd_2_158 in memory! (computed 1797.5 KiB so far)
+22/09/20 22:27:11 WARN BlockManager: Block rdd_2_158 could not be removed as it was not found on disk or in memory
+22/09/20 22:27:11 WARN BlockManager: Putting block rdd_2_158 failed
+22/09/20 22:27:24 WARN MemoryStore: Failed to reserve initial memory threshold of 1024.0 KiB for computing block rdd_2_93 in memory.
+22/09/20 22:27:24 WARN MemoryStore: Not enough space to cache rdd_2_93 in memory! (computed 0.0 B so far)
+22/09/20 22:27:24 WARN BlockManager: Block rdd_2_93 could not be removed as it was not found on disk or in memory
+22/09/20 22:27:24 WARN BlockManager: Putting block rdd_2_93 failed
+22/09/20 22:27:24 WARN MemoryStore: Not enough space to cache rdd_2_92 in memory! (computed 1755.0 KiB so far)
+22/09/20 22:27:24 WARN BlockManager: Block rdd_2_92 could not be removed as it was not found on disk or in memory
+22/09/20 22:27:24 WARN BlockManager: Putting block rdd_2_92 failed
+22/09/20 22:27:24 WARN MemoryStore: Failed to reserve initial memory threshold of 1024.0 KiB for computing block rdd_2_96 in memory.
+22/09/20 22:27:24 WARN MemoryStore: Not enough space to cache rdd_2_96 in memory! (computed 0.0 B so far)
+22/09/20 22:27:24 WARN BlockManager: Block rdd_2_96 could not be removed as it was not found on disk or in memory
+22/09/20 22:27:24 WARN BlockManager: Putting block rdd_2_96 failed
+22/09/20 22:27:24 WARN MemoryStore: Failed to reserve initial memory threshold of 1024.0 KiB for computing block rdd_2_97 in memory.
+22/09/20 22:27:24 WARN MemoryStore: Not enough space to cache rdd_2_97 in memory! (computed 0.0 B so far)
+22/09/20 22:27:24 WARN BlockManager: Block rdd_2_97 could not be removed as it was not found on disk or in memory
+22/09/20 22:27:24 WARN BlockManager: Putting block rdd_2_97 failed
+22/09/20 22:27:24 WARN MemoryStore: Not enough space to cache rdd_2_98 in memory! (computed 1706.7 KiB so far)
+22/09/20 22:27:24 WARN MemoryStore: Failed to reserve initial memory threshold of 1024.0 KiB for computing block rdd_2_99 in memory.
+22/09/20 22:27:24 WARN BlockManager: Block rdd_2_98 could not be removed as it was not found on disk or in memory
+22/09/20 22:27:24 WARN BlockManager: Putting block rdd_2_98 failed
+22/09/20 22:27:24 WARN MemoryStore: Not enough space to cache rdd_2_99 in memory! (computed 0.0 B so far)
+22/09/20 22:27:24 WARN BlockManager: Block rdd_2_99 could not be removed as it was not found on disk or in memory
+22/09/20 22:27:24 WARN BlockManager: Putting block rdd_2_99 failed
+22/09/20 22:27:24 WARN MemoryStore: Failed to reserve initial memory threshold of 1024.0 KiB for computing block rdd_2_100 in memory.
+22/09/20 22:27:24 WARN MemoryStore: Not enough space to cache rdd_2_100 in memory! (computed 0.0 B so far)
+22/09/20 22:27:24 WARN BlockManager: Block rdd_2_100 could not be removed as it was not found on disk or in memory
+22/09/20 22:27:24 WARN BlockManager: Putting block rdd_2_100 failed
+22/09/20 22:27:25 WARN MemoryStore: Not enough space to cache rdd_2_102 in memory! (computed 1772.7 KiB so far)
+22/09/20 22:27:25 WARN BlockManager: Block rdd_2_102 could not be removed as it was not found on disk or in memory
+22/09/20 22:27:25 WARN BlockManager: Putting block rdd_2_102 failed
+22/09/20 22:27:26 WARN MemoryStore: Failed to reserve initial memory threshold of 1024.0 KiB for computing block rdd_2_104 in memory.
+22/09/20 22:27:26 WARN MemoryStore: Not enough space to cache rdd_2_104 in memory! (computed 0.0 B so far)
+22/09/20 22:27:26 WARN BlockManager: Block rdd_2_104 could not be removed as it was not found on disk or in memory
+22/09/20 22:27:26 WARN BlockManager: Putting block rdd_2_104 failed
+22/09/20 22:27:26 WARN MemoryStore: Not enough space to cache rdd_2_103 in memory! (computed 1687.8 KiB so far)
+22/09/20 22:27:26 WARN BlockManager: Block rdd_2_103 could not be removed as it was not found on disk or in memory
+22/09/20 22:27:26 WARN BlockManager: Putting block rdd_2_103 failed
+22/09/20 22:27:26 WARN MemoryStore: Not enough space to cache rdd_2_105 in memory! (computed 1756.1 KiB so far)
+22/09/20 22:27:26 WARN BlockManager: Block rdd_2_105 could not be removed as it was not found on disk or in memory
+22/09/20 22:27:26 WARN BlockManager: Putting block rdd_2_105 failed
+22/09/20 22:27:26 WARN MemoryStore: Failed to reserve initial memory threshold of 1024.0 KiB for computing block rdd_2_107 in memory.
+22/09/20 22:27:26 WARN MemoryStore: Not enough space to cache rdd_2_107 in memory! (computed 0.0 B so far)
+22/09/20 22:27:26 WARN BlockManager: Block rdd_2_107 could not be removed as it was not found on disk or in memory
+22/09/20 22:27:26 WARN BlockManager: Putting block rdd_2_107 failed
+22/09/20 22:27:26 WARN MemoryStore: Failed to reserve initial memory threshold of 1024.0 KiB for computing block rdd_2_106 in memory.
+22/09/20 22:27:26 WARN MemoryStore: Not enough space to cache rdd_2_106 in memory! (computed 0.0 B so far)
+22/09/20 22:27:26 WARN BlockManager: Block rdd_2_106 could not be removed as it was not found on disk or in memory
+22/09/20 22:27:26 WARN BlockManager: Putting block rdd_2_106 failed
+22/09/20 22:27:26 WARN MemoryStore: Failed to reserve initial memory threshold of 1024.0 KiB for computing block rdd_2_109 in memory.
+22/09/20 22:27:26 WARN MemoryStore: Not enough space to cache rdd_2_109 in memory! (computed 0.0 B so far)
+22/09/20 22:27:26 WARN BlockManager: Block rdd_2_109 could not be removed as it was not found on disk or in memory
+22/09/20 22:27:26 WARN BlockManager: Putting block rdd_2_109 failed
+22/09/20 22:27:27 WARN MemoryStore: Not enough space to cache rdd_2_108 in memory! (computed 1709.5 KiB so far)
+22/09/20 22:27:27 WARN BlockManager: Block rdd_2_108 could not be removed as it was not found on disk or in memory
+22/09/20 22:27:27 WARN BlockManager: Putting block rdd_2_108 failed
+22/09/20 22:27:27 WARN MemoryStore: Not enough space to cache rdd_2_110 in memory! (computed 1817.5 KiB so far)
+22/09/20 22:27:27 WARN BlockManager: Block rdd_2_110 could not be removed as it was not found on disk or in memory
+22/09/20 22:27:27 WARN BlockManager: Putting block rdd_2_110 failed
+22/09/20 22:27:28 WARN MemoryStore: Failed to reserve initial memory threshold of 1024.0 KiB for computing block rdd_2_113 in memory.
+22/09/20 22:27:28 WARN MemoryStore: Not enough space to cache rdd_2_113 in memory! (computed 0.0 B so far)
+22/09/20 22:27:28 WARN BlockManager: Block rdd_2_113 could not be removed as it was not found on disk or in memory
+22/09/20 22:27:28 WARN BlockManager: Putting block rdd_2_113 failed
+22/09/20 22:27:28 WARN MemoryStore: Not enough space to cache rdd_2_111 in memory! (computed 1711.0 KiB so far)
+22/09/20 22:27:28 WARN BlockManager: Block rdd_2_111 could not be removed as it was not found on disk or in memory
+22/09/20 22:27:28 WARN BlockManager: Putting block rdd_2_111 failed
+22/09/20 22:27:28 WARN MemoryStore: Failed to reserve initial memory threshold of 1024.0 KiB for computing block rdd_2_115 in memory.
+22/09/20 22:27:28 WARN MemoryStore: Not enough space to cache rdd_2_115 in memory! (computed 0.0 B so far)
+22/09/20 22:27:28 WARN BlockManager: Block rdd_2_115 could not be removed as it was not found on disk or in memory
+22/09/20 22:27:28 WARN BlockManager: Putting block rdd_2_115 failed
+22/09/20 22:27:28 WARN MemoryStore: Not enough space to cache rdd_2_114 in memory! (computed 1730.2 KiB so far)
+22/09/20 22:27:28 WARN BlockManager: Block rdd_2_114 could not be removed as it was not found on disk or in memory
+22/09/20 22:27:28 WARN BlockManager: Putting block rdd_2_114 failed
+22/09/20 22:27:28 WARN MemoryStore: Failed to reserve initial memory threshold of 1024.0 KiB for computing block rdd_2_116 in memory.
+22/09/20 22:27:28 WARN MemoryStore: Not enough space to cache rdd_2_116 in memory! (computed 0.0 B so far)
+22/09/20 22:27:28 WARN BlockManager: Block rdd_2_116 could not be removed as it was not found on disk or in memory
+22/09/20 22:27:28 WARN BlockManager: Putting block rdd_2_116 failed
+22/09/20 22:27:29 WARN MemoryStore: Not enough space to cache rdd_2_117 in memory! (computed 1773.9 KiB so far)
+22/09/20 22:27:29 WARN BlockManager: Block rdd_2_117 could not be removed as it was not found on disk or in memory
+22/09/20 22:27:29 WARN BlockManager: Putting block rdd_2_117 failed
+22/09/20 22:27:29 WARN MemoryStore: Failed to reserve initial memory threshold of 1024.0 KiB for computing block rdd_2_118 in memory.
+22/09/20 22:27:29 WARN MemoryStore: Not enough space to cache rdd_2_118 in memory! (computed 0.0 B so far)
+22/09/20 22:27:29 WARN BlockManager: Block rdd_2_118 could not be removed as it was not found on disk or in memory
+22/09/20 22:27:29 WARN BlockManager: Putting block rdd_2_118 failed
+22/09/20 22:27:29 WARN MemoryStore: Not enough space to cache rdd_2_119 in memory! (computed 1712.6 KiB so far)
+22/09/20 22:27:29 WARN BlockManager: Block rdd_2_119 could not be removed as it was not found on disk or in memory
+22/09/20 22:27:29 WARN BlockManager: Putting block rdd_2_119 failed
+22/09/20 22:27:30 WARN MemoryStore: Not enough space to cache rdd_2_120 in memory! (computed 1711.4 KiB so far)
+22/09/20 22:27:30 WARN BlockManager: Block rdd_2_120 could not be removed as it was not found on disk or in memory
+22/09/20 22:27:30 WARN BlockManager: Putting block rdd_2_120 failed
+22/09/20 22:27:30 WARN MemoryStore: Failed to reserve initial memory threshold of 1024.0 KiB for computing block rdd_2_122 in memory.
+22/09/20 22:27:30 WARN MemoryStore: Not enough space to cache rdd_2_122 in memory! (computed 0.0 B so far)
+22/09/20 22:27:30 WARN BlockManager: Block rdd_2_122 could not be removed as it was not found on disk or in memory
+22/09/20 22:27:30 WARN BlockManager: Putting block rdd_2_122 failed
+22/09/20 22:27:30 WARN MemoryStore: Not enough space to cache rdd_2_121 in memory! (computed 1709.5 KiB so far)
+22/09/20 22:27:30 WARN BlockManager: Block rdd_2_121 could not be removed as it was not found on disk or in memory
+22/09/20 22:27:30 WARN BlockManager: Putting block rdd_2_121 failed
+22/09/20 22:27:30 WARN MemoryStore: Failed to reserve initial memory threshold of 1024.0 KiB for computing block rdd_2_124 in memory.
+22/09/20 22:27:30 WARN MemoryStore: Not enough space to cache rdd_2_124 in memory! (computed 0.0 B so far)
+22/09/20 22:27:30 WARN BlockManager: Block rdd_2_124 could not be removed as it was not found on disk or in memory
+22/09/20 22:27:30 WARN BlockManager: Putting block rdd_2_124 failed
+22/09/20 22:27:30 WARN MemoryStore: Failed to reserve initial memory threshold of 1024.0 KiB for computing block rdd_2_125 in memory.
+22/09/20 22:27:30 WARN MemoryStore: Not enough space to cache rdd_2_125 in memory! (computed 0.0 B so far)
+22/09/20 22:27:30 WARN BlockManager: Block rdd_2_125 could not be removed as it was not found on disk or in memory
+22/09/20 22:27:30 WARN BlockManager: Putting block rdd_2_125 failed
+22/09/20 22:27:31 WARN MemoryStore: Not enough space to cache rdd_2_123 in memory! (computed 1690.4 KiB so far)
+22/09/20 22:27:31 WARN BlockManager: Block rdd_2_123 could not be removed as it was not found on disk or in memory
+22/09/20 22:27:31 WARN BlockManager: Putting block rdd_2_123 failed
+22/09/20 22:27:31 WARN MemoryStore: Failed to reserve initial memory threshold of 1024.0 KiB for computing block rdd_2_127 in memory.
+22/09/20 22:27:31 WARN MemoryStore: Not enough space to cache rdd_2_127 in memory! (computed 0.0 B so far)
+22/09/20 22:27:31 WARN BlockManager: Block rdd_2_127 could not be removed as it was not found on disk or in memory
+22/09/20 22:27:31 WARN BlockManager: Putting block rdd_2_127 failed
+22/09/20 22:27:31 WARN MemoryStore: Not enough space to cache rdd_2_126 in memory! (computed 1836.3 KiB so far)
+22/09/20 22:27:31 WARN BlockManager: Block rdd_2_126 could not be removed as it was not found on disk or in memory
+22/09/20 22:27:31 WARN BlockManager: Putting block rdd_2_126 failed
+22/09/20 22:27:32 WARN MemoryStore: Failed to reserve initial memory threshold of 1024.0 KiB for computing block rdd_2_129 in memory.
+22/09/20 22:27:32 WARN MemoryStore: Not enough space to cache rdd_2_129 in memory! (computed 0.0 B so far)
+22/09/20 22:27:32 WARN BlockManager: Block rdd_2_129 could not be removed as it was not found on disk or in memory
+22/09/20 22:27:32 WARN BlockManager: Putting block rdd_2_129 failed
+22/09/20 22:27:32 WARN MemoryStore: Not enough space to cache rdd_2_128 in memory! (computed 1755.3 KiB so far)
+22/09/20 22:27:32 WARN BlockManager: Block rdd_2_128 could not be removed as it was not found on disk or in memory
+22/09/20 22:27:32 WARN BlockManager: Putting block rdd_2_128 failed
+22/09/20 22:27:32 WARN MemoryStore: Failed to reserve initial memory threshold of 1024.0 KiB for computing block rdd_2_130 in memory.
+22/09/20 22:27:32 WARN MemoryStore: Not enough space to cache rdd_2_130 in memory! (computed 0.0 B so far)
+22/09/20 22:27:32 WARN BlockManager: Block rdd_2_130 could not be removed as it was not found on disk or in memory
+22/09/20 22:27:32 WARN BlockManager: Putting block rdd_2_130 failed
+22/09/20 22:27:32 WARN MemoryStore: Failed to reserve initial memory threshold of 1024.0 KiB for computing block rdd_2_132 in memory.
+22/09/20 22:27:32 WARN MemoryStore: Not enough space to cache rdd_2_132 in memory! (computed 0.0 B so far)
+22/09/20 22:27:32 WARN BlockManager: Block rdd_2_132 could not be removed as it was not found on disk or in memory
+22/09/20 22:27:32 WARN BlockManager: Putting block rdd_2_132 failed
+22/09/20 22:27:32 WARN MemoryStore: Failed to reserve initial memory threshold of 1024.0 KiB for computing block rdd_2_133 in memory.
+22/09/20 22:27:32 WARN MemoryStore: Not enough space to cache rdd_2_133 in memory! (computed 0.0 B so far)
+22/09/20 22:27:32 WARN BlockManager: Block rdd_2_133 could not be removed as it was not found on disk or in memory
+22/09/20 22:27:32 WARN BlockManager: Putting block rdd_2_133 failed
+22/09/20 22:27:32 WARN MemoryStore: Not enough space to cache rdd_2_131 in memory! (computed 1753.7 KiB so far)
+22/09/20 22:27:32 WARN BlockManager: Block rdd_2_131 could not be removed as it was not found on disk or in memory
+22/09/20 22:27:32 WARN BlockManager: Putting block rdd_2_131 failed
+22/09/20 22:27:33 WARN MemoryStore: Not enough space to cache rdd_2_134 in memory! (computed 1731.7 KiB so far)
+22/09/20 22:27:33 WARN BlockManager: Block rdd_2_134 could not be removed as it was not found on disk or in memory
+22/09/20 22:27:33 WARN BlockManager: Putting block rdd_2_134 failed
+22/09/20 22:27:33 WARN MemoryStore: Not enough space to cache rdd_2_135 in memory! (computed 1730.5 KiB so far)
+22/09/20 22:27:33 WARN BlockManager: Block rdd_2_135 could not be removed as it was not found on disk or in memory
+22/09/20 22:27:33 WARN BlockManager: Putting block rdd_2_135 failed
+22/09/20 22:27:34 WARN MemoryStore: Not enough space to cache rdd_2_136 in memory! (computed 1752.7 KiB so far)
+22/09/20 22:27:34 WARN BlockManager: Block rdd_2_136 could not be removed as it was not found on disk or in memory
+22/09/20 22:27:34 WARN BlockManager: Putting block rdd_2_136 failed
+22/09/20 22:27:34 WARN MemoryStore: Failed to reserve initial memory threshold of 1024.0 KiB for computing block rdd_2_138 in memory.
+22/09/20 22:27:34 WARN MemoryStore: Not enough space to cache rdd_2_138 in memory! (computed 0.0 B so far)
+22/09/20 22:27:34 WARN BlockManager: Block rdd_2_138 could not be removed as it was not found on disk or in memory
+22/09/20 22:27:34 WARN BlockManager: Putting block rdd_2_138 failed
+22/09/20 22:27:34 WARN MemoryStore: Not enough space to cache rdd_2_137 in memory! (computed 1732.4 KiB so far)
+22/09/20 22:27:34 WARN BlockManager: Block rdd_2_137 could not be removed as it was not found on disk or in memory
+22/09/20 22:27:34 WARN BlockManager: Putting block rdd_2_137 failed
+22/09/20 22:27:34 WARN MemoryStore: Failed to reserve initial memory threshold of 1024.0 KiB for computing block rdd_2_139 in memory.
+22/09/20 22:27:34 WARN MemoryStore: Not enough space to cache rdd_2_139 in memory! (computed 0.0 B so far)
+22/09/20 22:27:34 WARN BlockManager: Block rdd_2_139 could not be removed as it was not found on disk or in memory
+22/09/20 22:27:34 WARN BlockManager: Putting block rdd_2_139 failed
+22/09/20 22:27:34 WARN MemoryStore: Not enough space to cache rdd_2_140 in memory! (computed 1754.2 KiB so far)
+22/09/20 22:27:34 WARN BlockManager: Block rdd_2_140 could not be removed as it was not found on disk or in memory
+22/09/20 22:27:34 WARN BlockManager: Putting block rdd_2_140 failed
+22/09/20 22:27:35 WARN MemoryStore: Not enough space to cache rdd_2_141 in memory! (computed 1817.2 KiB so far)
+22/09/20 22:27:35 WARN BlockManager: Block rdd_2_141 could not be removed as it was not found on disk or in memory
+22/09/20 22:27:35 WARN BlockManager: Putting block rdd_2_141 failed
+22/09/20 22:27:35 WARN MemoryStore: Not enough space to cache rdd_2_142 in memory! (computed 1839.5 KiB so far)
+22/09/20 22:27:35 WARN BlockManager: Block rdd_2_142 could not be removed as it was not found on disk or in memory
+22/09/20 22:27:35 WARN BlockManager: Putting block rdd_2_142 failed
+22/09/20 22:27:35 WARN MemoryStore: Not enough space to cache rdd_2_143 in memory! (computed 1820.9 KiB so far)
+22/09/20 22:27:35 WARN BlockManager: Block rdd_2_143 could not be removed as it was not found on disk or in memory
+22/09/20 22:27:35 WARN BlockManager: Putting block rdd_2_143 failed
+22/09/20 22:27:35 WARN MemoryStore: Failed to reserve initial memory threshold of 1024.0 KiB for computing block rdd_2_145 in memory.
+22/09/20 22:27:35 WARN MemoryStore: Not enough space to cache rdd_2_145 in memory! (computed 0.0 B so far)
+22/09/20 22:27:35 WARN BlockManager: Block rdd_2_145 could not be removed as it was not found on disk or in memory
+22/09/20 22:27:35 WARN BlockManager: Putting block rdd_2_145 failed
+22/09/20 22:27:36 WARN MemoryStore: Not enough space to cache rdd_2_144 in memory! (computed 1730.1 KiB so far)
+22/09/20 22:27:36 WARN BlockManager: Block rdd_2_144 could not be removed as it was not found on disk or in memory
+22/09/20 22:27:36 WARN BlockManager: Putting block rdd_2_144 failed
+22/09/20 22:27:36 WARN MemoryStore: Failed to reserve initial memory threshold of 1024.0 KiB for computing block rdd_2_147 in memory.
+22/09/20 22:27:36 WARN MemoryStore: Not enough space to cache rdd_2_147 in memory! (computed 0.0 B so far)
+22/09/20 22:27:36 WARN BlockManager: Block rdd_2_147 could not be removed as it was not found on disk or in memory
+22/09/20 22:27:36 WARN BlockManager: Putting block rdd_2_147 failed
+22/09/20 22:27:36 WARN MemoryStore: Not enough space to cache rdd_2_146 in memory! (computed 1731.0 KiB so far)
+22/09/20 22:27:36 WARN BlockManager: Block rdd_2_146 could not be removed as it was not found on disk or in memory
+22/09/20 22:27:36 WARN BlockManager: Putting block rdd_2_146 failed
+22/09/20 22:27:36 WARN MemoryStore: Failed to reserve initial memory threshold of 1024.0 KiB for computing block rdd_2_149 in memory.
+22/09/20 22:27:36 WARN MemoryStore: Not enough space to cache rdd_2_149 in memory! (computed 0.0 B so far)
+22/09/20 22:27:36 WARN BlockManager: Block rdd_2_149 could not be removed as it was not found on disk or in memory
+22/09/20 22:27:36 WARN BlockManager: Putting block rdd_2_149 failed
+22/09/20 22:27:36 WARN MemoryStore: Not enough space to cache rdd_2_148 in memory! (computed 1751.6 KiB so far)
+22/09/20 22:27:36 WARN BlockManager: Block rdd_2_148 could not be removed as it was not found on disk or in memory
+22/09/20 22:27:36 WARN BlockManager: Putting block rdd_2_148 failed
+22/09/20 22:27:36 WARN MemoryStore: Failed to reserve initial memory threshold of 1024.0 KiB for computing block rdd_2_150 in memory.
+22/09/20 22:27:36 WARN MemoryStore: Not enough space to cache rdd_2_150 in memory! (computed 0.0 B so far)
+22/09/20 22:27:36 WARN BlockManager: Block rdd_2_150 could not be removed as it was not found on disk or in memory
+22/09/20 22:27:36 WARN BlockManager: Putting block rdd_2_150 failed
+22/09/20 22:27:37 WARN MemoryStore: Not enough space to cache rdd_2_151 in memory! (computed 1752.2 KiB so far)
+22/09/20 22:27:37 WARN BlockManager: Block rdd_2_151 could not be removed as it was not found on disk or in memory
+22/09/20 22:27:37 WARN BlockManager: Putting block rdd_2_151 failed
+22/09/20 22:27:38 WARN MemoryStore: Failed to reserve initial memory threshold of 1024.0 KiB for computing block rdd_2_153 in memory.
+22/09/20 22:27:38 WARN MemoryStore: Not enough space to cache rdd_2_153 in memory! (computed 0.0 B so far)
+22/09/20 22:27:38 WARN BlockManager: Block rdd_2_153 could not be removed as it was not found on disk or in memory
+22/09/20 22:27:38 WARN BlockManager: Putting block rdd_2_153 failed
+22/09/20 22:27:38 WARN MemoryStore: Failed to reserve initial memory threshold of 1024.0 KiB for computing block rdd_2_154 in memory.
+22/09/20 22:27:38 WARN MemoryStore: Not enough space to cache rdd_2_154 in memory! (computed 0.0 B so far)
+22/09/20 22:27:38 WARN BlockManager: Block rdd_2_154 could not be removed as it was not found on disk or in memory
+22/09/20 22:27:38 WARN BlockManager: Putting block rdd_2_154 failed
+22/09/20 22:27:38 WARN MemoryStore: Not enough space to cache rdd_2_152 in memory! (computed 1730.3 KiB so far)
+22/09/20 22:27:38 WARN BlockManager: Block rdd_2_152 could not be removed as it was not found on disk or in memory
+22/09/20 22:27:38 WARN BlockManager: Putting block rdd_2_152 failed
+22/09/20 22:27:38 WARN MemoryStore: Failed to reserve initial memory threshold of 1024.0 KiB for computing block rdd_2_155 in memory.
+22/09/20 22:27:38 WARN MemoryStore: Not enough space to cache rdd_2_155 in memory! (computed 0.0 B so far)
+22/09/20 22:27:38 WARN BlockManager: Block rdd_2_155 could not be removed as it was not found on disk or in memory
+22/09/20 22:27:38 WARN BlockManager: Putting block rdd_2_155 failed
+22/09/20 22:27:39 WARN MemoryStore: Failed to reserve initial memory threshold of 1024.0 KiB for computing block rdd_2_157 in memory.
+22/09/20 22:27:39 WARN MemoryStore: Not enough space to cache rdd_2_157 in memory! (computed 0.0 B so far)
+22/09/20 22:27:39 WARN BlockManager: Block rdd_2_157 could not be removed as it was not found on disk or in memory
+22/09/20 22:27:39 WARN BlockManager: Putting block rdd_2_157 failed
+22/09/20 22:27:39 WARN MemoryStore: Not enough space to cache rdd_2_156 in memory! (computed 1732.9 KiB so far)
+22/09/20 22:27:39 WARN BlockManager: Block rdd_2_156 could not be removed as it was not found on disk or in memory
+22/09/20 22:27:39 WARN BlockManager: Putting block rdd_2_156 failed
+22/09/20 22:27:39 WARN MemoryStore: Not enough space to cache rdd_2_158 in memory! (computed 1797.5 KiB so far)
+22/09/20 22:27:39 WARN BlockManager: Block rdd_2_158 could not be removed as it was not found on disk or in memory
+22/09/20 22:27:39 WARN BlockManager: Putting block rdd_2_158 failed
+#####################################
+Time =  294.549085855484
+22/09/20 22:27:44 WARN Utils: Your hostname, ip-172-31-17-177 resolves to a loopback address: 127.0.0.1; using 172.31.17.177 instead (on interface ens5)
+22/09/20 22:27:44 WARN Utils: Set SPARK_LOCAL_IP if you need to bind to another address
+22/09/20 22:27:44 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+Using Spark's default log4j profile: org/apache/spark/log4j-defaults.properties
+22/09/20 22:27:45 INFO SparkContext: Running Spark version 3.1.2
+22/09/20 22:27:45 INFO ResourceUtils: ==============================================================
+22/09/20 22:27:45 INFO ResourceUtils: No custom resources configured for spark.driver.
+22/09/20 22:27:45 INFO ResourceUtils: ==============================================================
+22/09/20 22:27:45 INFO SparkContext: Submitted application: task2
+22/09/20 22:27:45 INFO ResourceProfile: Default ResourceProfile created, executor resources: Map(cores -> name: cores, amount: 1, script: , vendor: , memory -> name: memory, amount: 1024, script: , vendor: , offHeap -> name: offHeap, amount: 0, script: , vendor: ), task resources: Map(cpus -> name: cpus, amount: 1.0)
+22/09/20 22:27:45 INFO ResourceProfile: Limiting resource is cpu
+22/09/20 22:27:45 INFO ResourceProfileManager: Added ResourceProfile id: 0
+22/09/20 22:27:45 INFO SecurityManager: Changing view acls to: ccc_v1_g_f0ed6_37139
+22/09/20 22:27:45 INFO SecurityManager: Changing modify acls to: ccc_v1_g_f0ed6_37139
+22/09/20 22:27:45 INFO SecurityManager: Changing view acls groups to: 
+22/09/20 22:27:45 INFO SecurityManager: Changing modify acls groups to: 
+22/09/20 22:27:45 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(ccc_v1_g_f0ed6_37139); groups with view permissions: Set(); users  with modify permissions: Set(ccc_v1_g_f0ed6_37139); groups with modify permissions: Set()
+22/09/20 22:27:46 INFO Utils: Successfully started service 'sparkDriver' on port 33335.
+22/09/20 22:27:46 INFO SparkEnv: Registering MapOutputTracker
+22/09/20 22:27:46 INFO SparkEnv: Registering BlockManagerMaster
+22/09/20 22:27:46 INFO BlockManagerMasterEndpoint: Using org.apache.spark.storage.DefaultTopologyMapper for getting topology information
+22/09/20 22:27:46 INFO BlockManagerMasterEndpoint: BlockManagerMasterEndpoint up
+22/09/20 22:27:46 INFO SparkEnv: Registering BlockManagerMasterHeartbeat
+22/09/20 22:27:46 INFO DiskBlockManager: Created local directory at /tmp/blockmgr-fa3be1e0-5ff3-401d-9c60-c8091d41c934
+22/09/20 22:27:46 INFO MemoryStore: MemoryStore started with capacity 2004.6 MiB
+22/09/20 22:27:46 INFO SparkEnv: Registering OutputCommitCoordinator
+22/09/20 22:27:46 WARN Utils: Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+22/09/20 22:27:46 WARN Utils: Service 'SparkUI' could not bind on port 4041. Attempting port 4042.
+22/09/20 22:27:46 INFO Utils: Successfully started service 'SparkUI' on port 4042.
+22/09/20 22:27:46 INFO SparkUI: Bound SparkUI to 0.0.0.0, and started at http://172.31.17.177:4042
+22/09/20 22:27:47 INFO Executor: Starting executor ID driver on host 172.31.17.177
+22/09/20 22:27:47 INFO Utils: Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 42668.
+22/09/20 22:27:47 INFO NettyBlockTransferService: Server created on 172.31.17.177:42668
+22/09/20 22:27:47 INFO BlockManager: Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy
+22/09/20 22:27:47 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, 172.31.17.177, 42668, None)
+22/09/20 22:27:47 INFO BlockManagerMasterEndpoint: Registering block manager 172.31.17.177:42668 with 2004.6 MiB RAM, BlockManagerId(driver, 172.31.17.177, 42668, None)
+22/09/20 22:27:47 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, 172.31.17.177, 42668, None)
+22/09/20 22:27:47 INFO BlockManager: Initialized BlockManager: BlockManagerId(driver, 172.31.17.177, 42668, None)
+#####################################
+22/09/20 22:29:21 WARN Utils: Your hostname, ip-172-31-17-177 resolves to a loopback address: 127.0.0.1; using 172.31.17.177 instead (on interface ens5)
+22/09/20 22:29:21 WARN Utils: Set SPARK_LOCAL_IP if you need to bind to another address
+22/09/20 22:29:22 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+Using Spark's default log4j profile: org/apache/spark/log4j-defaults.properties
+22/09/20 22:29:25 INFO SparkContext: Running Spark version 3.1.2
+22/09/20 22:29:25 INFO ResourceUtils: ==============================================================
+22/09/20 22:29:25 INFO ResourceUtils: No custom resources configured for spark.driver.
+22/09/20 22:29:25 INFO ResourceUtils: ==============================================================
+22/09/20 22:29:25 INFO SparkContext: Submitted application: task1
+22/09/20 22:29:25 INFO ResourceProfile: Default ResourceProfile created, executor resources: Map(cores -> name: cores, amount: 1, script: , vendor: , memory -> name: memory, amount: 1024, script: , vendor: , offHeap -> name: offHeap, amount: 0, script: , vendor: ), task resources: Map(cpus -> name: cpus, amount: 1.0)
+22/09/20 22:29:25 INFO ResourceProfile: Limiting resource is cpu
+22/09/20 22:29:25 INFO ResourceProfileManager: Added ResourceProfile id: 0
+22/09/20 22:29:25 INFO SecurityManager: Changing view acls to: ccc_v1_g_f0ed6_37139
+22/09/20 22:29:25 INFO SecurityManager: Changing modify acls to: ccc_v1_g_f0ed6_37139
+22/09/20 22:29:25 INFO SecurityManager: Changing view acls groups to: 
+22/09/20 22:29:25 INFO SecurityManager: Changing modify acls groups to: 
+22/09/20 22:29:25 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(ccc_v1_g_f0ed6_37139); groups with view permissions: Set(); users  with modify permissions: Set(ccc_v1_g_f0ed6_37139); groups with modify permissions: Set()
+22/09/20 22:29:25 INFO Utils: Successfully started service 'sparkDriver' on port 39984.
+22/09/20 22:29:25 INFO SparkEnv: Registering MapOutputTracker
+22/09/20 22:29:26 INFO SparkEnv: Registering BlockManagerMaster
+22/09/20 22:29:26 INFO BlockManagerMasterEndpoint: Using org.apache.spark.storage.DefaultTopologyMapper for getting topology information
+22/09/20 22:29:26 INFO BlockManagerMasterEndpoint: BlockManagerMasterEndpoint up
+22/09/20 22:29:26 INFO SparkEnv: Registering BlockManagerMasterHeartbeat
+22/09/20 22:29:26 INFO DiskBlockManager: Created local directory at /tmp/blockmgr-1547e1ac-969c-4454-ac85-bbff24f384b6
+22/09/20 22:29:26 INFO MemoryStore: MemoryStore started with capacity 2004.6 MiB
+22/09/20 22:29:26 INFO SparkEnv: Registering OutputCommitCoordinator
+22/09/20 22:29:27 WARN Utils: Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+22/09/20 22:29:27 INFO Utils: Successfully started service 'SparkUI' on port 4041.
+22/09/20 22:29:27 INFO SparkUI: Bound SparkUI to 0.0.0.0, and started at http://172.31.17.177:4041
+22/09/20 22:29:28 INFO Executor: Starting executor ID driver on host 172.31.17.177
+22/09/20 22:29:28 INFO Utils: Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 45486.
+22/09/20 22:29:28 INFO NettyBlockTransferService: Server created on 172.31.17.177:45486
+22/09/20 22:29:28 INFO BlockManager: Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy
+22/09/20 22:29:28 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, 172.31.17.177, 45486, None)
+22/09/20 22:29:28 INFO BlockManagerMasterEndpoint: Registering block manager 172.31.17.177:45486 with 2004.6 MiB RAM, BlockManagerId(driver, 172.31.17.177, 45486, None)
+22/09/20 22:29:28 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, 172.31.17.177, 45486, None)
+22/09/20 22:29:28 INFO BlockManager: Initialized BlockManager: BlockManagerId(driver, 172.31.17.177, 45486, None)
+[('Ahwahtukee', 5.0), ('Ahwatukee Foothills Village', 5.0), ('Alburg', 5.0), ('Auburn', 5.0), ('Austin', 5.0), ('Barberton', 5.0), ('Beltline', 5.0), ('Belœil', 5.0), ('Bentleyville', 5.0), ('Black Rock City', 5.0)]
+#####################################
+[('Ahwahtukee', 5.0), ('Ahwatukee Foothills Village', 5.0), ('Alburg', 5.0), ('Auburn', 5.0), ('Austin', 5.0), ('Barberton', 5.0), ('Beltline', 5.0), ('Belœil', 5.0), ('Bentleyville', 5.0), ('Black Rock City', 5.0)]
+task1.scala not found
+task2.scala not found
+task3.scala not found

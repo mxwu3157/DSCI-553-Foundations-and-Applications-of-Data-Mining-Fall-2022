@@ -1,0 +1,27 @@
+[0m[[0m[0mdebug[0m] [0m[0mPackaging /mnt/vocwork3/ddd_v1_w_6VV_1388132/asn1085224_1/asn1085225_1/work/target/scala-2.11/hw1_2.11-0.1.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	task1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /mnt/vocwork3/ddd_v1_w_6VV_1388132/asn1085224_1/asn1085225_1/work/target/scala-2.11/classes/task1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	WordCount$$anonfun$main$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /mnt/vocwork3/ddd_v1_w_6VV_1388132/asn1085224_1/asn1085225_1/work/target/scala-2.11/classes/WordCount$$anonfun$main$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	WordCount$$anonfun$2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /mnt/vocwork3/ddd_v1_w_6VV_1388132/asn1085224_1/asn1085225_1/work/target/scala-2.11/classes/WordCount$$anonfun$2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	task1$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /mnt/vocwork3/ddd_v1_w_6VV_1388132/asn1085224_1/asn1085225_1/work/target/scala-2.11/classes/task1$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	task1$Review$4$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /mnt/vocwork3/ddd_v1_w_6VV_1388132/asn1085224_1/asn1085225_1/work/target/scala-2.11/classes/task1$Review$4$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	task1$$anonfun$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /mnt/vocwork3/ddd_v1_w_6VV_1388132/asn1085224_1/asn1085225_1/work/target/scala-2.11/classes/task1$$anonfun$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	WordCount.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /mnt/vocwork3/ddd_v1_w_6VV_1388132/asn1085224_1/asn1085225_1/work/target/scala-2.11/classes/WordCount.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	task1$Review$3.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /mnt/vocwork3/ddd_v1_w_6VV_1388132/asn1085224_1/asn1085225_1/work/target/scala-2.11/classes/task1$Review$3.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	WordCount$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /mnt/vocwork3/ddd_v1_w_6VV_1388132/asn1085224_1/asn1085225_1/work/target/scala-2.11/classes/WordCount$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	WordCount$$anonfun$3.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /mnt/vocwork3/ddd_v1_w_6VV_1388132/asn1085224_1/asn1085225_1/work/target/scala-2.11/classes/WordCount$$anonfun$3.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	task1$$anonfun$main$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /mnt/vocwork3/ddd_v1_w_6VV_1388132/asn1085224_1/asn1085225_1/work/target/scala-2.11/classes/task1$$anonfun$main$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	WordCount$$anonfun$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /mnt/vocwork3/ddd_v1_w_6VV_1388132/asn1085224_1/asn1085225_1/work/target/scala-2.11/classes/WordCount$$anonfun$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mDone packaging.[0m

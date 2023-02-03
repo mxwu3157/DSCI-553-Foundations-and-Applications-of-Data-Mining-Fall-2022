@@ -1,0 +1,23 @@
+spark-submit task1.py <case number> <support> <input_file_path> <output_file_path>
+    
+export PYSPARK_PYTHON=/usr/local/bin/python3.6
+export PYSPARK_DRIVER_PYTHON=/usr/local/bin/python3.6
+export JAVA_HOME=/usr/lib/jvm/java-1.8.0-openjdk-amd64
+
+/opt/spark/spark-3.1.2-bin-hadoop3.2/bin/spark-submit --executor-memory 4G --driver-memory 4G word_count.py $1
+    
+spark-submit task1.py 1 4 ../resource/asnlib/publicdata/small1.csv result1.txt
+spark-submit task1.py 2 10 ../resource/asnlib/publicdata/small1.csv result1.txt
+    
+spark-submit task1.py 1 4 ../resource/asnlib/publicdata/small2.csv result1.txt
+spark-submit task1.py 2 9 ../resource/asnlib/publicdata/small2.csv result1.txt
+
+../resource/asnlib/publicdata/small1.csv
+    
+    
+    candidates = lines \
+    .mapPartitions(lambda basket_chunk: allFreqItemsets(candidates_init, basket_chunk, complete_length, support)) \
+    .map(lambda x: (tuple(sorted(x)),1)) \
+    .reduceByKey(lambda a,b: 1) \
+    .map(lambda x: set(x[0])) \
+    .collect()

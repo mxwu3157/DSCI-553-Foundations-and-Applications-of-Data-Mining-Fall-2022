@@ -1,0 +1,10 @@
+spark-submit task2_1.py 2
+spark-submit task2_1.py 5
+spark-submit task2_1.py 10
+spark-submit task2_1.py 15
+spark-submit task2_1.py 20
+spark-submit task2_1.py 50
+spark-submit task2_1.py 100
+spark-submit task2_1.py 200
+spark-submit task2_1.py 500
+spark-submit task2_1.py 1000

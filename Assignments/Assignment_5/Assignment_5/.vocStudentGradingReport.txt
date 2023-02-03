@@ -1,0 +1,56 @@
+
+[Executed at: Tue Nov 22 16:09:41 PST 2022]
+
+2022-11-22 16:09:01 WARN  Utils:66 - Your hostname, ip-172-31-18-48 resolves to a loopback address: 127.0.0.1; using 172.31.18.48 instead (on interface ens5)
+2022-11-22 16:09:01 WARN  Utils:66 - Set SPARK_LOCAL_IP if you need to bind to another address
+2022-11-22 16:09:02 WARN  NativeCodeLoader:62 - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+Setting default log level to "WARN".
+To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
+[Stage 0:>                                                          (0 + 8) / 8]                                                                                num_hash =  16
+m=100.0000 n=69997.0000 k=16.0000 res = 0.00000
+m=200.0000 n=69997.0000 k=16.0000 res = 0.00000
+m=300.0000 n=69997.0000 k=16.0000 res = 0.00000
+m=400.0000 n=69997.0000 k=16.0000 res = 0.00000
+m=500.0000 n=69997.0000 k=16.0000 res = 0.00000
+m=600.0000 n=69997.0000 k=16.0000 res = 0.00000
+m=700.0000 n=69997.0000 k=16.0000 res = 0.00000
+m=800.0000 n=69997.0000 k=16.0000 res = 0.00000
+m=900.0000 n=69997.0000 k=16.0000 res = 0.00000
+m=1000.0000 n=69997.0000 k=16.0000 res = 0.00000
+m=1100.0000 n=69997.0000 k=16.0000 res = 0.00000
+m=1200.0000 n=69997.0000 k=16.0000 res = 0.00000
+m=1300.0000 n=69997.0000 k=16.0000 res = 0.00000
+m=1400.0000 n=69997.0000 k=16.0000 res = 0.00000
+m=1500.0000 n=69997.0000 k=16.0000 res = 0.00000
+m=1600.0000 n=69997.0000 k=16.0000 res = 0.00000
+m=1700.0000 n=69997.0000 k=16.0000 res = 0.00000
+m=1800.0000 n=69997.0000 k=16.0000 res = 0.00000
+m=1900.0000 n=69997.0000 k=16.0000 res = 0.00000
+m=2000.0000 n=69997.0000 k=16.0000 res = 0.00000
+m=2100.0000 n=69997.0000 k=16.0000 res = 0.00000
+m=2200.0000 n=69997.0000 k=16.0000 res = 0.00000
+m=2300.0000 n=69997.0000 k=16.0000 res = 0.00000
+m=2400.0000 n=69997.0000 k=16.0000 res = 0.00000
+m=2500.0000 n=69997.0000 k=16.0000 res = 0.00000
+m=2600.0000 n=69997.0000 k=16.0000 res = 0.00000
+m=2700.0000 n=69997.0000 k=16.0000 res = 0.00000
+m=2800.0000 n=69997.0000 k=16.0000 res = 0.00001
+m=2900.0000 n=69997.0000 k=16.0000 res = 0.00001
+m=3000.0000 n=69997.0000 k=16.0000 res = 0.00001
+fpr [4.627888806052216e-27, 2.528712276471243e-22, 1.38579392944233e-19, 1.1544098278529718e-17, 3.42660643205873e-16, 5.296762752010528e-15, 5.2204480994333904e-14, 3.7019430068149415e-13, 2.0418457478846276e-12, 9.238416460012516e-12, 3.561533390047068e-11, 1.2031287805941063e-10, 3.638022294289834e-10, 1.0011082784025398e-09, 2.5401209706774817e-09, 6.005878390901496e-09, 1.3347583649016544e-08, 2.8082991677894432e-08, 5.6273547626441834e-08, 1.0794181642886253e-07, 1.990586419209113e-07, 3.542393834462725e-07, 6.102948731730231e-07, 1.020782052747839e-06, 1.661690606264473e-06, 2.6383848106344423e-06, 4.093894305196168e-06, 6.218614102033108e-06, 9.261433972546116e-06, 1.3542271830485427e-05]
+Duration:  10.519876480102539
+2022-11-22 16:09:12 WARN  Utils:66 - Your hostname, ip-172-31-18-48 resolves to a loopback address: 127.0.0.1; using 172.31.18.48 instead (on interface ens5)
+2022-11-22 16:09:12 WARN  Utils:66 - Set SPARK_LOCAL_IP if you need to bind to another address
+2022-11-22 16:09:13 WARN  NativeCodeLoader:62 - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+Setting default log level to "WARN".
+To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
+[Stage 0:>                                                          (0 + 8) / 8]                                                                                check:  1.4844444444444445
+Duration:  12.357340574264526
+Duration:  5.5324318408966064
+hw5.jar not found
+task1, 2.5
+task2, 2.5
+task3, 2
+task1_scala, 0.0
+task2_scala, 0.0
+task3_scala, 0.0

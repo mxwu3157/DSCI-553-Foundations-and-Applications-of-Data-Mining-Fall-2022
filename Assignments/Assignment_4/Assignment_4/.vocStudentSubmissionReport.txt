@@ -1,0 +1,256 @@
+
+[Executed at: Sun Nov 13 17:42:03 PST 2022]
+
+==================================================
+Task 1 (python) runtime (ms), 158210
+Task 1: 2.0 out of 2
+==================================================
+Task 2 (python) runtime (ms), 43637
+Task 2.1: 2.0 out of 2
+Task 2.2: 3.0 out of 3
+==================================================
+
+22/11/13 17:38:40 WARN Utils: Your hostname, ip-172-31-27-0 resolves to a loopback address: 127.0.0.1; using 172.31.27.0 instead (on interface ens5)
+22/11/13 17:38:40 WARN Utils: Set SPARK_LOCAL_IP if you need to bind to another address
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by org.apache.spark.unsafe.Platform (file:/opt/spark/spark-3.1.2-bin-hadoop3.2/jars/spark-unsafe_2.12-3.1.2.jar) to constructor java.nio.DirectByteBuffer(long,int)
+WARNING: Please consider reporting this to the maintainers of org.apache.spark.unsafe.Platform
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+:: loading settings :: url = jar:file:/opt/spark/spark-3.1.2-bin-hadoop3.2/jars/ivy-2.4.0.jar!/org/apache/ivy/core/settings/ivysettings.xml
+Ivy Default Cache set to: /home/ccc_v1_g_7ea34_37383/.ivy2/cache
+The jars for the packages stored in: /home/ccc_v1_g_7ea34_37383/.ivy2/jars
+graphframes#graphframes added as a dependency
+:: resolving dependencies :: org.apache.spark#spark-submit-parent-f57771b5-cd86-4f6a-831e-0f6514ca0853;1.0
+	confs: [default]
+	found graphframes#graphframes;0.8.1-spark3.0-s_2.12 in spark-packages
+	found org.slf4j#slf4j-api;1.7.16 in central
+:: resolution report :: resolve 172ms :: artifacts dl 11ms
+	:: modules in use:
+	graphframes#graphframes;0.8.1-spark3.0-s_2.12 from spark-packages in [default]
+	org.slf4j#slf4j-api;1.7.16 from central in [default]
+	---------------------------------------------------------------------
+	|                  |            modules            ||   artifacts   |
+	|       conf       | number| search|dwnlded|evicted|| number|dwnlded|
+	---------------------------------------------------------------------
+	|      default     |   2   |   0   |   0   |   0   ||   2   |   0   |
+	---------------------------------------------------------------------
+:: retrieving :: org.apache.spark#spark-submit-parent-f57771b5-cd86-4f6a-831e-0f6514ca0853
+	confs: [default]
+	0 artifacts copied, 2 already retrieved (0kB/9ms)
+22/11/13 17:38:40 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+Using Spark's default log4j profile: org/apache/spark/log4j-defaults.properties
+22/11/13 17:38:41 INFO SparkContext: Running Spark version 3.1.2
+22/11/13 17:38:41 INFO ResourceUtils: ==============================================================
+22/11/13 17:38:41 INFO ResourceUtils: No custom resources configured for spark.driver.
+22/11/13 17:38:41 INFO ResourceUtils: ==============================================================
+22/11/13 17:38:41 INFO SparkContext: Submitted application: task1
+22/11/13 17:38:41 INFO ResourceProfile: Default ResourceProfile created, executor resources: Map(cores -> name: cores, amount: 1, script: , vendor: , memory -> name: memory, amount: 1024, script: , vendor: , offHeap -> name: offHeap, amount: 0, script: , vendor: ), task resources: Map(cpus -> name: cpus, amount: 1.0)
+22/11/13 17:38:41 INFO ResourceProfile: Limiting resource is cpu
+22/11/13 17:38:41 INFO ResourceProfileManager: Added ResourceProfile id: 0
+22/11/13 17:38:41 INFO SecurityManager: Changing view acls to: ccc_v1_g_7ea34_37383
+22/11/13 17:38:41 INFO SecurityManager: Changing modify acls to: ccc_v1_g_7ea34_37383
+22/11/13 17:38:41 INFO SecurityManager: Changing view acls groups to: 
+22/11/13 17:38:41 INFO SecurityManager: Changing modify acls groups to: 
+22/11/13 17:38:41 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(ccc_v1_g_7ea34_37383); groups with view permissions: Set(); users  with modify permissions: Set(ccc_v1_g_7ea34_37383); groups with modify permissions: Set()
+22/11/13 17:38:42 INFO Utils: Successfully started service 'sparkDriver' on port 42822.
+22/11/13 17:38:42 INFO SparkEnv: Registering MapOutputTracker
+22/11/13 17:38:42 INFO SparkEnv: Registering BlockManagerMaster
+22/11/13 17:38:42 INFO BlockManagerMasterEndpoint: Using org.apache.spark.storage.DefaultTopologyMapper for getting topology information
+22/11/13 17:38:42 INFO BlockManagerMasterEndpoint: BlockManagerMasterEndpoint up
+22/11/13 17:38:42 INFO SparkEnv: Registering BlockManagerMasterHeartbeat
+22/11/13 17:38:42 INFO DiskBlockManager: Created local directory at /tmp/blockmgr-e17db1d2-45da-48f2-b337-25a00018ddb4
+22/11/13 17:38:42 INFO MemoryStore: MemoryStore started with capacity 434.4 MiB
+22/11/13 17:38:42 INFO SparkEnv: Registering OutputCommitCoordinator
+22/11/13 17:38:42 INFO Utils: Successfully started service 'SparkUI' on port 4040.
+22/11/13 17:38:42 INFO SparkUI: Bound SparkUI to 0.0.0.0, and started at http://172.31.27.0:4040
+22/11/13 17:38:42 INFO SparkContext: Added JAR file:///home/ccc_v1_g_7ea34_37383/.ivy2/jars/graphframes_graphframes-0.8.1-spark3.0-s_2.12.jar at spark://172.31.27.0:42822/jars/graphframes_graphframes-0.8.1-spark3.0-s_2.12.jar with timestamp 1668389921737
+22/11/13 17:38:42 INFO SparkContext: Added JAR file:///home/ccc_v1_g_7ea34_37383/.ivy2/jars/org.slf4j_slf4j-api-1.7.16.jar at spark://172.31.27.0:42822/jars/org.slf4j_slf4j-api-1.7.16.jar with timestamp 1668389921737
+22/11/13 17:38:42 INFO SparkContext: Added file file:///home/ccc_v1_g_7ea34_37383/.ivy2/jars/graphframes_graphframes-0.8.1-spark3.0-s_2.12.jar at file:///home/ccc_v1_g_7ea34_37383/.ivy2/jars/graphframes_graphframes-0.8.1-spark3.0-s_2.12.jar with timestamp 1668389921737
+22/11/13 17:38:42 INFO Utils: Copying /home/ccc_v1_g_7ea34_37383/.ivy2/jars/graphframes_graphframes-0.8.1-spark3.0-s_2.12.jar to /tmp/spark-b10672bc-feaa-4981-a155-ee4f7207a920/userFiles-9d9efde4-8598-4e33-8b9d-fcbc28f1257e/graphframes_graphframes-0.8.1-spark3.0-s_2.12.jar
+22/11/13 17:38:42 INFO SparkContext: Added file file:///home/ccc_v1_g_7ea34_37383/.ivy2/jars/org.slf4j_slf4j-api-1.7.16.jar at file:///home/ccc_v1_g_7ea34_37383/.ivy2/jars/org.slf4j_slf4j-api-1.7.16.jar with timestamp 1668389921737
+22/11/13 17:38:42 INFO Utils: Copying /home/ccc_v1_g_7ea34_37383/.ivy2/jars/org.slf4j_slf4j-api-1.7.16.jar to /tmp/spark-b10672bc-feaa-4981-a155-ee4f7207a920/userFiles-9d9efde4-8598-4e33-8b9d-fcbc28f1257e/org.slf4j_slf4j-api-1.7.16.jar
+22/11/13 17:38:42 INFO Executor: Starting executor ID driver on host 172.31.27.0
+22/11/13 17:38:42 INFO Executor: Fetching file:///home/ccc_v1_g_7ea34_37383/.ivy2/jars/graphframes_graphframes-0.8.1-spark3.0-s_2.12.jar with timestamp 1668389921737
+22/11/13 17:38:42 INFO Utils: /home/ccc_v1_g_7ea34_37383/.ivy2/jars/graphframes_graphframes-0.8.1-spark3.0-s_2.12.jar has been previously copied to /tmp/spark-b10672bc-feaa-4981-a155-ee4f7207a920/userFiles-9d9efde4-8598-4e33-8b9d-fcbc28f1257e/graphframes_graphframes-0.8.1-spark3.0-s_2.12.jar
+22/11/13 17:38:42 INFO Executor: Fetching file:///home/ccc_v1_g_7ea34_37383/.ivy2/jars/org.slf4j_slf4j-api-1.7.16.jar with timestamp 1668389921737
+22/11/13 17:38:42 INFO Utils: /home/ccc_v1_g_7ea34_37383/.ivy2/jars/org.slf4j_slf4j-api-1.7.16.jar has been previously copied to /tmp/spark-b10672bc-feaa-4981-a155-ee4f7207a920/userFiles-9d9efde4-8598-4e33-8b9d-fcbc28f1257e/org.slf4j_slf4j-api-1.7.16.jar
+22/11/13 17:38:42 INFO Executor: Fetching spark://172.31.27.0:42822/jars/org.slf4j_slf4j-api-1.7.16.jar with timestamp 1668389921737
+22/11/13 17:38:42 INFO TransportClientFactory: Successfully created connection to /172.31.27.0:42822 after 33 ms (0 ms spent in bootstraps)
+22/11/13 17:38:42 INFO Utils: Fetching spark://172.31.27.0:42822/jars/org.slf4j_slf4j-api-1.7.16.jar to /tmp/spark-b10672bc-feaa-4981-a155-ee4f7207a920/userFiles-9d9efde4-8598-4e33-8b9d-fcbc28f1257e/fetchFileTemp10720822105765947115.tmp
+22/11/13 17:38:42 INFO Utils: /tmp/spark-b10672bc-feaa-4981-a155-ee4f7207a920/userFiles-9d9efde4-8598-4e33-8b9d-fcbc28f1257e/fetchFileTemp10720822105765947115.tmp has been previously copied to /tmp/spark-b10672bc-feaa-4981-a155-ee4f7207a920/userFiles-9d9efde4-8598-4e33-8b9d-fcbc28f1257e/org.slf4j_slf4j-api-1.7.16.jar
+22/11/13 17:38:42 INFO Executor: Adding file:/tmp/spark-b10672bc-feaa-4981-a155-ee4f7207a920/userFiles-9d9efde4-8598-4e33-8b9d-fcbc28f1257e/org.slf4j_slf4j-api-1.7.16.jar to class loader
+22/11/13 17:38:42 INFO Executor: Fetching spark://172.31.27.0:42822/jars/graphframes_graphframes-0.8.1-spark3.0-s_2.12.jar with timestamp 1668389921737
+22/11/13 17:38:42 INFO Utils: Fetching spark://172.31.27.0:42822/jars/graphframes_graphframes-0.8.1-spark3.0-s_2.12.jar to /tmp/spark-b10672bc-feaa-4981-a155-ee4f7207a920/userFiles-9d9efde4-8598-4e33-8b9d-fcbc28f1257e/fetchFileTemp11602252125937646530.tmp
+22/11/13 17:38:42 INFO Utils: /tmp/spark-b10672bc-feaa-4981-a155-ee4f7207a920/userFiles-9d9efde4-8598-4e33-8b9d-fcbc28f1257e/fetchFileTemp11602252125937646530.tmp has been previously copied to /tmp/spark-b10672bc-feaa-4981-a155-ee4f7207a920/userFiles-9d9efde4-8598-4e33-8b9d-fcbc28f1257e/graphframes_graphframes-0.8.1-spark3.0-s_2.12.jar
+22/11/13 17:38:42 INFO Executor: Adding file:/tmp/spark-b10672bc-feaa-4981-a155-ee4f7207a920/userFiles-9d9efde4-8598-4e33-8b9d-fcbc28f1257e/graphframes_graphframes-0.8.1-spark3.0-s_2.12.jar to class loader
+22/11/13 17:38:42 INFO Utils: Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 39598.
+22/11/13 17:38:42 INFO NettyBlockTransferService: Server created on 172.31.27.0:39598
+22/11/13 17:38:42 INFO BlockManager: Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy
+22/11/13 17:38:42 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, 172.31.27.0, 39598, None)
+22/11/13 17:38:42 INFO BlockManagerMasterEndpoint: Registering block manager 172.31.27.0:39598 with 434.4 MiB RAM, BlockManagerId(driver, 172.31.27.0, 39598, None)
+22/11/13 17:38:42 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, 172.31.27.0, 39598, None)
+22/11/13 17:38:42 INFO BlockManager: Initialized BlockManager: BlockManagerId(driver, 172.31.27.0, 39598, None)
+GraphFrame(v:[id: string], e:[src: string, dst: string])
+start lpa time:  21.856229543685913
++--------------------+------------+
+|                  id|       label|
++--------------------+------------+
+|gH0dJQhyKUOVCKQA6...|146028888064|
+|oegRUjhGbP62M18Wy...|678604832768|
+|2quguRdKBzul3GpRi...|627065225216|
+|DPtOaWemjBPvFiZJB...|867583393794|
+|Ih85YhFRDzOnB09yS...|678604832768|
++--------------------+------------+
+only showing top 5 rows
+
+lpa time:  147.20574402809143
+duration:  154.7484781742096
+2.0
+22/11/13 17:41:18 WARN Utils: Your hostname, ip-172-31-27-0 resolves to a loopback address: 127.0.0.1; using 172.31.27.0 instead (on interface ens5)
+22/11/13 17:41:18 WARN Utils: Set SPARK_LOCAL_IP if you need to bind to another address
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by org.apache.spark.unsafe.Platform (file:/opt/spark/spark-3.1.2-bin-hadoop3.2/jars/spark-unsafe_2.12-3.1.2.jar) to constructor java.nio.DirectByteBuffer(long,int)
+WARNING: Please consider reporting this to the maintainers of org.apache.spark.unsafe.Platform
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+22/11/13 17:41:18 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+Using Spark's default log4j profile: org/apache/spark/log4j-defaults.properties
+22/11/13 17:41:19 INFO SparkContext: Running Spark version 3.1.2
+22/11/13 17:41:19 INFO ResourceUtils: ==============================================================
+22/11/13 17:41:19 INFO ResourceUtils: No custom resources configured for spark.driver.
+22/11/13 17:41:19 INFO ResourceUtils: ==============================================================
+22/11/13 17:41:19 INFO SparkContext: Submitted application: task2
+22/11/13 17:41:19 INFO ResourceProfile: Default ResourceProfile created, executor resources: Map(cores -> name: cores, amount: 1, script: , vendor: , memory -> name: memory, amount: 1024, script: , vendor: , offHeap -> name: offHeap, amount: 0, script: , vendor: ), task resources: Map(cpus -> name: cpus, amount: 1.0)
+22/11/13 17:41:19 INFO ResourceProfile: Limiting resource is cpu
+22/11/13 17:41:19 INFO ResourceProfileManager: Added ResourceProfile id: 0
+22/11/13 17:41:19 INFO SecurityManager: Changing view acls to: ccc_v1_g_7ea34_37383
+22/11/13 17:41:19 INFO SecurityManager: Changing modify acls to: ccc_v1_g_7ea34_37383
+22/11/13 17:41:19 INFO SecurityManager: Changing view acls groups to: 
+22/11/13 17:41:19 INFO SecurityManager: Changing modify acls groups to: 
+22/11/13 17:41:19 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(ccc_v1_g_7ea34_37383); groups with view permissions: Set(); users  with modify permissions: Set(ccc_v1_g_7ea34_37383); groups with modify permissions: Set()
+22/11/13 17:41:19 INFO Utils: Successfully started service 'sparkDriver' on port 35743.
+22/11/13 17:41:19 INFO SparkEnv: Registering MapOutputTracker
+22/11/13 17:41:19 INFO SparkEnv: Registering BlockManagerMaster
+22/11/13 17:41:19 INFO BlockManagerMasterEndpoint: Using org.apache.spark.storage.DefaultTopologyMapper for getting topology information
+22/11/13 17:41:19 INFO BlockManagerMasterEndpoint: BlockManagerMasterEndpoint up
+22/11/13 17:41:19 INFO SparkEnv: Registering BlockManagerMasterHeartbeat
+22/11/13 17:41:19 INFO DiskBlockManager: Created local directory at /tmp/blockmgr-5c4b3206-aef1-40a1-a2bd-bc4aba8612b4
+22/11/13 17:41:19 INFO MemoryStore: MemoryStore started with capacity 434.4 MiB
+22/11/13 17:41:19 INFO SparkEnv: Registering OutputCommitCoordinator
+22/11/13 17:41:19 INFO Utils: Successfully started service 'SparkUI' on port 4040.
+22/11/13 17:41:19 INFO SparkUI: Bound SparkUI to 0.0.0.0, and started at http://172.31.27.0:4040
+22/11/13 17:41:20 INFO Executor: Starting executor ID driver on host 172.31.27.0
+22/11/13 17:41:20 INFO Utils: Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 36147.
+22/11/13 17:41:20 INFO NettyBlockTransferService: Server created on 172.31.27.0:36147
+22/11/13 17:41:20 INFO BlockManager: Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy
+22/11/13 17:41:20 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, 172.31.27.0, 36147, None)
+22/11/13 17:41:20 INFO BlockManagerMasterEndpoint: Registering block manager 172.31.27.0:36147 with 434.4 MiB RAM, BlockManagerId(driver, 172.31.27.0, 36147, None)
+22/11/13 17:41:20 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, 172.31.27.0, 36147, None)
+22/11/13 17:41:20 INFO BlockManager: Initialized BlockManager: BlockManagerId(driver, 172.31.27.0, 36147, None)
+start btw calc 1668390099.216213
+#####################
+#####################
+start btw calc 1668390101.0745234
+modularity 0.082373671392397
+#####################
+start btw calc 1668390102.3164399
+modularity 0.08621635134917226
+#####################
+start btw calc 1668390103.44405
+modularity 0.09005096691988869
+#####################
+start btw calc 1668390104.401661
+modularity 0.5317898098417433
+#####################
+start btw calc 1668390105.204671
+modularity 0.5339954194286861
+#####################
+start btw calc 1668390105.83192
+modularity 0.5361929646295699
+#####################
+start btw calc 1668390106.4447737
+modularity 0.5383824454443954
+#####################
+start btw calc 1668390107.0289748
+modularity 0.5405638618731623
+#####################
+start btw calc 1668390107.671489
+modularity 0.5427372139158713
+#####################
+start btw calc 1668390108.271799
+modularity 0.544902501572522
+#####################
+start btw calc 1668390108.833167
+modularity 0.5470597248431129
+#####################
+start btw calc 1668390109.4265614
+modularity 0.6395945226689701
+#####################
+start btw calc 1668390110.001439
+modularity 0.6641465460234337
+#####################
+start btw calc 1668390110.5157118
+modularity 0.6657553910420643
+#####################
+start btw calc 1668390111.0439057
+modularity 0.6673561716746342
+#####################
+start btw calc 1668390111.547325
+modularity 0.6716343284785576
+#####################
+start btw calc 1668390112.073597
+modularity 0.6998354865243959
+#####################
+start btw calc 1668390112.5935614
+modularity 0.7013959452266746
+#####################
+start btw calc 1668390113.1477003
+modularity 0.7029483395428952
+#####################
+start btw calc 1668390113.681024
+modularity 0.7059684521217265
+#####################
+start btw calc 1668390114.2126489
+modularity 0.7074643957355394
+#####################
+start btw calc 1668390114.720708
+modularity 0.7079926130223574
+#####################
+start btw calc 1668390115.2232003
+modularity 0.7094804922501118
+#####################
+start btw calc 1668390115.714419
+modularity 0.7109603070918079
+#####################
+start btw calc 1668390116.2037406
+modularity 0.7114804599925678
+#####################
+start btw calc 1668390116.7158504
+modularity 0.7119925485072692
+#####################
+start btw calc 1668390117.2143333
+modularity 0.712496572635912
+#####################
+start btw calc 1668390117.7153113
+modularity 0.7129925323784968
+#####################
+start btw calc 1668390118.2315803
+modularity 0.7134804277350236
+#####################
+start btw calc 1668390118.7330203
+modularity 0.7139602587054913
+#####################
+start btw calc 1668390119.2061102
+modularity 0.7144320252899019
+#####################
+start btw calc 1668390119.692787
+modularity 0.7148957274882536
+#####################
+start btw calc 1668390120.1991835
+modularity 0.7030854341058898
+#######Final result
+modularity 0.7030854341058898
+max_modularity 0.7148957274882536
+Duration:  41.627795696258545
+thredshod 7

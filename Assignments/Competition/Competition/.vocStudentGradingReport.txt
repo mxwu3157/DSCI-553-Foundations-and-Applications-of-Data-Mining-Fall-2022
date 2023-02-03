@@ -1,0 +1,125 @@
+
+[Executed at: Wed Dec 7 0:20:10 PST 2022]
+
+22/12/06 23:56:43 WARN Utils: Your hostname, ip-172-31-23-168 resolves to a loopback address: 127.0.0.1; using 172.31.23.168 instead (on interface ens5)
+22/12/06 23:56:43 WARN Utils: Set SPARK_LOCAL_IP if you need to bind to another address
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by org.apache.spark.unsafe.Platform (file:/opt/spark/spark-3.1.2-bin-hadoop3.2/jars/spark-unsafe_2.12-3.1.2.jar) to constructor java.nio.DirectByteBuffer(long,int)
+WARNING: Please consider reporting this to the maintainers of org.apache.spark.unsafe.Platform
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+22/12/06 23:56:44 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+Using Spark's default log4j profile: org/apache/spark/log4j-defaults.properties
+22/12/06 23:56:47 INFO SparkContext: Running Spark version 3.1.2
+22/12/06 23:56:47 INFO ResourceUtils: ==============================================================
+22/12/06 23:56:47 INFO ResourceUtils: No custom resources configured for spark.driver.
+22/12/06 23:56:47 INFO ResourceUtils: ==============================================================
+22/12/06 23:56:47 INFO SparkContext: Submitted application: task2.2
+22/12/06 23:56:47 INFO ResourceProfile: Default ResourceProfile created, executor resources: Map(cores -> name: cores, amount: 1, script: , vendor: , memory -> name: memory, amount: 1024, script: , vendor: , offHeap -> name: offHeap, amount: 0, script: , vendor: ), task resources: Map(cpus -> name: cpus, amount: 1.0)
+22/12/06 23:56:47 INFO ResourceProfile: Limiting resource is cpu
+22/12/06 23:56:47 INFO ResourceProfileManager: Added ResourceProfile id: 0
+22/12/06 23:56:47 INFO SecurityManager: Changing view acls to: ccc_v1_g_f0ed6_37139
+22/12/06 23:56:47 INFO SecurityManager: Changing modify acls to: ccc_v1_g_f0ed6_37139
+22/12/06 23:56:47 INFO SecurityManager: Changing view acls groups to: 
+22/12/06 23:56:47 INFO SecurityManager: Changing modify acls groups to: 
+22/12/06 23:56:47 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(ccc_v1_g_f0ed6_37139); groups with view permissions: Set(); users  with modify permissions: Set(ccc_v1_g_f0ed6_37139); groups with modify permissions: Set()
+22/12/06 23:56:48 INFO Utils: Successfully started service 'sparkDriver' on port 41827.
+22/12/06 23:56:48 INFO SparkEnv: Registering MapOutputTracker
+22/12/06 23:56:48 INFO SparkEnv: Registering BlockManagerMaster
+22/12/06 23:56:48 INFO BlockManagerMasterEndpoint: Using org.apache.spark.storage.DefaultTopologyMapper for getting topology information
+22/12/06 23:56:48 INFO BlockManagerMasterEndpoint: BlockManagerMasterEndpoint up
+22/12/06 23:56:48 INFO SparkEnv: Registering BlockManagerMasterHeartbeat
+22/12/06 23:56:48 INFO DiskBlockManager: Created local directory at /tmp/blockmgr-574fda4a-60a9-4b30-a893-66d1a4582293
+22/12/06 23:56:48 INFO MemoryStore: MemoryStore started with capacity 434.4 MiB
+22/12/06 23:56:48 INFO SparkEnv: Registering OutputCommitCoordinator
+22/12/06 23:56:49 INFO Utils: Successfully started service 'SparkUI' on port 4040.
+22/12/06 23:56:49 INFO SparkUI: Bound SparkUI to 0.0.0.0, and started at http://172.31.23.168:4040
+22/12/06 23:56:49 INFO Executor: Starting executor ID driver on host 172.31.23.168
+22/12/06 23:56:49 INFO Utils: Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 36598.
+22/12/06 23:56:49 INFO NettyBlockTransferService: Server created on 172.31.23.168:36598
+22/12/06 23:56:49 INFO BlockManager: Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy
+22/12/06 23:56:49 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, 172.31.23.168, 36598, None)
+22/12/06 23:56:49 INFO BlockManagerMasterEndpoint: Registering block manager 172.31.23.168:36598 with 434.4 MiB RAM, BlockManagerId(driver, 172.31.23.168, 36598, None)
+22/12/06 23:56:49 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, 172.31.23.168, 36598, None)
+22/12/06 23:56:49 INFO BlockManager: Initialized BlockManager: BlockManagerId(driver, 172.31.23.168, 36598, None)
+Start precomputation....
+Getting groupby rating dict...
+def_rating 3.5
+precomputation duration:  34.46959614753723
+finish feat
+fea time 78.56656527519226
+XGBRegressor(base_score=0.5, booster='gbtree', colsample_bylevel=1,
+             colsample_bytree=0.9, gamma=0, learning_rate=0.1, max_delta_step=0,
+             max_depth=5, min_child_weight=1, missing=None, n_estimators=1000,
+             n_jobs=1, nthread=None, objective='reg:linear', random_state=0,
+             reg_alpha=0, reg_lambda=1, scale_pos_weight=1, seed=None,
+             silent=True, subsample=0.85, verbocity=3)
+Duration:  802.5962038040161
+val RMSE:  3.914776700257694
+Error Distribution: 
+>=0 and <1 142044
+>=1 and <2 0
+>=2 and <3 0
+>=3 and <4 0
+>=4 0
+22/12/07 00:10:13 WARN Utils: Your hostname, ip-172-31-23-168 resolves to a loopback address: 127.0.0.1; using 172.31.23.168 instead (on interface ens5)
+22/12/07 00:10:13 WARN Utils: Set SPARK_LOCAL_IP if you need to bind to another address
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by org.apache.spark.unsafe.Platform (file:/opt/spark/spark-3.1.2-bin-hadoop3.2/jars/spark-unsafe_2.12-3.1.2.jar) to constructor java.nio.DirectByteBuffer(long,int)
+WARNING: Please consider reporting this to the maintainers of org.apache.spark.unsafe.Platform
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+22/12/07 00:10:13 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+Using Spark's default log4j profile: org/apache/spark/log4j-defaults.properties
+22/12/07 00:10:14 INFO SparkContext: Running Spark version 3.1.2
+22/12/07 00:10:14 INFO ResourceUtils: ==============================================================
+22/12/07 00:10:14 INFO ResourceUtils: No custom resources configured for spark.driver.
+22/12/07 00:10:14 INFO ResourceUtils: ==============================================================
+22/12/07 00:10:14 INFO SparkContext: Submitted application: task2.2
+22/12/07 00:10:14 INFO ResourceProfile: Default ResourceProfile created, executor resources: Map(cores -> name: cores, amount: 1, script: , vendor: , memory -> name: memory, amount: 1024, script: , vendor: , offHeap -> name: offHeap, amount: 0, script: , vendor: ), task resources: Map(cpus -> name: cpus, amount: 1.0)
+22/12/07 00:10:14 INFO ResourceProfile: Limiting resource is cpu
+22/12/07 00:10:14 INFO ResourceProfileManager: Added ResourceProfile id: 0
+22/12/07 00:10:14 INFO SecurityManager: Changing view acls to: ccc_v1_g_f0ed6_37139
+22/12/07 00:10:14 INFO SecurityManager: Changing modify acls to: ccc_v1_g_f0ed6_37139
+22/12/07 00:10:14 INFO SecurityManager: Changing view acls groups to: 
+22/12/07 00:10:14 INFO SecurityManager: Changing modify acls groups to: 
+22/12/07 00:10:14 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(ccc_v1_g_f0ed6_37139); groups with view permissions: Set(); users  with modify permissions: Set(ccc_v1_g_f0ed6_37139); groups with modify permissions: Set()
+22/12/07 00:10:15 INFO Utils: Successfully started service 'sparkDriver' on port 38350.
+22/12/07 00:10:15 INFO SparkEnv: Registering MapOutputTracker
+22/12/07 00:10:15 INFO SparkEnv: Registering BlockManagerMaster
+22/12/07 00:10:15 INFO BlockManagerMasterEndpoint: Using org.apache.spark.storage.DefaultTopologyMapper for getting topology information
+22/12/07 00:10:15 INFO BlockManagerMasterEndpoint: BlockManagerMasterEndpoint up
+22/12/07 00:10:15 INFO SparkEnv: Registering BlockManagerMasterHeartbeat
+22/12/07 00:10:15 INFO DiskBlockManager: Created local directory at /tmp/blockmgr-5cfe65b2-22eb-4527-9d3c-9822af93b822
+22/12/07 00:10:15 INFO MemoryStore: MemoryStore started with capacity 434.4 MiB
+22/12/07 00:10:15 INFO SparkEnv: Registering OutputCommitCoordinator
+22/12/07 00:10:15 INFO Utils: Successfully started service 'SparkUI' on port 4040.
+22/12/07 00:10:15 INFO SparkUI: Bound SparkUI to 0.0.0.0, and started at http://172.31.23.168:4040
+22/12/07 00:10:15 INFO Executor: Starting executor ID driver on host 172.31.23.168
+22/12/07 00:10:15 INFO Utils: Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 34410.
+22/12/07 00:10:15 INFO NettyBlockTransferService: Server created on 172.31.23.168:34410
+22/12/07 00:10:15 INFO BlockManager: Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy
+22/12/07 00:10:15 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, 172.31.23.168, 34410, None)
+22/12/07 00:10:15 INFO BlockManagerMasterEndpoint: Registering block manager 172.31.23.168:34410 with 434.4 MiB RAM, BlockManagerId(driver, 172.31.23.168, 34410, None)
+22/12/07 00:10:15 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, 172.31.23.168, 34410, None)
+22/12/07 00:10:15 INFO BlockManager: Initialized BlockManager: BlockManagerId(driver, 172.31.23.168, 34410, None)
+Start precomputation....
+Getting groupby rating dict...
+def_rating 3.5
+precomputation duration:  14.866194486618042
+finish feat
+fea time 53.74582481384277
+XGBRegressor(base_score=0.5, booster='gbtree', colsample_bylevel=1,
+             colsample_bytree=0.9, gamma=0, learning_rate=0.1, max_delta_step=0,
+             max_depth=5, min_child_weight=1, missing=None, n_estimators=1000,
+             n_jobs=1, nthread=None, objective='reg:linear', random_state=0,
+             reg_alpha=0, reg_lambda=1, scale_pos_weight=1, seed=None,
+             silent=True, subsample=0.85, verbocity=3)
+Duration:  586.4700703620911
+val RMSE:  0.9782842755682551
+Error Distribution: 
+>=0 and <1 31
+>=1 and <2 732
+>=2 and <3 12409
+>=3 and <4 79255
+>=4 49617

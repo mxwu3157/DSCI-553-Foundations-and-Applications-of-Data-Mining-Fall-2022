@@ -1,0 +1,60 @@
+export PYSPARK_PYTHON=/usr/local/bin/python3.6
+export PYSPARK_DRIVER_PYTHON=/usr/local/bin/python3.6
+export JAVA_HOME=/usr/lib/jvm/java-1.8.0-openjdk-amd64
+/opt/spark/spark-3.1.2-bin-hadoop3.2/bin/spark-submit
+/opt/spark/spark-3.1.2-bin-hadoop3.2/bin/spark-submit --executor-memory 4G --driver-memory 4G word_count.py
+
+/opt/spark/spark-3.1.2-bin-hadoop3.2/bin/spark-submit --executor-memory 4G --driver-memory 4G word_count.py
+
+
+./run.sh <text_file.txt>
+    
+#####
+run.sh
+#!/bin/bash
+
+export PYSPARK_PYTHON=/usr/local/bin/python3.6
+export PYSPARK_DRIVER_PYTHON=/usr/local/bin/python3.6
+export JAVA_HOME=/usr/lib/jvm/java-1.8.0-openjdk-amd64
+
+/opt/spark/spark-3.1.2-bin-hadoop3.2/bin/spark-submit --executor-memory 4G --driver-memory 4G word_count.py $1
+    
+/opt/spark/spark-3.1.2-bin-hadoop3.2/bin/
+    
+    
+    
+    
+    
+    
+    
+spark-submit --executor-memory 4G --driver-memory 4G task1.py ../resource/asnlib/publicdata/test_review.json result1.txt 
+    
+spark-submit --executor-memory 4G --driver-memory 4G task2.py ../resource/asnlib/publicdata/test_review.json result2.txt 10
+
+    
+spark-submit --executor-memory 4G --driver-memory 4G task3.py ../resource/asnlib/publicdata/test_review.json ../resource/asnlib/publicdata/business.json result3_a.txt result3_b.txt
+
+    
+    
+aggregarebykey or 
+group by key
+mapvalues
+    
+    
+spark-submit -i --executor-memory 4G --driver-memory 4G wordcount.scala 
+    
+    
+    
+    To compile scale
+    1. sbt
+    2. create and wrote 'build.sbt'
+    3. run 'sbt package'
+    4. check 'name.jar' file
+    5. run spark submit command
+   
+    
+    
+"org.json4s" %% "json4s-native" % "{4.0.5}"
+    
+    
+    spark-submit --class task1  --executor-memory 4G --driver-memory 4G --verbose ./target/scala-2.11/hw1_2.11-0.1.jar ../resource/asnlib/publicdata/test_review.json result1_Scala.txt

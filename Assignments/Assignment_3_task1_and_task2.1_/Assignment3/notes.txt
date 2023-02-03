@@ -1,0 +1,9 @@
+export PYSPARK_PYTHON=/usr/local/bin/python3.6
+export PYSPARK_DRIVER_PYTHON=/usr/local/bin/python3.6
+export JAVA_HOME=/usr/lib/jvm/java-1.8.0-openjdk-amd64
+
+
+spark-submit task1.py
+
+spark-submit test_2.py ../resource/asnlib/publicdata/yelp_train.csv jaccard res_jaccard.txt
+

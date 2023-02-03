@@ -1,0 +1,22 @@
+export PYSPARK_PYTHON=/usr/local/bin/python3.6
+export PYSPARK_DRIVER_PYTHON=/usr/local/bin/python3.6
+export JAVA_HOME=/usr/lib/jvm/java-1.8.0-openjdk-amd64
+/opt/spark/spark-3.1.2-bin-hadoop3.2/bin/spark-submit
+/opt/spark/spark-3.1.2-bin-hadoop3.2/bin/spark-submit --executor-memory 4G --driver-memory 4G word_count.py
+
+/opt/spark/spark-3.1.2-bin-hadoop3.2/bin/spark-submit --executor-memory 4G --driver-memory 4G word_count.py
+
+
+./run.sh <text_file.txt>
+    
+    
+    
+#####
+run.sh
+#!/bin/bash
+
+export PYSPARK_PYTHON=/usr/local/bin/python3.6
+export PYSPARK_DRIVER_PYTHON=/usr/local/bin/python3.6
+export JAVA_HOME=/usr/lib/jvm/java-1.8.0-openjdk-amd64
+
+/opt/spark/spark-3.1.2-bin-hadoop3.2/bin/spark-submit --executor-memory 4G --driver-memory 4G word_count.py $1
